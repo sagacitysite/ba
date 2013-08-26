@@ -5,9 +5,13 @@
 \usepackage{amsmath}
 \usepackage[doublespacing]{setspace}
 \usepackage{paralist}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{wrapfig}
+\usepackage{picins}
  
 \title{Das Lernen einer komplexe Regelerkennung bei auditiven Stimuli}
-\shorttitle{Komplexe Regelerkennung}
+\shorttitle{Explizite Komplexe Regelerkennung}
 \author{Carlo Michaelis}
 \date{23. August 2013}
 \affiliation{Universität Leipzig}
@@ -55,12 +59,12 @@ Paavilainen, Arajärvi \& Takegata (2006) warfen daraufhin die Frage auf in welc
   \item Auf einen langen Ton folgt ein tiefer Ton, auf einen kurzen Ton folgt ein hoher Ton
 \end{compactitem}
 
-Von den zwei Merkmalen (Höhe und Länge) ist jeweils die Länge der entscheidende Prädiktor für das Merkmal Höhe des nächsten Tons. Eine Beispielsequenz dieser Regel ist in Abbildung 1 im Abschnitt Methoden zu sehen.\\
+Von den zwei Merkmalen (Höhe und Länge) ist jeweils die Länge der entscheidende Prädiktor für das Merkmal Höhe des nächsten Tons. Eine Beispielsequenz dieser Regel ist in Abbildung 2 im Abschnitt Methoden zu sehen.\\
 Alle Probanden durchliefen in gegebener Reihenfolge folgende Bedingungen:
 
-% ##################################################
-% Abbildung 1 muss hier noch ergänzt werden!
-% ##################################################
+% ##########################################
+% Abbildung 2 muss hier noch ergänzt werden!
+% ##########################################
 
 \begin{compactitem}
   \item \textbf{Ignore}: Die Probanden schauten einen Stummfilm mit Untertiteln und sollten nicht auf die Töne reagieren.
@@ -94,7 +98,7 @@ Grundsätzlich lässt sich der Lernprozess recht eindeutig als prozedurales Lern
 
 Die Klassifikation in prozedurale Prozesse macht nun deutlich, dass ein einfaches Zeigen der Regel (z.B. an einem Schaubild) kaum ausreichen kann, um die Regel adäquat anzuwenden. Zumal die Stimuli mit 50ms bzw. 150ms Länge und einem Inter-Stimulus-Intervall (ISI) von 300ms präsentiert wurden. Diese hohe Geschwindigkeit erfordert wahrscheinlich ein langes Training, sofern ein expliziter Prozess verlangt wird.
 
-Fitts \& Posner (1967) gingen davon aus, dass prozedurales Wissen über drei Schritte hintereinander gelernt werden kann:
+Fitts und Posner (1967) gingen davon aus, dass prozedurales Wissen über drei Schritte hintereinander gelernt werden kann:
 
 \begin{compactenum}
   \item \textbf{Kognitives Stadium}: In diesem Stadium handelt es sich noch um eine deklarative Repräsentation. Das deklarative Wissen kann in bestehendes Wissen integriert und mit diesem verknüpft werden. Eine Vermittlung sollte präzise und verständlich erfolgen. Angewendet werden kann z.B. ein Schaubild.
@@ -111,7 +115,7 @@ Eine gute Beschreibung des prozeduralen Lernens bietet auch der Learning Cycle v
   \item \textbf{Unconscious competence}: Es liegt eine hohe Performanz vor, der kognitive Aufwand verringert sich deutlich zugunsten automatisierter Abläufe
 \end{compactenum}
 
-Warum ein explizites Lernen in den vorigen Studien wahrscheinlich nicht möglich war kann nun auf Basis der beiden Modelle sehr schnell erklärt werden. Unter der Voraussetzung, dass prozedurales Wissen vorliegt und gelernt werden muss wurde in beiden Studien vermutlich lediglich das kognitive Stadium erreicht (nach Fitts \& Posner). Es wurden zwar Übungsdurchgänge vorgenommen, diese waren aber direkt in der Standard-Geschwindigkeit. Die Wahrscheinlichkeit, dass stabile Wenn-Dann-Regeln aufgebaut werden konnten ist sehr gering, da die Versuchspersonen vermutlich auf Grund der Überforderung keine Möglichkeit hat ihr Verhalten adäquat zu überdenken (fehlendes Feedback) und der Schwierigkeitsgrad zu abrupt ansteigt. Nach der Annahme der Zone proximaler Entwicklung von Wygotski (Kozulin, 2003) sollte der nächste Lernschritt knapp über dem aktuellen Lernniveau sein, um ein optimales Lernen zu gewährleisten. Diese Bedingung war bisher nicht gegeben.\\
+Warum ein explizites Lernen in den vorigen Studien wahrscheinlich nicht möglich war kann nun auf Basis der beiden Modelle sehr schnell erklärt werden. Unter der Voraussetzung, dass prozedurales Wissen vorliegt und gelernt werden muss wurde in beiden Studien vermutlich lediglich das kognitive Stadium erreicht (nach Fitts \& Posner, 1967). Es wurden zwar Übungsdurchgänge vorgenommen, diese waren aber direkt in der Standard-Geschwindigkeit. Die Wahrscheinlichkeit, dass stabile Wenn-Dann-Regeln aufgebaut werden konnten ist sehr gering, da die Versuchspersonen vermutlich auf Grund der Überforderung keine Möglichkeit hat ihr Verhalten adäquat zu überdenken (fehlendes Feedback) und der Schwierigkeitsgrad zu abrupt ansteigt. Nach der Annahme der Zone proximaler Entwicklung von Wygotski (Kozulin, 2003) sollte der nächste Lernschritt knapp über dem aktuellen Lernniveau sein, um ein optimales Lernen zu gewährleisten. Diese Bedingung war bisher nicht gegeben.\\
 Nach dem Modell von Withmore dürften die Probanden sogar nicht einmal über die erste Stufe hinaus gekommen sein, da Fehler und Schwächen nicht bemerkt werden. Es dürfte demnach also keine Verbesserung der Leistung eintreten können.
 
 \subsection{Hypothese}
@@ -130,17 +134,51 @@ Die bisherigen Ergebnisse werfen einige Fragen auf, welche Schrittweise verstand
 
 \textbf{Hypothese}: Das Lernen der komplexen Regeln sollte unter Beachtung der Lerntheorien für prozedurales Wissen auch explizit möglich sein.
 
-Während bisher bisher die Regel einfach erklärt wurde, soll im folgenden ein theoretisch abgeleitetes Lernkonzept angewendet werden. Dabei wird der Schwerpunkt auf der 3-stufigen Theorie von Fitts \& Posner (1967) liegen. Beachtet werden soll außerdem die Zone proximaler Entwicklung. Im folgenden Methoden-Teil wird die Hypothese unter Beachtung der Experimentalbedingungen noch einmal präzisiert.
+Während bisher bisher die Regel einfach erklärt wurde, soll im folgenden ein theoretisch abgeleitetes Lernkonzept angewendet werden. Dabei wird der Schwerpunkt auf der 3-stufigen Theorie von Fitts und Posner (1967) liegen. Beachtet werden soll außerdem die Zone proximaler Entwicklung. Im folgenden Methoden-Teil wird die Hypothese unter Beachtung der Experimentalbedingungen noch einmal präzisiert.
 
 
-%\section{Methoden}
+\section{Methoden}
 
-%[...]
+\subsection{Probanden}
+
+Insgesamt wurden für die Untersuchung 21 Probanden getestet. Zwei entfielen auf die Pilotierung, eine weitere Person musste wegen technischen Problemen während des Versuchsdurchgangs aus den Daten genommen werden. Von den verbleibenden 18 Probanden waren 3 männlich (16.7\%) und 15 weiblich (83.3\%). Das Durchschnittsalter betrug 27 Jahre (SD = 8), die Probanden variierten zwischen einem Alter von 18 und 53 Jahren. Von den 18 Probanden fühlten sich 11 gut ausgeschlafen und 13 gut konzentriert. Die übrigen hatten mindestens mäßig geschlafen und waren mindestens mäßig Konzentriert, entsprechend hatte kein Proband schlecht geschlafen oder war schlecht konzentriert. Keiner der Probanden nahm im Voraus Substanzen zu sich, die das Nervensystem hätten beeinträchtigen können und alle Probanden konnten gut hören und den Experimentalbedingungen entsprechend ausreichend sehen. Eine Versuchsperson musste in Englisch instruiert werden, die Aufgabe wurde jedoch ohne Schwierigkeiten verstanden.
+
+\subsection{Versuchsaufbau}
+
+In Abbildung 1 ist eine Skizze des Versuchsaufbaus gezeigt. Das Experiment musste unter nicht ganz optimalen Experimentalbedingungen durchgeführt werden, da sich die Labore der Professur für Kognitive einschließlich Biologische Psychologie zum Erhebungszeitpunkt gerade im Umbau befanden. Um trotzdem möglichst optimale Bedingungen zu erhalten wurde versucht eine Reihe von Maßnahmen zu treffen.
+
+\begin{wrapfigure}{r}{.6\textwidth}
+  \centering
+  \begin{minipage}{.55\textwidth}
+    \setlength{\fboxsep}{.05\textwidth}
+    \fbox{\begin{minipage}{.95\textwidth}
+      \includegraphics[width=\textwidth]{abb1-versuchsaufbau.eps}
+    \end{minipage}}
+    \vspace{10pt}
+    \caption{Aufbau des Experimentes. Laptop 1 (L1) mit Programm für Experiment und Laptop 2 (L2) für Experimentator (E). Bildschirm (B), Maus (M) und Kopfhörer (nicht eingezeichnet) für Versuchsperson (VP).}
+  \end{minipage}
+  \vspace{-15pt}
+% ################
+% Anhang ergänzen!
+% ################
+\end{wrapfigure}
+
+\subsection{Stimuli}
+
+\subsection{Ablauf}
 
 %Diskussion
 
 %Sind die beiden Verarbeitungsmethoden unabhängig voneinander? (Evtl. erst Diskussion) Schnell unbewusst unbeeinflussbar vs. langsam bewusst beeinflussbar?
 
 %Zone proximaler Entwicklung wurde immer noch bei weitem nicht berücksichtigt!
+
+%Tonhöhe sagt Tonlänge voraus? (Probandenvorschlag)
+
+%Gut formulierter Fragebogen (bzw. strukturiertes Interview), um nach jedem Block erfassen zu können wie stark die Person (subjektiv) geraten hat. Viel Raten führt evtl. zu schlechteren Ergebnissen
+
+%Probandenbericht: Sehr schwierig Töne differenziert im Gedächtnis zu behalten
+
+%Probandenbericht: Problem Unterscheidung Hoch/Tief
 
 \end{document}
