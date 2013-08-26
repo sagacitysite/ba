@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.14)  26 AUG 2013 21:50
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.14)  27 AUG 2013 00:37
 entering extended mode
 **bachelorarbeit.tex
 (C:\Users\Carlo\Privat\Lebensphasen\Exploeco\entwicklung\ba\bachelorarbeit.tex
@@ -590,51 +590,13 @@ G,.JBIG2,.JB2,.eps]
 \WF@everypar=\toks24
 Package: wrapfig 2003/01/31  v 3.6
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\picins\picins.sty"
-Option `picins' Version 3.0 Sep. 1992, TH Darmstadt/HRZ
-\@BILD=\box31
-\@TEXT=\box32
-\d@breite=\dimen145
-\d@hoehe=\dimen146
-\d@xoff=\dimen147
-\d@yoff=\dimen148
-\d@shad=\dimen149
-\d@dash=\dimen150
-\d@boxl=\dimen151
-\d@pichskip=\dimen152
-\d@tmp=\dimen153
-\d@tmpa=\dimen154
-\d@bskip=\dimen155
-\hsiz@=\dimen156
-\p@getot@l=\dimen157
-\c@breite=\count114
-\c@hoehe=\count115
-\c@xoff=\count116
-\c@yoff=\count117
-\c@pos=\count118
-\c@shad=\count119
-\c@dash=\count120
-\c@boxl=\count121
-\c@zeilen=\count122
-\@changemode=\count123
-\c@piccaption=\count124
-\c@piccaptionpos=\count125
-\c@picpos=\count126
-\c@whole=\count127
-\c@half=\count128
-\c@tmp=\count129
-\c@tmpa=\count130
-\c@tmpb=\count131
-\c@tmpc=\count132
-\c@tmpd=\count133
-\d@leftskip=\skip72
-\ptoti=\dimen158
-\ptotii=\dimen159
-\env@box=\box33
-\d@envdp=\dimen160
-\c@hsize=\count134
-\c@envdp=\count135
-\d@envb=\dimen161
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count114
+\float@exts=\toks25
+\float@box=\box31
+\@float@everytoks=\toks26
+\@floatcapt=\box32
 )
 (C:\Users\Carlo\Privat\Lebensphasen\Exploeco\entwicklung\ba\bachelorarbeit.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -689,22 +651,22 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count136
-\scratchdimen=\dimen162
-\scratchbox=\box34
-\nofMPsegments=\count137
-\nofMParguments=\count138
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count139
-\MPscratchDim=\dimen163
-\MPnumerator=\count140
-\makeMPintoPDFobject=\count141
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count115
+\scratchdimen=\dimen145
+\scratchbox=\box33
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen146
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks28
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\apa6\config\APAamerican.txt"
 File: APAamerican.txt 2012/02/23 v1.25 apa6 configuration for American English
 )
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: picins package is loaded.
+Package caption Info: float package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
@@ -730,7 +692,7 @@ File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 58.
  [5]
-Overfull \hbox (8.46422pt too wide) in paragraph at lines 82--83
+Overfull \hbox (8.46422pt too wide) in paragraph at lines 80--81
 []\T1/lmr/bx/n/12 Passiv\T1/lmr/m/n/12 : Kon-ti-nu-ier-li-che Stimuli-Präsentat
 ion, wo-bei dir Pro-ban-den einen Stumm-
  []
@@ -739,6 +701,7 @@ ion, wo-bei dir Pro-ban-den einen Stumm-
 Underfull \vbox (badness 1210) has occurred while \output is active []
 
  [10]
+[11]
 Package epstopdf Info: Source file: <abb1-versuchsaufbau.eps>
 (epstopdf)                    date: 2013-08-26 21:11:53
 (epstopdf)                    size: 1357874 bytes
@@ -749,8 +712,7 @@ Package epstopdf Info: Source file: <abb1-versuchsaufbau.eps>
 verted-to.pdf abb1-versuchsaufbau.eps>
 (epstopdf)             \includegraphics on input line 156.
 Package epstopdf Info: Output file is already uptodate.
-
-<abb1-versuchsaufbau-eps-converted-to.pdf, id=36, 1003.75pt x 558.085pt>
+ <abb1-versuchsaufbau-eps-converted-to.pdf, id=39, 1003.75pt x 558.085pt>
 File: abb1-versuchsaufbau-eps-converted-to.pdf Graphic file (type pdf)
 
 <use abb1-versuchsaufbau-eps-converted-to.pdf>
@@ -786,42 +748,70 @@ Overfull \hbox (12.72531pt too wide) in paragraph at lines 156--158
 [][]
  []
 
-[11]
-Underfull \hbox (badness 4072) in paragraph at lines 166--167
-[][]\T1/lmr/m/n/12 In Ab-bil-dung 1 ist ei-ne
+
+Underfull \hbox (badness 2980) in paragraph at lines 170--171
+\T1/lmr/m/n/12 sem Bild-schirm wur-de an-ge-
  []
 
 
-Underfull \hbox (badness 4132) in paragraph at lines 166--167
-\T1/lmr/m/n/12 pe-ri-men-tal-be-din-gun-gen durch-
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb1-versuchsa
+ufbau-eps-converted-to.pdf>] [13]
+Package epstopdf Info: Source file: <abb2-tones.eps>
+(epstopdf)                    date: 2013-08-26 23:01:35
+(epstopdf)                    size: 320150 bytes
+(epstopdf)             Output file: <abb2-tones-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-08-26 23:02:58
+(epstopdf)                    size: 15538 bytes
+(epstopdf)             Command: <epstopdf --outfile=abb2-tones-eps-converted-to
+.pdf abb2-tones.eps>
+(epstopdf)             \includegraphics on input line 194.
+Package epstopdf Info: Output file is already uptodate.
+
+<abb2-tones-eps-converted-to.pdf, id=53, 292.09125pt x 71.26625pt>
+File: abb2-tones-eps-converted-to.pdf Graphic file (type pdf)
+
+<use abb2-tones-eps-converted-to.pdf>
+Package pdftex.def Info: abb2-tones-eps-converted-to.pdf used on input line 194
+.
+(pdftex.def)             Requested size: 390.25534pt x 95.22546pt.
+
+Overfull \hbox (0.79996pt too wide) in paragraph at lines 194--196
+[][]
  []
 
+[14 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb2-tones-eps-
+converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \hbox (badness 3657) in paragraph at lines 166--167
-\T1/lmr/m/n/12 ti-ve ein-schlieÿ-lich Bio-lo-gi-sche
- []
+ [15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[12 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb1-versuchsau
-fbau-eps-converted-to.pdf>]
+ [16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+[18]
 (C:\Users\Carlo\Privat\Lebensphasen\Exploeco\entwicklung\ba\bachelorarbeit.aux)
  ) 
 Here is how much of TeX's memory you used:
- 5821 strings out of 494045
- 82216 string characters out of 3145968
- 155904 words of memory out of 3000000
- 8969 multiletter control sequences out of 15000+200000
+ 5780 strings out of 494045
+ 82137 string characters out of 3145968
+ 153302 words of memory out of 3000000
+ 8927 multiletter control sequences out of 15000+200000
  36788 words of font info for 38 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 43i,11n,47p,1035b,351s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,11n,47p,1565b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/l
 msy10.pfb>
-Output written on bachelorarbeit.pdf (12 pages, 109266 bytes).
+Output written on bachelorarbeit.pdf (18 pages, 132067 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 95 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
