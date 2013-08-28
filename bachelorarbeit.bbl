@@ -1,0 +1,47 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{apa}
+    \entry{goldman1958speech}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=180af52bf0d5cf472be172794c3c1d9b}{Goldman-Eisler}{G\bibinithyphendelim E\bibinitperiod}{Frieda}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=180af52bf0d5cf472be172794c3c1d9b}{Goldman-Eisler}{G\bibinithyphendelim E\bibinitperiod}{Frieda}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{180af52bf0d5cf472be172794c3c1d9b}
+      \strng{fullhash}{180af52bf0d5cf472be172794c3c1d9b}
+      \field{sortinit}{G}
+      \field{labelyear}{1958}
+      \field{labeltitle}{Speech production and the predictability of words in context}
+      \field{journaltitle}{Quarterly Journal of Experimental Psychology}
+      \field{number}{2}
+      \field{title}{Speech production and the predictability of words in context}
+      \field{volume}{10}
+      \field{year}{1958}
+      \field{pages}{96\bibrangedash 106}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

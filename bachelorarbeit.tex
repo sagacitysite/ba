@@ -1,7 +1,7 @@
 \documentclass[doc,a4paper,12pt]{apa6}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[ngerman]{babel}
+\usepackage[ngerman,american]{babel}
 \usepackage{amsmath}
 \usepackage[doublespacing]{setspace}
 \usepackage{paralist}
@@ -9,6 +9,11 @@
 \usepackage{epstopdf}
 \usepackage{wrapfig}
 \usepackage{float}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=apa]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+
+\bibliography{references}
  
 \title{Das Lernen einer komplexe Regelerkennung bei auditiven Stimuli}
 \shorttitle{Explizite Komplexe Regelerkennung}
@@ -33,7 +38,7 @@ Dabei erfüllt das Verständnis darüber nicht nur den Zweck Wissen über Lebewe
 So sehr wir uns als Menschen auch immer wieder selbstverständlich einen freien Willen unterstellen und damit die Fähigkeit durch den Geist gezielt und indeterminiert unsere Welt verändern zu können, ohne unwillkürliche Automatismen wäre ein Leben auf der Erde wohl unmöglich. In vielen Situationen müssen innerhalb kürzester Zeit bestehende Reize erfasst, zukünftige Ereignisse simuliert und schließlich vorhergesagt werden.
 
 Ein gutes Beispiel für die hohe Leistungsfähigkeit der automatisch ablaufenden Systeme des Menschen ist seine Sprache. Deutlich wird dies schon allein durch das Segmentationsproblem beim Sprachverstehen. Mit physikalischen Mitteln aufgezeichnete Frequenzen von Schallwellen zeigen Muster, die bei visueller Betrachtung kaum korrekt in Worte getrennt werden können. Eine Pause oder eine Frequenzschwankung sagt nur selten tatsächlich auch den Beginn eines neuen Wortes vorher. Zur Segmentation der Worte werden bei weitem nicht nur die physikalischen Signale, sondern zusätzlich viele verschiedene Hinweisreize benötigt (u.a. Saffran, Newport \& Aslin, 1996; Brent \& Cartwright, 1996). Die Segmentation muss jedoch nicht nur anhand einer großen Menge an Informationen, sondern auch innerhalb kürzester Zeit erfolgen, die ohne eine automatisierte Vorhersage wohl kaum möglich wäre.\\
-Beim Sprechen wiederum ist zum Beispiel das so genannte Speech Monitoring (Levelt, 1983; Postma, 2000) von hoher Bedeutung. Das bezeichnet die Fähigkeit die inhaltliche Qualität des gesprochenen noch während dem Sprechen reflektieren zu können. Das wiederum bedeutet, dass beim Sprechen mindestens zwei Prozesse gleichzeitig statt finden. Das legt nah, dass hier ein hoher Automatismus-Grad im Spiel ist. In einer Studie von Goldmann-Eisler (1958) konnte gezeigt werden, dass u.a. immer dann größere Sprechpausen entstehen, wenn kommende Wörter schwerer vorhersagbar sind. Umgekehrt scheint Sprache also auch entscheidend von der Fähigkeit zur Vorhersage abhängig zu sein.\\
+Beim Sprechen wiederum ist zum Beispiel das so genannte Speech Monitoring (Levelt, 1983; Postma, 2000) von hoher Bedeutung. Das bezeichnet die Fähigkeit die inhaltliche Qualität des gesprochenen noch während dem Sprechen reflektieren zu können. Das wiederum bedeutet, dass beim Sprechen mindestens zwei Prozesse gleichzeitig statt finden. Das legt nah, dass hier ein hoher Automatismus-Grad im Spiel ist. In einer Studie von \textcite{goldman1958speech} \parencite{goldman1958speech} konnte gezeigt werden, dass u.a. immer dann größere Sprechpausen entstehen, wenn kommende Wörter schwerer vorhersagbar sind. Umgekehrt scheint Sprache also auch entscheidend von der Fähigkeit zur Vorhersage abhängig zu sein.\\
 Bezüglich der auditiven Komponente sei vor allem auch die Musik hervorgehoben. Gerade in der Musik spiegelt sich die Tendenz des Menschen zu erfolgreichen Vorhersagen wieder. Drake und Bertrand (2001) prüften 5 universelle, d.h. nicht-kulturabhängige Paradigmen, wie sich Menschen zu Musik verhalten. In Paradigma 3 beschrieben sie, dass sich Menschen, die im Takt der Musik bleiben sollen, in mehr als 90\% der Zeit erfolgreich mit Musik synchronisieren können. D.h. Vorhersagen können erfolgreich getroffen und Handlungen entsprechend erfolgreich an den Vorhersagen ausgerichtet werden. Man könnte mutmaßen, dass genau in der Vorhersagbarkeit der Reiz der Musik liegt und auch ein Harmonieempfinden damit zusammenhängt.
 
 Die Bedeutung der Vorhersagbarkeit und vor allem der diesbezüglich wirkenden Automatismen lässt sich an den vorigen Beispielen recht gut erkennen. Im folgenden Experiment soll es um die Vorhersagbarkeit von komplexen Regeln in auditiven Stimuli gehen. Konkret soll untersucht werden inwiefern komplexe Regeln von Tonabfolgen (wie sie etwa auch in der Sprache vorkommen) erkannt und insbesondere vorhergesagt bzw. Abweichungen erkannt werden können. Im Folgenden soll zunächst der Forschungsstand bezüglich der auditiven Regelerkennung und der Vorhersagefähigkeit erläutert werden. Anschließend wird eine kurze Einführung in Lerntheorien erfolgen, die speziell für dieses Experiment von Bedeutung sein wird.
@@ -267,7 +272,9 @@ Die Hypothese, die in der Einleitung formuliert wurde, lässt sich an dieser Ste
 
 %\section{Ergebnisse}
 
-%Diskussion
+%ROC-Kurven
+
+%\section(Diskussion)
 
 %WICHTIG: Trennung: Sensorischer Automatismus, Gelernter Automatismus
 %-> Beide unbewusst, der eine "fest verdrahtet" und unveränderbar, der andere durch Aufmerksamkeit (Achtsamkeit) veränderbar

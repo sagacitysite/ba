@@ -1,0 +1,14 @@
+[1] Config.pm:425> INFO - This is Biber 1.7
+[1] Config.pm:428> INFO - Logfile is 'bachelorarbeit.blg'
+[231] biber-MSWIN:249> INFO - === %a %b %e, %Y, %H:%M:%S
+[233] Biber.pm:333> INFO - Reading 'bachelorarbeit.bcf'
+[459] Biber.pm:630> INFO - Found 1 citekeys in bib section 0
+[664] Biber.pm:2997> INFO - Processing section 0
+[732] Biber.pm:3134> INFO - Looking for bibtex format file 'references.bib' for section 0
+[743] bibtex.pm:911> INFO - Decoding LaTeX character macros into UTF-8
+[755] bibtex.pm:786> INFO - Found BibTeX data source 'references.bib'
+[1032] Biber.pm:2883> INFO - Overriding locale 'English_United States.1252' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[1032] Biber.pm:2889> INFO - Sorting 'entry' list 'apa' keys
+[1033] Biber.pm:2893> INFO - No sort tailoring available for locale 'English_United States.1252'
+[1062] bbl.pm:479> INFO - Writing 'bachelorarbeit.bbl' with encoding 'UTF-8'
+[1063] bbl.pm:552> INFO - Output to bachelorarbeit.bbl
