@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.14)  29 AUG 2013 01:31
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.14)  30 AUG 2013 01:09
 entering extended mode
 **bachelorarbeit.tex
 (C:\Users\Carlo\Privat\Lebensphasen\Exploeco\entwicklung\ba\bachelorarbeit.tex
@@ -458,22 +458,22 @@ Package: babel 2008/07/08 v3.8m The Babel package
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\ngermanb.ldf"
-Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count100
 \U@D=\dimen133
 )
-\l@naustrian = a dialect from \language\l@ngerman 
-Package babel Info: Making " an active character on input line 92.
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
-Language: english 2005/03/30 v3.3o English support from the babel system
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\ngermanb.ldf"
+Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
+\l@naustrian = a dialect from \language\l@ngerman 
+Package babel Info: Making " an active character on input line 92.
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
@@ -840,37 +840,32 @@ File: biblatex.cfg
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'american'.
-Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
-Package biblatex Info: ... file 'american-apa.lbx' found.
+Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex-apa\american-apa.lbx"
-File: american-apa.lbx 2013/07/19 v6.1 APA biblatex localisation
-Package biblatex Info: Trying to load language 'american'...
-Package biblatex Info: ... file 'american.lbx' found.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\lbx\ngerman.lbx"
+File: ngerman.lbx 2013/07/15 v2.7a biblatex localization (PK/JW/AB)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\lbx\american.lbx"
-File: american.lbx 2013/07/15 v2.7a biblatex localization (PK/JW/AB)
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx"
-File: english.lbx 2013/07/15 v2.7a biblatex localization (PK/JW/AB)
-)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\lbx\german.lbx"
+File: german.lbx 2013/07/15 v2.7a biblatex localization (PK/JW/AB)
+))
 (C:\Users\Carlo\Privat\Lebensphasen\Exploeco\entwicklung\ba\bachelorarbeit.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 28.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -935,14 +930,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'bachelorarbeit.bbl' found.
 
 (C:\Users\Carlo\Privat\Lebensphasen\Exploeco\entwicklung\ba\bachelorarbeit.bbl)
-Package biblatex Info: Reference section=0 on input line 26.
-Package biblatex Info: Reference segment=0 on input line 26.
-
-Overfull \hbox (23.16936pt too wide) in paragraph at lines 40--43
-\T1/lmr/m/n/12 sagen wieder. Drake und Bertrand (2001) prüften 5 uni-verselle, 
-d.h. nicht-kulturabhängige
- []
-
+Package biblatex Info: Reference section=0 on input line 28.
+Package biblatex Info: Reference segment=0 on input line 28.
 
 Underfull \vbox (badness 4846) has occurred while \output is active []
 
@@ -952,56 +941,30 @@ Underfull \vbox (badness 4846) has occurred while \output is active []
 Underfull \vbox (badness 1308) has occurred while \output is active []
 
  [2]
-[3]
-Overfull \hbox (10.34915pt too wide) in paragraph at lines 56--58
-\T1/lmr/m/n/12 saliente Verbindun-gen zwis-chen den einzel-nen Stimulus-Element
-en. Ob-wohl die Proban-
- []
-
-
-Overfull \hbox (28.92923pt too wide) in paragraph at lines 56--58
-\T1/lmr/m/n/12 den die Regeln meist nicht be-wusst erkan-nten, zeigten sich dur
-ch Übung Leis-tungssteigerun-
- []
-
-
-Overfull \hbox (2.36133pt too wide) in paragraph at lines 59--60
-[]\T1/lmr/m/n/12 Paavilainen, Ara-järvi & Takegata (2006) war-fen da-raufhin di
-e Frage auf in welchem
- []
-
-[4]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 62.
+[3] [4]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 64.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 62.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 64.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 62.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 64.
  [5]
-Overfull \hbox (5.58485pt too wide) in paragraph at lines 80--82
-\T1/lmr/m/n/12 form präsen-tiert und an-schlieÿend durch ir-reg-uläre Se-quen-z
-en (4-8 Töne) un-ter-brochen.
+Overfull \hbox (8.46422pt too wide) in paragraph at lines 86--87
+[]\T1/lmr/bx/n/12 Passiv\T1/lmr/m/n/12 : Kon-ti-nu-ier-li-che Stimuli-Präsentat
+ion, wo-bei dir Pro-ban-den einen Stumm-
  []
 
+[6] [7] [8] [9]
+Underfull \vbox (badness 1210) has occurred while \output is active []
 
-Overfull \hbox (10.67842pt too wide) in paragraph at lines 84--85
-[]\T1/lmr/bx/n/12 Passiv\T1/lmr/m/n/12 : Kon-tinuier-liche Stimuli-Präsentation
-, wobei dir Proban-den einen Stumm-
- []
-
-[6] [7]
-Overfull \hbox (14.95401pt too wide) in paragraph at lines 101--102
-\T1/lmr/m/n/12 Inter-Stimulus-Intervall (ISI) von 300ms präsen-tiert wur-den. D
-iese hohe Geschwindigkeit
- []
-
-[8] [9] [10] [11] [12]
+ [10]
+[11]
 Package epstopdf Info: Source file: <abb1-versuchsaufbau.eps>
 (epstopdf)                    date: 2013-08-26 21:11:53
 (epstopdf)                    size: 1357874 bytes
@@ -1010,82 +973,54 @@ Package epstopdf Info: Source file: <abb1-versuchsaufbau.eps>
 (epstopdf)                    size: 9162 bytes
 (epstopdf)             Command: <epstopdf --outfile=abb1-versuchsaufbau-eps-con
 verted-to.pdf abb1-versuchsaufbau.eps>
-(epstopdf)             \includegraphics on input line 158.
+(epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
-
-<abb1-versuchsaufbau-eps-converted-to.pdf, id=42, 1003.75pt x 558.085pt>
+ <abb1-versuchsaufbau-eps-converted-to.pdf, id=39, 1003.75pt x 558.085pt>
 File: abb1-versuchsaufbau-eps-converted-to.pdf Graphic file (type pdf)
 
 <use abb1-versuchsaufbau-eps-converted-to.pdf>
 Package pdftex.def Info: abb1-versuchsaufbau-eps-converted-to.pdf used on input
- line 158.
+ line 160.
 (pdftex.def)             Requested size: 226.56696pt x 125.97246pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 158.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 160.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 158.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 160.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 158
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 160
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 158.
+(Font)              <12> on input line 160.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 158.
+(Font)              <8> on input line 160.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 158.
+(Font)              <6> on input line 160.
 
-Overfull \hbox (12.72531pt too wide) in paragraph at lines 158--160
+Overfull \hbox (12.72531pt too wide) in paragraph at lines 160--162
 [][]
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 172--173
-\T1/lmr/m/n/12 das Pro-gramm für den Ver-
- []
-
-
-Underfull \hbox (badness 1509) in paragraph at lines 172--173
-\T1/lmr/m/n/12 Töne und das Spe-ich-ern der
- []
-
-
-Underfull \hbox (badness 3635) in paragraph at lines 172--173
-\T1/lmr/m/n/12 war an den Bild-schirm (B)
- []
-
-
-Underfull \hbox (badness 2368) in paragraph at lines 172--173
-\T1/lmr/m/n/12 suchsper-son (VP) zur Ver-fü-
+Underfull \hbox (badness 1735) in paragraph at lines 174--175
+\T1/lmr/m/n/12 Spei-chern der Re-ak-ti-ons-da-ten
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb1-versuchsa
+ [12 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb1-versuchsa
 ufbau-eps-converted-to.pdf>]
-Overfull \hbox (4.8768pt too wide) in paragraph at lines 174--175
-\T1/lmr/m/n/12 dem wurde das Fen-ster geschlossen und die Kopfhörer wur-den vor
-her auf eine normierte
- []
-
-
-Overfull \hbox (0.35654pt too wide) in paragraph at lines 178--179
-[]\T1/lmr/m/n/12 Innerhalb der Blöcke bekam die Ver-suchsper-son au-di-tive Sti
-m-uli präsen-tiert. Diese
- []
-
-[14]
 Package epstopdf Info: Source file: <abb2-tones.eps>
 (epstopdf)                    date: 2013-08-26 23:01:35
 (epstopdf)                    size: 320150 bytes
@@ -1096,7 +1031,8 @@ Package epstopdf Info: Source file: <abb2-tones.eps>
 .pdf abb2-tones.eps>
 (epstopdf)             \includegraphics on input line 196.
 Package epstopdf Info: Output file is already uptodate.
- <abb2-tones-eps-converted-to.pdf, id=56, 292.09125pt x 71.26625pt>
+
+<abb2-tones-eps-converted-to.pdf, id=49, 292.09125pt x 71.26625pt>
 File: abb2-tones-eps-converted-to.pdf Graphic file (type pdf)
 
 <use abb2-tones-eps-converted-to.pdf>
@@ -1108,44 +1044,59 @@ Overfull \hbox (0.79996pt too wide) in paragraph at lines 196--198
 [][]
  []
 
-[15 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb2-tones-eps-
-converted-to.pdf>]
-Overfull \hbox (6.39531pt too wide) in paragraph at lines 208--209
-[]\T1/lmr/m/n/12 Der Ablauf des Ex-per-i-mentes er-fol-gte nach einer stan-dar-
-d-isierten Check-liste. Damit
+[13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb2-tones-eps
+-converted-to.pdf>] [15] [16] [17]
+Package epstopdf Info: Source file: <abb3-dprime.eps>
+(epstopdf)                    date: 2013-08-29 22:59:20
+(epstopdf)                    size: 800126 bytes
+(epstopdf)             Output file: <abb3-dprime-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-08-29 23:42:13
+(epstopdf)                    size: 17060 bytes
+(epstopdf)             Command: <epstopdf --outfile=abb3-dprime-eps-converted-t
+o.pdf abb3-dprime.eps>
+(epstopdf)             \includegraphics on input line 279.
+Package epstopdf Info: Output file is already uptodate.
+
+<abb3-dprime-eps-converted-to.pdf, id=76, 461.725pt x 340.27126pt>
+File: abb3-dprime-eps-converted-to.pdf Graphic file (type pdf)
+
+<use abb3-dprime-eps-converted-to.pdf>
+Package pdftex.def Info: abb3-dprime-eps-converted-to.pdf used on input line 27
+9.
+(pdftex.def)             Requested size: 433.62pt x 319.55907pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 279--281
+[][]
  []
 
-[16]
-Overfull \hbox (1.35196pt too wide) in paragraph at lines 240--241
-[]\T1/lmr/m/n/12 Ergänzend erk-lärt wurde auÿer-dem, dass der Ex-per-i-men-ta-t
-or während den Blöcken
- []
+[18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[17] [18] [19]
+ [19 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb3-dprime-ep
+s-converted-to.pdf>] [20]
 (C:\Users\Carlo\Privat\Lebensphasen\Exploeco\entwicklung\ba\bachelorarbeit.aux)
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'bachelorarbeit.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 11354 strings out of 494045
- 182157 string characters out of 3145968
- 617336 words of memory out of 3000000
- 14428 multiletter control sequences out of 15000+200000
+ 11303 strings out of 494045
+ 180943 string characters out of 3145968
+ 616995 words of memory out of 3000000
+ 14374 multiletter control sequences out of 15000+200000
  36788 words of font info for 38 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 43i,11n,49p,1815b,1670s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 719 hyphenation exceptions out of 8191
+ 43i,11n,49p,1815b,1341s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/l
 msy10.pfb>
-Output written on bachelorarbeit.pdf (19 pages, 133393 bytes).
+Output written on bachelorarbeit.pdf (20 pages, 143784 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 112 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

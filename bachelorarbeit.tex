@@ -1,7 +1,7 @@
 \documentclass[doc,a4paper,12pt]{apa6}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[ngerman,american]{babel}
+\usepackage[american,ngerman]{babel}
 \usepackage{amsmath}
 \usepackage[doublespacing]{setspace}
 \usepackage{paralist}
@@ -22,6 +22,8 @@
 \affiliation{Universität Leipzig}
 \abstract{Abstract}
 \ccoppy{Creative Commons (CC BY 3.0)}
+
+\setlength{\textfloatsep}{2em}
 
 \begin{document}
 
@@ -65,7 +67,7 @@ Ton
 Ton
 \end{compactitem}
 
-Von den zwei Merkmalen (Höhe und Länge) ist jeweils die Länge der entscheidende Prädiktor für das Merkmal Höhe des nächsten Tons. Eine Beispielsequenz dieser Regel ist in Abbildung 2 im Abschnitt Methoden zu sehen.\\
+Von den zwei Merkmalen (Höhe und Länge) ist jeweils die Länge der entscheidende Prädiktor für das Merkmal Höhe des nächsten Tons. Eine Beispielsequenz dieser Regel ist in Abbildung \ref{stimuli} im Abschnitt Methoden zu sehen.\\
 Alle Probanden durchliefen in gegebener Reihenfolge folgende Bedingungen:
 
 \begin{compactitem}
@@ -85,7 +87,7 @@ Die Regeln wurden in unterschiedlich langen Sequenzen (4, 9, 14, 19 Töne) regel
   \item \textbf{Aktiv}: Probanden hörten abgegrenzte Sequenzen (6, 11, 16, 21 Töne), wobei der letzte Ton Standard oder Deviant sein konnte. Sie bekamen die Regeln erklärt und sollten per Tastendruck reagieren.
 \end{compactitem}
 
-Die Probanden bekamen erst 8 Blöcke in der Passiv-Bedingung präsentiert, wurden gefragt, ob sie eine Regel erkannten, anschließend bekamen sie 5 weitere Blöcke in der Aktiv-Bedingung präsentiert. In keinem Fall erkannten die Probanden die Regel nach der Passiv-Bedingung korrekt, sofern sie überhaupt eine erkannten. Die Sensitivität (d-prime) lag noch signifikant über dem Zufallsniveau, sowohl für kurze (5 und 10 Töne), als auch für lange (15 und 20 Töne) Sequenzen. Die MMN zeigte jedoch nur für lange Sequenzen eine signifikante Ausprägung.\\
+Die Probanden bekamen erst 8 Blöcke in der Passiv-Bedingung präsentiert, wurden gefragt, ob sie eine Regel erkannten, anschließend bekamen sie 5 weitere Blöcke in der Aktiv-Bedingung präsentiert. In keinem Fall erkannten die Probanden die Regel nach der Passiv-Bedingung korrekt, sofern sie überhaupt eine erkannten. Der Sensitivitätsindex (d-prime) lag noch signifikant über dem Zufallsniveau, sowohl für kurze (5 und 10 Töne), als auch für lange (15 und 20 Töne) Sequenzen. Die MMN zeigte jedoch nur für lange Sequenzen eine signifikante Ausprägung.\\
 Die Ergebnisse von Paavilainen et al. (2006) konnten damit zum einen bestätigt werden, zum anderen konnte gezeigt werden, dass für die Regelerkennung zunächst einige Stimuli nötig sind, bis das Gehirn die entsprechende Regel abgeleitet hat. Allgemein liegt ein kontinuierlicher Zusammenhang vor. Je mehr regelkonforme Stimuli zuvor präsentiert werden, desto höher ist der Ausschlag der MMN bei einer Unterbrechung. Es scheint also eine Akkumulation abzulaufen, die Hinweisen auf eine Regel ansammelt. Entscheidend ist jedoch, dass auch in dieser Studie das bewusste Erkennen einer Regelverletzung nicht möglich war. Auch hier zeigte sich die Abwesenheit der P300-Komponente und damit die Abwesenheit bewusster Klassifikationsprozesse.
 
 % ##################################################
@@ -145,7 +147,7 @@ Insgesamt wurden für die Untersuchung 21 Probanden getestet. Zwei entfielen auf
 
 \subsection{Versuchsaufbau}
 
-In Abbildung 1 ist eine Skizze des Versuchsaufbaus gezeigt. Das Experiment musste unter nicht ganz optimalen Experimentalbedingungen durchgeführt werden, da sich die Labore der Professur für Kognitive einschließlich Biologische Psychologie zum Erhebungszeitpunkt gerade im Umbau befanden. Um trotzdem möglichst optimale Bedingungen zu erhalten wurde versucht eine Reihe von Maßnahmen zu treffen.
+In Abbildung \ref{experiment} ist eine Skizze des Versuchsaufbaus gezeigt. Das Experiment musste unter nicht ganz optimalen Experimentalbedingungen durchgeführt werden, da sich die Labore der Professur für Kognitive einschließlich Biologische Psychologie zum Erhebungszeitpunkt gerade im Umbau befanden. Um trotzdem möglichst optimale Bedingungen zu erhalten wurde versucht eine Reihe von Maßnahmen zu treffen.
 
 \newpage
 
@@ -158,8 +160,8 @@ In Abbildung 1 ist eine Skizze des Versuchsaufbaus gezeigt. Das Experiment musst
     \end{minipage}}
     \vspace{10pt}
     \caption{Aufbau des Experimentes. Laptop 1 (L1) mit Programm für Experiment und Laptop 2 (L2) für Experimentator (E). Bildschirm (B), Maus (M) und Kopfhörer (nicht eingezeichnet) für Versuchsperson (VP).}
+    \label{experiment}
   \end{minipage}
-  \vspace{-15pt}
 % ################
 % Anhang ergänzen!
 % ################
@@ -184,9 +186,7 @@ Ton
 Ton
 \end{compactitem}
 
-\newpage
-
-\begin{figure}
+\begin{figure}[t]
   %\vspace{10pt}
   \centering
   \begin{minipage}{\textwidth}
@@ -196,11 +196,11 @@ Ton
     \end{minipage}}
     \vspace{10pt}
     \caption{Beispiel für eine Tonsequenz. Die Länge des einen Tons sagt die Höhe des nächsten Tons vorher. In diesem Beispiel folgt auf einen kurzen Ton ein tiefer Ton und auf einen langen Ton ein hoher Ton. Der letzte Ton ist im Beispiel von der Regel abweichend. Auf einen kurzen Ton (Ton 9) folgt kein tiefer Ton, wie die Regel es vorhersagen würde, sondern ein hoher Ton (Ton10).}
+    \label{stimuli}
   \end{minipage}
-  \vspace{-5pt}
 \end{figure}
 
-Unterschiede zu den vorigen Experimenten gab es beim Inter-Stimulus-Intervall (ISI), welches zwischen den Blöcken variierte. Angewendet wurden Intervalle von 300ms, 600ms und 900ms. Der letzte Ton in 50\% der Fälle eine Ausnahme und wich von der gegeben Regel ab. Dabei wurden die Sequenzen nicht kontinuierlich präsentiert. Die nächste Sequenz startete erst, sobald ein Tastendruck ausgeführt wurde, hierfür hatten die Probanden beliebig viel Zeit, wurden jedoch angehalten relativ zügig zu reagieren. In Abbildung 2 ist eine Beispielsequenz mit einer Abweichung am Ende skizziert.\\
+Unterschiede zu den vorigen Experimenten gab es beim Inter-Stimulus-Intervall (ISI), welches zwischen den Blöcken variierte. Angewendet wurden Intervalle von 300ms, 600ms und 900ms. Der letzte Ton in 50\% der Fälle eine Ausnahme und wich von der gegeben Regel ab. Dabei wurden die Sequenzen nicht kontinuierlich präsentiert. Die nächste Sequenz startete erst, sobald ein Tastendruck ausgeführt wurde, hierfür hatten die Probanden beliebig viel Zeit, wurden jedoch angehalten relativ zügig zu reagieren. In Abbildung \ref{stimuli} ist eine Beispielsequenz mit einer Abweichung am Ende skizziert.\\
 Die Versuchsperson sollte mit der Maus nun darauf reagieren und entscheiden, ob der der letzte Ton passend oder abweichend ist. Dem zufolge liegt die Leistung der Versuchsperson darin zunächst die Regel zu erkennen, die letzten, zuletzt gespielten Töne im Gedächtnis zu behalten und nach Beendigung er Sequenz eine Entscheidung zu treffen. Auf dem Bildschirm war während den Sequenzen ein Fixationskreuz zu sehen, welches unmittelbar nach dem letzten Ton der Sequenz in ein Fragezeichen wechselte. Da die Sequenzen unterschiedlich lang waren, sollte dieses Hilfsmittel die Unsicherheitszeit zwischen den Sequenzen, die mindestens dem Inter-Stimulus-Intervall entspricht, möglichst gering zu halten. Eine systematische Reaktionszeit-Variation zwischen den Blöcken sollte damit vermieden werden.
 
 \subsection{Ablauf}
@@ -265,16 +265,31 @@ Nach Block 4 wurde die Versuchsperson ein letztes Mal offen über den Versuch be
 
 Die Hypothese, die in der Einleitung formuliert wurde, lässt sich an dieser Stelle anhand des Experimentes präzisieren. Wenn ein expliziter Lernprozess prozeduralen Wissens nach der Lerntheorie möglich ist, dann sollte Block 4 signifikant von Block 1 bzw. vom Zufall abweichen.
 
+\section{Ergebnisse}
+
+Auch in diesem Experiment hatten zwar ein paar Versuchspersonen eine Regel erkannt. Meist konnte diese aber nicht gut konkretisiert werden. Die erkannten Regeln entsprachen in keinem Fall der tatsächlichen Regel.\\
+Nach der Erläuterung der Regel (Schritt 4) verstanden alle Versuchspersonen die Aufgabe und konnten die letzten Übungen immer selbstständig lösen. Sehr oft wurde dann im Verlauf des Experimentes berichtet, dass das Arbeitsblatt zwar das Verständnis ermöglicht hat, das Lösen der auditiven Übung jedoch trotzdem sehr schwer ist.
+
+\begin{figure}[t]
+  %\vspace{10pt}
+  \centering
+  \begin{minipage}{\textwidth}
+    \fbox{\begin{minipage}{\textwidth}
+      \includegraphics[width=\textwidth]{abb3-dprime.eps}
+    \end{minipage}}
+    \vspace{10pt}
+    \caption{Mittelwerte der Sensitivitätsindizes über alle 18 Versuchspersonen in den Blöcken 1 - 4 mit Standardfehler}
+    \label{dprime}
+  \end{minipage}
+\end{figure}
+
+Die Richtig-Positiv-Rate (hit rate) lag in Block 1 bei 40.74\%, die Falsch-Negativ-Rate (false alarm rate) bei 37.04\%. In Block 4 lag die Richtig-Positiv-Rate dann bei 41.67\%, die Falsch-Negativ-Rate bei 35.65\%. In Abbildung \ref{dprime} ist der Sensitivitätsindex (d-prime) der 4 Blöcke abgebildet. Von Bedeutung ist an dieser Stelle der d-prime der Blöcke 1 und 4, Blöcke 2 und 3 dienten lediglich zur Übung.  Blöcke 1 und 4 waren beide mit einem ISI von 300ms und beide ohne Feedback. Der erste Block wurde ohne das Regelwissen durchgeführt, der vierte Block nach Vermittlung des Wissens über die Regel und nach Übung der Regel. Der Sensitivitätsindex in Block 1 beträgt d = 0.076 (SE = 0.115), in Block 4 liegt er bei d = 0.153 (SE = 0.126). Beide Werte unterscheiden sich nicht signifikant, t(17) = 0.56, p > 0.05. Auch wenn Block 4 gegen Null getestet wird, liegt der Sensitivitätsindex von Block 4 nicht signifikant über dem Zufallsniveau, t(17) = 1.22, p > 0.05.
+
+%ROC-Kurven - Wie macht man das??
+
+\section{Diskussion}
+
 %Horizontale Größenanpassung verhindern! Zeilenhöhe soll immer gleich hoch sein (unabhängig von Länge des Textes auf Seite)
-
-%Proband / Versuchsperson ???
-%Bildunterschriften korrekt?
-
-%\section{Ergebnisse}
-
-%ROC-Kurven
-
-%\section(Diskussion)
 
 %WICHTIG: Trennung: Sensorischer Automatismus, Gelernter Automatismus
 %-> Beide unbewusst, der eine "fest verdrahtet" und unveränderbar, der andere durch Aufmerksamkeit (Achtsamkeit) veränderbar
@@ -293,5 +308,6 @@ Die Hypothese, die in der Einleitung formuliert wurde, lässt sich an dieser Ste
 
 %Geübt wurde nur Regelerkennung, nicht aber Gedächtnisleistung!! Problam auf Arbeitsblatt! Hier kein Gedächtnis nötig!
 
+%Block 4 müsste 2x gemacht werden, 1x Üben, 1x Anwenden
 
 \end{document}
