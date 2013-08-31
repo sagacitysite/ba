@@ -41,6 +41,32 @@
       \field{year}{1958}
       \field{pages}{96\bibrangedash 106}
     \endentry
+    \entry{paavilainen2007preattentive}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=b6eab4b63dd3c60819554fa9e94189d7}{Paavilainen}{P\bibinitperiod}{Petri}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f85b72dcc04751fd9a240573492a4ce5}{Arajärvi}{A\bibinitperiod}{Paula}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d0a709df129003c4c48560c76b6ac913}{Takegata}{T\bibinitperiod}{Rika}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=b6eab4b63dd3c60819554fa9e94189d7}{Paavilainen}{P\bibinitperiod}{Petri}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f85b72dcc04751fd9a240573492a4ce5}{Arajärvi}{A\bibinitperiod}{Paula}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d0a709df129003c4c48560c76b6ac913}{Takegata}{T\bibinitperiod}{Rika}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {LWW}%
+      }
+      \strng{namehash}{cb961d314267416877276129f9a97ab8}
+      \strng{fullhash}{eaa866fed39f75d186ba7491a402a02f}
+      \field{sortinit}{P}
+      \field{labelyear}{2007}
+      \field{labeltitle}{Preattentive detection of nonsalient contingencies between auditory features}
+      \field{journaltitle}{Neuroreport}
+      \field{number}{2}
+      \field{title}{Preattentive detection of nonsalient contingencies between auditory features}
+      \field{volume}{18}
+      \field{year}{2007}
+      \field{pages}{159\bibrangedash 163}
+    \endentry
   \endsortlist
 \endrefsection
 \endinput
