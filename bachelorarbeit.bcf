@@ -2072,10 +2072,20 @@
     <bcf:datasource type="file" datatype="bibtex">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">goldman1958speech</bcf:citekey>
-    <bcf:citekey order="2">goldman1958speech</bcf:citekey>
-    <bcf:citekey order="3">paavilainen2007preattentive</bcf:citekey>
-    <bcf:citekey order="4">bendixen2008rapid</bcf:citekey>
+    <bcf:citekey order="1">brent1996distributional</bcf:citekey>
+    <bcf:citekey order="2">saffran1996word</bcf:citekey>
+    <bcf:citekey order="3">levelt1983monitoring</bcf:citekey>
+    <bcf:citekey order="4">postma2000detection</bcf:citekey>
+    <bcf:citekey order="5">goldman1958speech</bcf:citekey>
+    <bcf:citekey order="6">drake2001quest</bcf:citekey>
+    <bcf:citekey order="7">naatanen1978early</bcf:citekey>
+    <bcf:citekey order="8">paavilainen2007preattentive</bcf:citekey>
+    <bcf:citekey order="9">paavilainen2007preattentive</bcf:citekey>
+    <bcf:citekey order="10">bendixen2008rapid</bcf:citekey>
+    <bcf:citekey order="11">paavilainen2007preattentive</bcf:citekey>
+    <bcf:citekey order="12">fitts1967human</bcf:citekey>
+    <bcf:citekey order="13">paavilainen2007preattentive</bcf:citekey>
+    <bcf:citekey order="14">bendixen2008rapid</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="apa">
   <bcf:sorting>

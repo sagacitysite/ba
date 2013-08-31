@@ -19,6 +19,104 @@
 
 \refsection{0}
   \sortlist{entry}{apa}
+    \entry{bendixen2008rapid}{article}{}
+      \name{labelname}{5}{}{%
+        {{uniquename=0,hash=955a10ef6f50cca61520987c020aa0f1}{Bendixen}{B\bibinitperiod}{Alexandra}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a555baa1883826f27a0300cfdfba3d77}{Prinz}{P\bibinitperiod}{Wolfgang}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=20d75b0c05d3bd2a3c289a506948db41}{Horváth}{H\bibinitperiod}{János}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=64a912ba146365b9426c3f23583dfb79}{Trujillo-Barreto}{T\bibinithyphendelim B\bibinitperiod}{Nelson\bibnamedelima J}{N\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=bff133cef44b76591dae36c4e6c30761}{Schröger}{S\bibinitperiod}{Erich}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=955a10ef6f50cca61520987c020aa0f1}{Bendixen}{B\bibinitperiod}{Alexandra}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a555baa1883826f27a0300cfdfba3d77}{Prinz}{P\bibinitperiod}{Wolfgang}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=20d75b0c05d3bd2a3c289a506948db41}{Horváth}{H\bibinitperiod}{János}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=64a912ba146365b9426c3f23583dfb79}{Trujillo-Barreto}{T\bibinithyphendelim B\bibinitperiod}{Nelson\bibnamedelima J}{N\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=bff133cef44b76591dae36c4e6c30761}{Schröger}{S\bibinitperiod}{Erich}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{dfb1fc43853c372f9bd7cb4ee0b30bf2}
+      \strng{fullhash}{045b68d507cc860429c194c8319d5cd7}
+      \field{sortinit}{B}
+      \field{labelyear}{2008}
+      \field{labeltitle}{Rapid extraction of auditory feature contingencies}
+      \field{journaltitle}{Neuroimage}
+      \field{number}{3}
+      \field{title}{Rapid extraction of auditory feature contingencies}
+      \field{volume}{41}
+      \field{year}{2008}
+      \field{pages}{1111\bibrangedash 1119}
+    \endentry
+    \entry{brent1996distributional}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=d54f68e509ef07ceeeb8f0811b78361b}{Brent}{B\bibinitperiod}{Michael\bibnamedelima R}{M\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=da17bb0e9539227d36333152120272e1}{Cartwright}{C\bibinitperiod}{Timothy\bibnamedelima A}{T\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=d54f68e509ef07ceeeb8f0811b78361b}{Brent}{B\bibinitperiod}{Michael\bibnamedelima R}{M\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=da17bb0e9539227d36333152120272e1}{Cartwright}{C\bibinitperiod}{Timothy\bibnamedelima A}{T\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{41e122aea74730db8518d22f345e8a89}
+      \strng{fullhash}{41e122aea74730db8518d22f345e8a89}
+      \field{sortinit}{B}
+      \field{labelyear}{1996}
+      \field{labeltitle}{Distributional regularity and phonotactic constraints are useful for segmentation}
+      \field{journaltitle}{Cognition}
+      \field{number}{1}
+      \field{title}{Distributional regularity and phonotactic constraints are useful for segmentation}
+      \field{volume}{61}
+      \field{year}{1996}
+      \field{pages}{93\bibrangedash 125}
+    \endentry
+    \entry{drake2001quest}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=104a3dccd7d452c9f5de9f65a6c9e371}{Drake}{D\bibinitperiod}{Carolyn}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1f51466c0fcf79246c5c20c7759090c9}{Bertrand}{B\bibinitperiod}{Daisy}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=104a3dccd7d452c9f5de9f65a6c9e371}{Drake}{D\bibinitperiod}{Carolyn}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1f51466c0fcf79246c5c20c7759090c9}{Bertrand}{B\bibinitperiod}{Daisy}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{a8dc4fc78c81240efa2a26deaacb3d5e}
+      \strng{fullhash}{a8dc4fc78c81240efa2a26deaacb3d5e}
+      \field{sortinit}{D}
+      \field{labelyear}{2001}
+      \field{labeltitle}{The quest for universals in temporal processing in music}
+      \field{journaltitle}{Annals of the New York Academy of Sciences}
+      \field{number}{1}
+      \field{title}{The quest for universals in temporal processing in music}
+      \field{volume}{930}
+      \field{year}{2001}
+      \field{pages}{17\bibrangedash 27}
+    \endentry
+    \entry{fitts1967human}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=691b5f8212ebb8bbf9470723bfabe21e}{Fitts}{F\bibinitperiod}{Paul\bibnamedelima Morris}{P\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=bae46fb11a01e56b7486a2ae9c1ff2dc}{Posner}{P\bibinitperiod}{Michael\bibnamedelima I}{M\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=691b5f8212ebb8bbf9470723bfabe21e}{Fitts}{F\bibinitperiod}{Paul\bibnamedelima Morris}{P\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=bae46fb11a01e56b7486a2ae9c1ff2dc}{Posner}{P\bibinitperiod}{Michael\bibnamedelima I}{M\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Brooks/Cole}%
+      }
+      \strng{namehash}{44b852a2191337880355a10acda7cb4e}
+      \strng{fullhash}{44b852a2191337880355a10acda7cb4e}
+      \field{sortinit}{F}
+      \field{labelyear}{1967}
+      \field{labeltitle}{Human performance.}
+      \field{title}{Human performance.}
+      \field{year}{1967}
+    \endentry
     \entry{goldman1958speech}{article}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=180af52bf0d5cf472be172794c3c1d9b}{Goldman-Eisler}{G\bibinithyphendelim E\bibinitperiod}{Frieda}{F\bibinitperiod}{}{}{}{}}%
@@ -40,6 +138,54 @@
       \field{volume}{10}
       \field{year}{1958}
       \field{pages}{96\bibrangedash 106}
+    \endentry
+    \entry{levelt1983monitoring}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=9e71e973336c8265eb57709a936bb791}{Levelt}{L\bibinitperiod}{Willem\bibnamedelima JM}{W\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=9e71e973336c8265eb57709a936bb791}{Levelt}{L\bibinitperiod}{Willem\bibnamedelima JM}{W\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{9e71e973336c8265eb57709a936bb791}
+      \strng{fullhash}{9e71e973336c8265eb57709a936bb791}
+      \field{sortinit}{L}
+      \field{labelyear}{1983}
+      \field{labeltitle}{Monitoring and self-repair in speech}
+      \field{journaltitle}{Cognition}
+      \field{number}{1}
+      \field{title}{Monitoring and self-repair in speech}
+      \field{volume}{14}
+      \field{year}{1983}
+      \field{pages}{41\bibrangedash 104}
+    \endentry
+    \entry{naatanen1978early}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=09692f3d39fa058597fdcb696c976872}{Näätänen}{N\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=27c59ce46d525685b84bf1e1626e1179}{Gaillard}{G\bibinitperiod}{Anthony\bibnamedelima WK}{A\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7ad0bdb331fa6b099ca9a565d70ccd44}{Mäntysalo}{M\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=09692f3d39fa058597fdcb696c976872}{Näätänen}{N\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=27c59ce46d525685b84bf1e1626e1179}{Gaillard}{G\bibinitperiod}{Anthony\bibnamedelima WK}{A\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7ad0bdb331fa6b099ca9a565d70ccd44}{Mäntysalo}{M\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7191cea7f07b03d85566977b2abca1f6}
+      \strng{fullhash}{b402baf46ded868ca2e97b97d8efe18e}
+      \field{sortinit}{N}
+      \field{labelyear}{1978}
+      \field{labeltitle}{Early selective-attention effect on evoked potential reinterpreted}
+      \field{journaltitle}{Acta psychologica}
+      \field{number}{4}
+      \field{title}{Early selective-attention effect on evoked potential reinterpreted}
+      \field{volume}{42}
+      \field{year}{1978}
+      \field{pages}{313\bibrangedash 329}
     \endentry
     \entry{paavilainen2007preattentive}{article}{}
       \name{labelname}{3}{}{%
@@ -66,6 +212,54 @@
       \field{volume}{18}
       \field{year}{2007}
       \field{pages}{159\bibrangedash 163}
+    \endentry
+    \entry{postma2000detection}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=40893d2b3380fb6db8518b3ceaf28dfb}{Postma}{P\bibinitperiod}{Albert}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=40893d2b3380fb6db8518b3ceaf28dfb}{Postma}{P\bibinitperiod}{Albert}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{40893d2b3380fb6db8518b3ceaf28dfb}
+      \strng{fullhash}{40893d2b3380fb6db8518b3ceaf28dfb}
+      \field{sortinit}{P}
+      \field{labelyear}{2000}
+      \field{labeltitle}{Detection of errors during speech production: A review of speech monitoring models}
+      \field{journaltitle}{Cognition}
+      \field{number}{2}
+      \field{title}{Detection of errors during speech production: A review of speech monitoring models}
+      \field{volume}{77}
+      \field{year}{2000}
+      \field{pages}{97\bibrangedash 132}
+    \endentry
+    \entry{saffran1996word}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=ae73f933205d0c71cc352173586b57ea}{Saffran}{S\bibinitperiod}{Jenny\bibnamedelima R}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=35b04668ae7fe549dfb40442d51240aa}{Newport}{N\bibinitperiod}{Elissa\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6b2be70f58916721ba5a857dabf24c2f}{Aslin}{A\bibinitperiod}{Richard\bibnamedelima N}{R\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=ae73f933205d0c71cc352173586b57ea}{Saffran}{S\bibinitperiod}{Jenny\bibnamedelima R}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=35b04668ae7fe549dfb40442d51240aa}{Newport}{N\bibinitperiod}{Elissa\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6b2be70f58916721ba5a857dabf24c2f}{Aslin}{A\bibinitperiod}{Richard\bibnamedelima N}{R\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{c019d142dc99171625fa76adc78bd736}
+      \strng{fullhash}{a0e9ddfb62a4b24e3d67e2bcae34e283}
+      \field{sortinit}{S}
+      \field{labelyear}{1996}
+      \field{labeltitle}{Word segmentation: The role of distributional cues}
+      \field{journaltitle}{Journal of memory and language}
+      \field{number}{4}
+      \field{title}{Word segmentation: The role of distributional cues}
+      \field{volume}{35}
+      \field{year}{1996}
+      \field{pages}{606\bibrangedash 621}
     \endentry
   \endsortlist
 \endrefsection

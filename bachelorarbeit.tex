@@ -16,7 +16,7 @@
 
 \bibliography{references}
  
-\title{Das Lernen einer komplexe Regelerkennung bei auditiven Stimuli}
+\title{Explizite Detektion von Abweichungen in komplexen Regeln bei auditiven Stimuli}
 \shorttitle{Explizite Komplexe Regelerkennung}
 \author{Carlo Michaelis}
 \date{23. August 2013}
@@ -25,7 +25,7 @@
 \ccoppy{Creative Commons (CC BY 3.0)}
 
 \setlength{\textfloatsep}{2em}
-
+\raggedbottom
 \begin{document}
 
 %\maketitle
@@ -40,9 +40,9 @@ Viele Fragen sind bis heute ungeklärt und werden es wohl auch weiterhin bleiben
 Dabei erfüllt das Verständnis darüber nicht nur den Zweck Wissen über Lebewesen zu akkumulieren oder einige neugierige Personen zu befriedigen, vielmehr prägt die Erkenntnis über die Funktionsweise unsere Gesellschaft, sie entscheidet u.a. über Gesetze, Konventionen und Kultur.\\
 So sehr wir uns als Menschen auch immer wieder selbstverständlich einen freien Willen unterstellen und damit die Fähigkeit durch den Geist gezielt und indeterminiert unsere Welt verändern zu können, ohne unwillkürliche Automatismen wäre ein Leben auf der Erde wohl unmöglich. In vielen Situationen müssen innerhalb kürzester Zeit bestehende Reize erfasst, zukünftige Ereignisse simuliert und schließlich vorhergesagt werden.
 
-Ein gutes Beispiel für die hohe Leistungsfähigkeit der automatisch ablaufenden Systeme des Menschen ist seine Sprache. Deutlich wird dies schon allein durch das Segmentationsproblem beim Sprachverstehen. Mit physikalischen Mitteln aufgezeichnete Frequenzen von Schallwellen zeigen Muster, die bei visueller Betrachtung kaum korrekt in Worte getrennt werden können. Eine Pause oder eine Frequenzschwankung sagt nur selten tatsächlich auch den Beginn eines neuen Wortes vorher. Zur Segmentation der Worte werden bei weitem nicht nur die physikalischen Signale, sondern zusätzlich viele verschiedene Hinweisreize benötigt (u.a. Saffran, Newport \& Aslin, 1996; Brent \& Cartwright, 1996). Die Segmentation muss jedoch nicht nur anhand einer großen Menge an Informationen, sondern auch innerhalb kürzester Zeit erfolgen, die ohne eine automatisierte Vorhersage wohl kaum möglich wäre.\\
-Beim Sprechen wiederum ist zum Beispiel das so genannte Speech Monitoring (Levelt, 1983; Postma, 2000) von hoher Bedeutung. Das bezeichnet die Fähigkeit die inhaltliche Qualität des gesprochenen noch während dem Sprechen reflektieren zu können. Das wiederum bedeutet, dass beim Sprechen mindestens zwei Prozesse gleichzeitig statt finden. Das legt nah, dass hier ein hoher Automatismus-Grad im Spiel ist. In einer Studie von \textcite{goldman1958speech} \parencite{goldman1958speech} konnte gezeigt werden, dass u.a. immer dann größere Sprechpausen entstehen, wenn kommende Wörter schwerer vorhersagbar sind. Umgekehrt scheint Sprache also auch entscheidend von der Fähigkeit zur Vorhersage abhängig zu sein.\\
-Bezüglich der auditiven Komponente sei vor allem auch die Musik hervorgehoben. Gerade in der Musik spiegelt sich die Tendenz des Menschen zu erfolgreichen Vorhersagen wieder. Drake und Bertrand (2001) prüften 5 universelle, d.h. nicht-kulturabhängige Paradigmen, wie sich Menschen zu Musik verhalten. In Paradigma 3 beschrieben sie, dass sich Menschen, die im Takt der Musik bleiben sollen, in mehr als 90\% der Zeit erfolgreich mit Musik synchronisieren können. D.h. Vorhersagen können erfolgreich getroffen und Handlungen entsprechend erfolgreich an den Vorhersagen ausgerichtet werden. Man könnte mutmaßen, dass genau in der Vorhersagbarkeit der Reiz der Musik liegt und auch ein Harmonieempfinden damit zusammenhängt.
+Ein gutes Beispiel für die hohe Leistungsfähigkeit der automatisch ablaufenden Systeme des Menschen ist seine Sprache. Deutlich wird dies schon allein durch das Segmentationsproblem beim Sprachverstehen. Mit physikalischen Mitteln aufgezeichnete Frequenzen von Schallwellen zeigen Muster, die bei visueller Betrachtung kaum korrekt in Worte getrennt werden können. Eine Pause oder eine Frequenzschwankung sagt nur selten tatsächlich auch den Beginn eines neuen Wortes vorher. Zur Segmentation der Worte werden bei weitem nicht nur die physikalischen Signale, sondern zusätzlich viele verschiedene Hinweisreize benötigt \parencites[u.a.][]{brent1996distributional}{saffran1996word}. Die Segmentation muss jedoch nicht nur anhand einer großen Menge an Informationen, sondern auch innerhalb kürzester Zeit erfolgen, die ohne eine automatisierte Vorhersage wohl kaum möglich wäre.\\
+Beim Sprechen wiederum ist zum Beispiel das so genannte Speech Monitoring \parencites{levelt1983monitoring}{postma2000detection} von hoher Bedeutung. Das bezeichnet die Fähigkeit die inhaltliche Qualität des gesprochenen noch während dem Sprechen reflektieren zu können. Das wiederum bedeutet, dass beim Sprechen mindestens zwei Prozesse gleichzeitig statt finden. Das legt nah, dass hier ein hoher Automatismus-Grad im Spiel ist. In einer Studie von \textcite{goldman1958speech} konnte gezeigt werden, dass u.a. immer dann größere Sprechpausen entstehen, wenn kommende Wörter schwerer vorhersagbar sind. Umgekehrt scheint Sprache also auch entscheidend von der Fähigkeit zur Vorhersage abhängig zu sein.\\
+Bezüglich der auditiven Komponente sei vor allem auch die Musik hervorgehoben. Gerade in der Musik spiegelt sich die Tendenz des Menschen zu erfolgreichen Vorhersagen wieder. \textcite{drake2001quest} prüften 5 universelle, d.h. nicht-kulturabhängige Paradigmen, wie sich Menschen zu Musik verhalten. In Paradigma 3 beschrieben sie, dass sich Menschen, die im Takt der Musik bleiben sollen, in mehr als 90\% der Zeit erfolgreich mit Musik synchronisieren können. D.h. Vorhersagen können erfolgreich getroffen und Handlungen entsprechend erfolgreich an den Vorhersagen ausgerichtet werden. Man könnte mutmaßen, dass genau in der Vorhersagbarkeit der Reiz der Musik liegt und auch ein Harmonieempfinden damit zusammenhängt.
 
 Die Bedeutung der Vorhersagbarkeit und vor allem der diesbezüglich wirkenden Automatismen lässt sich an den vorigen Beispielen recht gut erkennen. Im folgenden Experiment soll es um die Vorhersagbarkeit von komplexen Regeln in auditiven Stimuli gehen. Konkret soll untersucht werden inwiefern komplexe Regeln von Tonabfolgen (wie sie etwa auch in der Sprache vorkommen) erkannt und insbesondere vorhergesagt bzw. Abweichungen erkannt werden können. Im Folgenden soll zunächst der Forschungsstand bezüglich der auditiven Regelerkennung und der Vorhersagefähigkeit erläutert werden. Anschließend wird eine kurze Einführung in Lerntheorien erfolgen, die speziell für dieses Experiment von Bedeutung sein wird.
 
@@ -50,16 +50,18 @@ Die Bedeutung der Vorhersagbarkeit und vor allem der diesbezüglich wirkenden Au
 
 Die Missmatch Negativity (MMN) ist ein ereigniskorreliertes Potential (EKP). Bei ereigniskorrelierten Potentialen handelt es sich um elektrische Potentiale des Gehirns, welche zu einem bestimmten Zeitpunkt (Ereignis) eintreten und mit diesem Zusammenhängen und daher als ereigniskorreliert betrachtet werden können. Die Messung dieser Signale erfolgt per Elektroenzephalogramm (EEG), welches elektrische Potentiale des Gehirns erfassen kann. Um die Signale, welche durch das Ereignis ausgelöst werden, letztlich vom Rauschen anderer Gehirnpotentiale trennen zu können, werden die Potentiale über mehrere Messungen gemittelt.
 
-Erstmals wurde die MMN von Näätänen, Gaillard \& Mäntysalo (1978) für auditive Stimuli beschrieben. Verwendet wurde das so genannte Oddball Paradigma, bei dem eine Reihe gleicher Stimuli gegeben wird, welche dann von einem nicht-regelkonformen Stimulus unterbrochen wird. Die MMN trifft dann ca. 150ms – 250ms nach der Präsentation des Abweichers vor allem im fronto-zentralen Bereich auf. Sie zeigt damit an, dass eine Vorhersage (bzw. eine Extrapolation) des Gehirns fehlerhaft ist. Im Umkehrschluss lässt sich bei einem Auftreten der MMN schließen, dass das Gehirn zuvor eine Regelmäßigkeit erkannt haben muss. Diese Ableitung wurde auch in den Studien verwendet, die diesem Experiment zugrunde liegt.
+Erstmals wurde die MMN von \textcite{naatanen1978early} für auditive Stimuli beschrieben. Verwendet wurde das so genannte Oddball Paradigma, bei dem eine Reihe gleicher Stimuli gegeben wird, welche dann von einem nicht-regelkonformen Stimulus unterbrochen wird. Die MMN trifft dann ca. 150ms – 250ms nach der Präsentation des Abweichers vor allem im fronto-zentralen Bereich auf. Sie zeigt damit an, dass eine Vorhersage (bzw. eine Extrapolation) des Gehirns fehlerhaft ist. Im Umkehrschluss lässt sich bei einem Auftreten der MMN schließen, dass das Gehirn zuvor eine Regelmäßigkeit erkannt haben muss. Diese Ableitung wurde auch in den Studien verwendet, die diesem Experiment zugrunde liegt.
 
 Eine weitere Eigenschaft der MMN ist, dass sie auch dann auftritt, wenn der auditive Stimulus nicht beachtet wird. Z.B. wenn Probanden während dem Hören der Töne einen Stummfilm schauen. Das Gehirn scheint also keine oder nur sehr wenige Aufmerksamkeitsressourcen für die Erkennung einer Regelmäßigkeit in einem auditiven Stimulus zu benötigen. Die Verarbeitung erfolgt damit folglich relativ automatisiert.
 
 \subsection{Komplexe Regelerkennung}
 
+% Bis hierhin Bibtex fertig!
+
 Es stellte sich schon bald die Frage, ob die MMN auch bei deutlich komplexeren Regeln auftritt. Dies würde implizieren, dass das Gehirn die Fähigkeit besitzt, auch komplexe Regeln zu extrahieren und vorhersagen zu können.\\
 Experimente mit ersten Paradigmen zur Untersuchung komplexerer Regeln bei auditiven Stimuli ergaben, dass die Regeln zwar vom Gehirn erkannt (gemessen per MMN), jedoch nicht bewusst verarbeitet werden konnten. Im Sequence Learning Paradigm (Hoffmann \& Koch, 1998) sollten die Probanden ein sich wiederholendes Muster erkennen, welches in einer Ton-Sequenz versteckt war, im Covariation Detection Paradigm (Stamov Rossnagel 2001) wiederum lernten die Probanden nichtsaliente Verbindungen zwischen den einzelnen Stimulus-Elementen. Obwohl die Probanden die Regeln meist nicht bewusst erkannten, zeigten sich durch Übung Leistungssteigerungen in Form von zunehmend erhöhter Geschwindigkeit und erhöhter Genauigkeit, was zunächst auf implizites Lernen hinweist.
 
-Paavilainen, Arajärvi \& Takegata (2006) warfen daraufhin die Frage auf in welchem Ausmaß der Erkennungsprozess Aufmerksamkeitsressourcen benötigt. Dabei sollte vor allem geklärt werden, ob die Regelerkennung komplexerer Regeln eventuell bereits präattentiv auf der Ebene des sensorischen Gedächtnisses stattfindet. Um dies zu untersuchen wurden den Probanden je 2000 Töne vorgespielt, die sich in ihrer Länge (50ms oder 150ms) und in ihrer Höhe (1000Hz oder 1500Hz) unterschieden. Dabei konnten zwei gegensätzliche Regeln vorkommen:
+\textcite{paavilainen2007preattentive} warfen daraufhin die Frage auf in welchem Ausmaß der Erkennungsprozess Aufmerksamkeitsressourcen benötigt. Dabei sollte vor allem geklärt werden, ob die Regelerkennung komplexerer Regeln eventuell bereits präattentiv auf der Ebene des sensorischen Gedächtnisses stattfindet. Um dies zu untersuchen wurden den Probanden je 2000 Töne vorgespielt, die sich in ihrer Länge (50ms oder 150ms) und in ihrer Höhe (1000Hz oder 1500Hz) unterschieden. Dabei konnten zwei gegensätzliche Regeln vorkommen:
 
 \begin{compactitem}
   \item Auf einen langen Ton folgt ein hoher Ton, auf einen kurzen Ton folgt ein tiefer
@@ -80,7 +82,7 @@ Alle Probanden durchliefen in gegebener Reihenfolge folgende Bedingungen:
 Im Ergebnis zeigte sich, dass in allen drei Bedingungen der Ausschlag der MMN nicht signifikant voneinander abwich. Es war also unerheblich, ob die Probanden den Ton ignorierten oder aktiv darauf achteten. Implizite, so wie explizite Lernprozesse waren demnach anscheinend nicht vorhanden. Für einen - zumindest kleinen - Lerneffekt spricht hingegen, dass die behavioralen Daten in den zwei detection-Bedingunen in Form der Erfolgsrate beim Drücken der Tasten signifikant vom Zufall abwichen, wenn auch nur sehr gering. Qualitativ wurde außerdem berichtet, dass die Probanden das Wissen über die Regel nur als wenig hilfreich einschätzten.\\
 Aus den Ergebnissen wurde geschlossen, dass die Verarbeitung wohl überwiegend automatisiert und die Treffer in der explicit detection Bedingung eher auf Intuition, als auf explizites Wissen über die Regel zurückzuführen ist. Allerdings scheinen die neuronalen Mechanismen, die auch die MMN auslösen ihre Leistungsfähigkeit verbessern zu können. Dies schlägt sich zumindest in der knapp überzufälligen Erfolgsrate nieder. Letztlich war ein weiteres EKP, die so genannte P300, nicht ausgeprägt. Diese Komponente schlägt üblicherweise aus, wenn Stimuli bewusst klassifiziert werden. Die These, dass die Stimuli automatisiert und unbewusst verarbeitet werden konnte damit bestätigt werden.
 
-Die Studie von Paavilainen et al. (2006) wurde 2 Jahre später von Bendixen, Prinz, Horváth, Trukillo-Barreto \& Schröger (2008) repliziert und erweitert. Dabei wurden die gleichen Regeln verwendet, auch Tonhöhe und Frequenz entsprach den vorigen.\\
+Die Studie von \textcite{paavilainen2007preattentive} wurde 2 Jahre später von \textcite{bendixen2008rapid} repliziert und erweitert. Dabei wurden die gleichen Regeln verwendet, auch Tonhöhe und Frequenz entsprach den vorigen.\\
 Die Regeln wurden in unterschiedlich langen Sequenzen (4, 9, 14, 19 Töne) regelkonform präsentiert und anschließend durch irreguläre Sequenzen (4-8 Töne) unterbrochen. Diese Unterbrechung führt dazu, dass das Gehirn immer wieder von vorne beginnen muss eine Regel zu erkennen, zumal nach einer irregulären Sequenz auch die reguläre Sequenz variieren kann, da wie oben beschrieben, zwei solcher regulären Regeln existieren. Es wurde zwischen zwei Bedingungen unterschieden:
 
 \begin{compactitem}
@@ -89,7 +91,7 @@ Die Regeln wurden in unterschiedlich langen Sequenzen (4, 9, 14, 19 Töne) regel
 \end{compactitem}
 
 Die Probanden bekamen erst 8 Blöcke in der Passiv-Bedingung präsentiert, wurden gefragt, ob sie eine Regel erkannten, anschließend bekamen sie 5 weitere Blöcke in der Aktiv-Bedingung präsentiert. In keinem Fall erkannten die Probanden die Regel nach der Passiv-Bedingung korrekt, sofern sie überhaupt eine erkannten. Der Sensitivitätsindex (d-prime) lag noch signifikant über dem Zufallsniveau, sowohl für kurze (5 und 10 Töne), als auch für lange (15 und 20 Töne) Sequenzen. Die MMN zeigte jedoch nur für lange Sequenzen eine signifikante Ausprägung.\\
-Die Ergebnisse von Paavilainen et al. (2006) konnten damit zum einen bestätigt werden, zum anderen konnte gezeigt werden, dass für die Regelerkennung zunächst einige Stimuli nötig sind, bis das Gehirn die entsprechende Regel abgeleitet hat. Allgemein liegt ein kontinuierlicher Zusammenhang vor. Je mehr regelkonforme Stimuli zuvor präsentiert werden, desto höher ist der Ausschlag der MMN bei einer Unterbrechung. Es scheint also eine Akkumulation abzulaufen, die Hinweisen auf eine Regel ansammelt. Entscheidend ist jedoch, dass auch in dieser Studie das bewusste Erkennen einer Regelverletzung nicht möglich war. Auch hier zeigte sich die Abwesenheit der P300-Komponente und damit die Abwesenheit bewusster Klassifikationsprozesse.
+Die Ergebnisse von \textcite{paavilainen2007preattentive} konnten damit zum einen bestätigt werden, zum anderen konnte gezeigt werden, dass für die Regelerkennung zunächst einige Stimuli nötig sind, bis das Gehirn die entsprechende Regel abgeleitet hat. Allgemein liegt ein kontinuierlicher Zusammenhang vor. Je mehr regelkonforme Stimuli zuvor präsentiert werden, desto höher ist der Ausschlag der MMN bei einer Unterbrechung. Es scheint also eine Akkumulation abzulaufen, die Hinweisen auf eine Regel ansammelt. Entscheidend ist jedoch, dass auch in dieser Studie das bewusste Erkennen einer Regelverletzung nicht möglich war. Auch hier zeigte sich die Abwesenheit der P300-Komponente und damit die Abwesenheit bewusster Klassifikationsprozesse.
 
 % ##################################################
 % P300? In der Studie ist sie als P3a bezeichnet. Wenn ich es richtig verstanden habe, dann wird die P300 eigentlich als P3b bezeichnet. Nun war ich ein wenig verwirrt und habe es der Einheitlichkeit halber einfach auch P300 genannt
@@ -101,7 +103,7 @@ Zusammenfassend liegt also bezüglich der Erkennung komplexer Regeln eine automa
 
 Grundsätzlich lässt sich der Lernprozess recht eindeutig als prozedurales Lernen (abgegrenzt von deklarativem Lernen) klassifizieren, sofern das Drücken der Taste passend zu den Abweichern gelernt wird. In den bisherigen Untersuchungen lag – wenn überhaupt – nur implizites Lernen vor. Interessant wäre also zu betrachten wie explizites Lernen erreicht werden kann, welches bisher den Probanden nicht möglich war. Prinzipiell ist auf Grund der genannten Ergebnisse vermutlich davon auszugehen, dass sich ein expliziter Lernprozess relativ schwierig gestalten könnte.
 
-Die Klassifikation in prozedurale Prozesse macht nun deutlich, dass ein einfaches Zeigen der Regel (z.B. an einem Schaubild) kaum ausreichen kann, um die Regel adäquat anzuwenden. Zumal die Stimuli mit 50ms bzw. 150ms Länge und einem Inter-Stimulus-Intervall (ISI) von 300ms präsentiert wurden. Diese hohe Geschwindigkeit erfordert wahrscheinlich ein langes Training, sofern ein expliziter Prozess verlangt wird. Fitts und Posner (1967) gingen davon aus, dass prozedurales Wissen über drei Schritte hintereinander gelernt werden kann:
+Die Klassifikation in prozedurale Prozesse macht nun deutlich, dass ein einfaches Zeigen der Regel (z.B. an einem Schaubild) kaum ausreichen kann, um die Regel adäquat anzuwenden. Zumal die Stimuli mit 50ms bzw. 150ms Länge und einem Inter-Stimulus-Intervall (ISI) von 300ms präsentiert wurden. Diese hohe Geschwindigkeit erfordert wahrscheinlich ein langes Training, sofern ein expliziter Prozess verlangt wird. \textcite{fitts1967human} gingen davon aus, dass prozedurales Wissen über drei Schritte hintereinander gelernt werden kann:
 
 \begin{compactenum}
   \item \textbf{Kognitives Stadium}: In diesem Stadium handelt es sich noch um eine deklarative Repräsentation. Das deklarative Wissen kann in bestehendes Wissen integriert und mit diesem verknüpft werden. Eine Vermittlung sollte präzise und verständlich erfolgen. Angewendet werden kann z.B. ein Schaubild.
@@ -168,10 +170,6 @@ In Abbildung \ref{experiment} ist eine Skizze des Versuchsaufbaus gezeigt. Das E
 % ################
 \end{wrapfigure}
 
-% ################
-% Caption korrekt?
-% ################
-
 Auf Laptop 1 (L1) wurde das Programm für den Versuch ausgeführt, dieser wurde vom Experimentator (E) bedient. Für das Abspielen der Töne und das Speichern der Reaktionsdaten wurde Matlab verwendet. Der Laptop (L1) war an den Bildschirm (B) angeschlossen, welcher der Versuchsperson (VP) zur Verfügung stand. Auf diesem Bildschirm wurde angezeigt, wenn die Versuchsperson reagieren sollte. Zur Reaktion stand der Versuchsperson eine Computer-Maus (M) mit 2 Tasten zur Verfügung. Während in den bisherigen Experimenten auch immer eine EEG-Messung durchgeführt wurde, beschränkte sich dieses Experiment auf Reaktionsdaten (d-prime und Reaktionszeit). Des Weiteren wurde ein zweiter Laptop (L2) verwendet. Dieser wurde verwendet, damit sich Experimentator (E) während den Blöcken ablenken konnte. Unter Experimentalbedingungen im Labor sind Experimentator und Versuchsperson räumlich getrennt. In diesem Fall war eine räumliche Trennung nicht möglich. Um etwaige Versuchsleitereffekte zu minimieren, sollte der Experimentator nicht den Eindruck vermitteln die Versuchsperson zu beobachten oder gar zu kontrollieren. Auch subtile Reaktionen des Experimentators auf eventuelles gutes oder schlechtes Abschneiden der Versuchsperson sollten vermieden werden, indem der Experimentator von vorne herein den Bildschirm von L1 maximal abdunkelte und diesen nach Möglichkeit während der Stimulus-Präsentation nicht beachtete. Die Ablenkung an L2 erfolgte durch kognitiv anstrengende Aufgaben. Dabei wurde beachtet, dass der Experimentator nach dem Ende eines Blockes unverzüglich wieder zur Versuchsperson umschalten musste. Die Versuchsperson musste nach Beendigung eines Blockes ohne Unterbrechung direkt die volle Aufmerksamkeit bekommen, um die Motivation aufrecht zu erhalten.
 
 Um Störungen von außen zu vermeiden wurde ein Schild an die Tür angebracht, welches darauf hinwiese, dass in diesem Raum ein Experiment am Laufen ist. Außerdem wurde das Fenster geschlossen und die Kopfhörer wurden vorher auf eine normierte Lautstärke eingestellt. Alle Utensilien (Maus, Kopfhörer, Formulare) wurden vorpräpariert auf den Tisch gelegt (bei Position M). Auch alle Einstellungen am Programm wurden vor der Ankunft der Versuchsperson vorbereitet, der Bildschirm (B) war zunächst ausgeschaltet und wurde erst unmittelbar vor dem Start des Versuchs eingeschaltet.
@@ -188,7 +186,6 @@ Ton
 \end{compactitem}
 
 \begin{figure}[t]
-  %\vspace{10pt}
   \centering
   \begin{minipage}{\textwidth}
     \setlength{\fboxsep}{.05\textwidth}
@@ -290,27 +287,39 @@ Die Richtig-Positiv-Rate (hit rate) lag in Block 1 bei 40.74\%, die Falsch-Negat
 
 \section{Diskussion}
 
-Da sich der Sensitivitätsindex in Block 1 und Block 4 nicht unterscheiden, spricht einiges dafür, dass trotz Übung kein Lerneffekt möglich ist. Die quantitative Auswertung der Berichte der Versuchspersonen passen gut zu den Ergebnissen, denn auch die Versuchspersonen berichteten - vor allem im letzten Durchgang - relativ konsistent von großen Schwierigkeiten beim Detektieren von Passenden und Abweichern. Sie gaben an meist intuitiv entschieden zu haben und vor allem in den schnellere Durchgängen oft auch einfach nur geraten zu haben.
+Da sich der Sensitivitätsindex in Block 1 und Block 4 nicht unterscheiden, sprechen die Ergebnisse gegen einen Lerneffekt. Die qualitative Auswertung der Berichte der Versuchspersonen passen gut zu den Ergebnissen, denn auch die Versuchspersonen berichteten - vor allem im letzten Durchgang - relativ konsistent von großen Schwierigkeiten beim Detektieren von Passenden und Abweichern am Ende der Sequenzen. Sie gaben an meist intuitiv entschieden zu haben und vor allem in den schnellere Durchgängen oft auch einfach nur geraten zu haben.
 
-Dies lässt zwei Schlussfolgerungen zu. Zum einen könnte dieser Typ von Aufgabe zu komplexe sein, um ihn manuell und bewusst verarbeiten zu können. Die menschlichen Fähigkeiten wären in diesem Fall an ihren Grenzen. Zum anderen könnte aber auch der Lernprozess noch nicht ausreichend gestaltet worden sein. Bei der Gestaltung des Lernprozesses gibt es gleich mehrere Aspekte, die betrachtet werden müssen. Möglich wäre, dass die Zone proximaler Entwicklung nicht optimal gestaltet wurde. Der Lernprozess wäre also - vermutlich auf Grund der hohen Komplexität - immer noch zu schnell. Eine andere Option wäre, dass die Lernmodelle nicht auf die Aufgabe passen. Entweder sind die Modelle nicht für das Lernen hoch komplexer Regeln ausgelegt oder die Klassifikation des Lernprozesses in prozedurales Wissen war eine zu große Vereinfachung. Um diese Optionen evaluieren zu können wurden im folgenden Kapitel "Post-Hoc Analysen" einige weitere statistische Analysen durchgeführt, die über die eigentliche Hypothese hinausgehen, aber eventuell Hinweise liefern können, die bei der Gestaltung zukünftiger Experimente helfen können. Ziel sollte es nun zum einen sein vorliegende Prozesse präziser zu klassifizieren und zum anderen eine Systematik zu weiteren Untersuchung zu entwickeln.
+Dies lässt zwei mögliche Schlussfolgerungen zu. Zum einen könnte dieser Typ von Aufgabe zu komplexe sein, um ihn manuell und bewusst verarbeiten zu können. Die menschlichen Fähigkeiten wären in diesem Fall an ihren Grenzen. Zum anderen könnte aber auch der Lernprozess noch nicht ausreichend gestaltet worden sein. Bei der Gestaltung des Lernprozesses gibt es gleich mehrere Aspekte, die betrachtet werden müssen. Möglich wäre, dass die Zone proximaler Entwicklung nicht optimal gestaltet wurde. Die Lernmethodik wäre also auf Grund der hohen Komplexität immer noch zu schnell. Eine andere Option wäre, dass die Lernmodelle nicht auf die Aufgabe passen. Entweder sind die Modelle nicht für das Lernen hoch komplexer Regeln ausgelegt oder die Klassifikation des Lernprozesses in prozedurales Wissen war eine zu starke Vereinfachung. Um diese Optionen evaluieren zu können wurden im folgenden Kapitel "Post-Hoc Analysen" einige weitere statistische Analysen durchgeführt, die über die eigentliche Hypothese hinausgehen, aber eventuell Hinweise liefern können, die bei der Gestaltung zukünftiger Experimente helfen können. Ziel sollte es nun zum einen die vorliegende Prozesse präziser zu klassifizieren und zum anderen eine Systematik zur weiteren Untersuchung zu entwickeln.
 
-Die Ergebnisse stützen die Annahme von \textcite{paavilainen2007preattentive} und \textcite{bendixen2008rapid}, dass der Erkennungsprozess, der die MMN auslöst, im auditiven sensorischen Gedächtnis abläuft. Weder eine explizite, noch eine implizite Erkennung war möglich, womit das Wirken höherer kognitiver Bereiche an dieser Stelle nicht anzunehmen ist. Unter der Annahme, dass die MMN vermutlich auch in diesem Experiment aufgetreten ist - aber nicht erfasst wurde -, kann geschlossen werden, dass nur sensorische Prozesse eine Erkennung ermöglichen könnten.
+\subsection{Sensorische Verarbeitung}
 
-Offen bleibt an dieser Stelle, ob ein Lernprozess eventuell unter besseren Lernbedingungen funktioniert hätte. Optimierngsansätze gibt es dafür an einigen Stellen.\\
-Die Untersuchungsbedingungen verliefen in keinem schalldichten Raum, sondern unter eher provisorischen Bedingungen in einem für das Experiment präparierten Raum. Auch wenn Tür und Fenster immer geschlossen blieben, waren Geräusche von außen nicht gänzlich zu verhindern. Auch die Tatsache der direkten Anwesenheit des Experimentators könnte, trotz der angewendeten Ablenkungsstrategie einen negativen Effekt auf die Versuchspersonen gehabt haben. Allein eine kleine Bewegung - sei es nur eine Veränderung der Sitzposition - könnte durch die Nähe schon eine Ablenkung bedeuten. Unter optimalen Bedingungen sind Versuchsperson und Experimentator während den Blöcken räumlich getrennt.\\
-Ein anderer wichtiger Aspekt ist die Verbesserung des Lernprozesses an sich. Unter Umständen wurde der Lernaufwand stark unterschätzt und der Lernprozess sollte deutlich umfassender gestaltet werden. Dazu könnten z.B. weitere langsame Blöcke eingefügt werden. Etwas ungünstig war ohnehin, dass es keine Übung mit Feedback für den vierten Block hab. Nach konsequenter Einhaltung der Lerntheorie hätte auch Block 4 noch einmal geübt werden müssen, bevor davon ausgegangen werden kann, dass dieser automatisiert ausgeführt werden kann. Genau genommen könnte davon ausgegangen werden, dass die Testdurchführung von Block 4 noch im assoziativen Stadium durchgeführt wurde und das autonome Stadium noch gar nicht möglich war. Diese Vermutung geht direkt mit der Annahme einher, dass die Zone proximaler Entwicklung nicht optimal angewendet wurde. Grundsätzlich ist jedoch - nicht zuletzt auch aufgrund der qualitativen Beurteilung - davon auszugehen, dass ein einfaches Einfügen eines weiteren schnellen Übungsblockes zu keiner nennenswerten Leistungssteigerung führen dürfte. Ein erfolgsversprechender Lernansatz müsste auf die Lernmethode deutlich erweitern. Eventuell müssten auch Lerneffekte durch Pausen und Schlaf berücksichtigt werden, was den Lernprozess über mehrere Tage hinziehen könnte, bis eine Leistung mit deutlich erhöhter Sensitivität erreicht wird. All diese Annahmen und Beobachtungen zeigen deutlich, dass die Fähigkeiten für implizites, vor allem aber für explizites Lernen komplexer auditiver Regeln erheblich unterschätzt wurden.
+Die Ergebnisse stützen die Annahme von \textcite{paavilainen2007preattentive} und \textcite{bendixen2008rapid}, dass der Erkennungsprozess, der die MMN auslöst, im auditiven sensorischen Gedächtnis präattentiv abläuft. Weder ein expliziter, noch ein impliziter Lernerfolg konnte festgestellt werden, womit das Wirken höherer kognitiver Bereiche an dieser Stelle nicht anzunehmen ist. Unter der Annahme, dass die MMN - auch wenn sie hier nicht erfasst wurde - vermutlich auch in diesem Experiment aufgetreten ist, kann geschlossen werden, dass nur sensorische Prozesse eine Erkennung ermöglichen können.
 
+\subsection{Lernbedingungen und Lernmethodik}
+
+Offen bleibt an dieser Stelle, ob ein Lernprozess eventuell unter besseren Lernbedingungen funktioniert hätte. Wie oben schon angesprochen gibt es viele denkbare Möglichkeiten warum der Lernprozess eventuell nicht erfolgreich war. Entsprechend können an dieser Stelle einige Optimierungsansätze formuliert werden.
+
+\subsubsection{Lernbedingungen}
+
+Die Untersuchungsbedingungen verliefen in keinem schalldichten Raum, sondern unter eher provisorischen Bedingungen in einem für das Experiment präparierten Raum. Auch wenn Tür und Fenster immer geschlossen blieben, waren Geräusche von außen nicht gänzlich zu verhindern. Auch die Tatsache der direkten Anwesenheit des Experimentators könnte, trotz der angewendeten Ablenkungsstrategie, einen negativen Effekt auf die Versuchspersonen gehabt haben. Allein eine kleine Bewegung - sei es nur eine Veränderung der Sitzposition - könnte durch die Nähe schon eine Ablenkung bedeuten, zumal die Konzentrationsanforderungen bei dem Experiment für die Versuchspersonen enorm hoch war. Unter optimalen Bedingungen sind Versuchsperson und Experimentator während den Blöcken räumlich getrennt.
+
+\subsubsection{Lernmethodik}
+
+Ein anderer wichtiger Aspekt ist die Verbesserung der Lernmethodik. Der Lernaufwand wurde stark unterschätzt und der Lernprozess sollte deutlich umfassender gestaltet werden. Dazu könnten zum Beispiel weitere langsame Blöcke eingefügt werden. Etwas ungünstig war ohnehin, dass es keine Übung mit Feedback für den vierten Block hab. Nach konsequenter Einhaltung der Lerntheorie hätte auch Block 4 noch einmal geübt werden müssen, bevor davon ausgegangen werden kann, dass dieser automatisiert ausgeführt werden kann. Genau genommen könnte davon ausgegangen werden, dass die Testdurchführung von Block 4 noch im assoziativen Stadium durchgeführt wurde und das autonome Stadium noch gar nicht möglich war. Diese Vermutung geht direkt mit der bereits oben genannten Annahme einher, dass die Zone proximaler Entwicklung nicht optimal angewendet wurde. Grundsätzlich ist jedoch - nicht zuletzt auch aufgrund der qualitativen Beurteilung - davon auszugehen, dass ein einfaches Einfügen eines weiteren schnellen Übungsblockes zu keiner nennenswerten Leistungssteigerung führen dürfte. Ein erfolgsversprechender Lernansatz müsste die Lernmethode deutlich erweitern. Eventuell müssten auch Lerneffekte durch Pausen und Schlaf berücksichtigt werden, was den Lernprozess über mehrere Tage hinziehen könnte, bis eine Leistung mit deutlich erhöhter Sensitivität erreicht wird. Ein weitere Aspekt ist die nötige Trennung des Lernprozesses in seine kognitiven Bestandteile. Bei der auditiven Übung mussten zwei Leistungen erbracht werden. Zum einen musste die Regel möglichst schnell erkannt werden (Erkennungsleistung), zum anderen mussten die letzten zwei Töne im Gedächtnis behalten werden (Gedächtnisleistung). Auf dem Arbeitsblatt war immer die gesamte Sequenz zu sehen (siehe Anhang). Daher wurde dort lediglich die Erkennungsleistung geübt. Eine Versuchsperson berichtete zum Beispiel, dass das Hauptproblem für sie daran bestand die letzten Töne differenziert im Gedächtnis zu behalten. Es könnte dafür eine weitere Aufgabe gestaltet werden, in der zum Beispiel eine auditive Übung durchgeführt wird, in der es ausschließlich auf die Gedächtnisleistung ankommt. Beide kognitiven Bestandteile müssten von vorne herein klar mit der Versuchsperson kommuniziert und letztlich auch trainiert werden. Vorstellbar wäre, dass diese Übung in Kombination mit mehr Blöcken und dem Anwenden von Pausen zu passenden Zeitpunkten zu einer deutlichen Leistungssteigerung führen könnten. Letztlich sollte auch nach jedem Block strukturiert erfragt werden wie stark die Person subjektiv das Gefühl hatte geraten, intuitiv vermutet oder tatsächlich kognitiv versucht hat den letzten Ton zuzuordnen.
+
+All diese Annahmen und Beobachtungen zeigen jedoch deutlich, dass die Lernmethodik beträchtlich verbessert werden muss und die Fähigkeiten für implizites, vor allem aber für explizites Lernen komplexer auditiver Regeln in der Vorbereitung dieses Experimentes noch erheblich unterschätzt wurden.
 
 \section{Post-Hoc-Analysen}
 
-...
+Zusätzlich zu den Hypothesen-relevanten Informationen wurden einige weitere Daten erhoben. So liegen Daten über die Sensitivitätswerte von Block 2 und 3 vor, wie sie auch in Abbildung \ref{dprime} bereits dargestellt sind. Des Weiteren wurden bisher die Reaktionszeiten nicht betrachtet und letztlich wurde am Ende des Experimentes (siehe Methoden) ein Musikfragebogen durch die Versuchspersonen ausgefüllt, dessen Daten bisher auch noch nicht in der Analyse berücksichtigt wurde.
 
 \subsection{Effekte in den langsamen Blöcken}
 
-...
+Um zu überprüfen, ob eventuell doch Lerneffekte vorliegen, diese nur nicht hinreichend für Block 4 waren, werden nun auch die Sensitivitätsindizes von Block 2 und 3 mit Block 1 und dem Zufall (Null) statistisch mit Hilfe eines T-Tests überprüft. Um die Alphafehler-Kumulierung zu berücksichtigen, wurde $\alpha$ halbiert, da zwei Blöcke getestet wurden. Die Die gerichtete Hypothese lautet, dass Block 2 und 3 durch Lerneffekte signifikant höher sind, als Block 1 bzw. als Null.
 
-%Hinweise, dass bessere Lernbedingungen tatsächlich helfen könnten
-%Hinweis, dass Block 4 noch im assoziativen Stadium
+Bei der statistischen Prüfung zeigt sich zunächst, dass sich Block 2 nicht signifikant von Block 1 unterscheiden, t(17) = 1.69, p > 0.05. Das gleiche gilt für den Vergleich von Block 3 und Block 1, t(17) = 1.62, p > 0.05. Sie unterscheiden sich jedoch beide signifikant von Null, also dem Zufallsniveau. Für den Test von Block 2 gegen Null ergab sich ein T-Wert von t(17) = 3.64 (p < 0.01), für Block 3 gegen Null lag der T-Wert bei t(17) = 2.11 (p < 0.1) und war damit noch marginal signifikant.
+
+Die Ergebnisse geben einen Hinweis darauf, dass der Lernprozess zu schnell stattfand. Während in Block 2 der Unterschied zum Zufall noch hochsignifikant ist, ist der Unterschied zwischen Block 3 und Zufall nur noch marginal signifikant. Die Ergebnisse unterstützen den Ansatz, dass bei Verbesserung der Lernmethodik auch eine Erkennungsleistung möglich wäre, die deutlich über dem Zufallsniveau liegt.
 
 \subsection{Effekte unterschiedlicher Strategien}
 
@@ -320,13 +329,13 @@ Ein anderer wichtiger Aspekt ist die Verbesserung des Lernprozesses an sich. Unt
 
 ...
 
-\subsection{Mögliche Forschungsansätze}
+\subsection{Möglicher Forschungsansatz}
 
-Auf Basis der weitergehenden Analysen soll an dieser Stelle eine Begriffstrennung vorgenommen werden, die in der bisherigen Betrachtung nicht sauber unternommen wurde. Für zukünftige Experimente könnte diese begriffliche Einordnung aber von hoher Bedeutung sein. Unter der Annahme, dass Erkennungsprozesse kumulativ und automatisch auf sensorischer Ebene ablaufen, implizite Lerneffekte möglich sind - wie zumindest in den vorangegangenen Studien gezeigt wurde - und explizite Lernprozess eventuell ebenfalls unter verbesserten Bedingungen möglich wären, wie die Post-Hoc-Analyse von Block 2 und 3 zeigten, dann sollten diese Prozesse besser kategorisiert werden. Bisher wurde getrennt zwischen manuell bewusst, in Form von explizitem Lernen, und automatisiert unbewusst, in Form von sensorischer Regelerkennung. Dabei ist eigentlich davon auszugehen, dass der manuell bewusste Lernprozess nur der Prozess an sich ist, im Ergebnis jedoch ebenfalls zu einem Automatismus führt. Das autonome Stadium entspricht eben diesem Automatismus. Implizite Lernprozess führen ebenfalls zu einem Automatismus. Entscheidend ist, dass sich alle drei Mechanismen im Ergebnis ähnlich sein sollten. Der Weg zu dem jeweiligen Automatismus unterscheidet sich jedoch entscheidend und unterscheidet die drei Prozesse. Im Folgenden sollen aus der Folgerung einige Hypothesen aufgestellt werden.
+Auf Basis der weitergehenden Analysen soll an dieser Stelle eine Begriffstrennung vorgenommen werden, die in der bisherigen Betrachtung nicht sauber unternommen wurde. Für zukünftige Experimente könnte diese begriffliche Einordnung aber von hoher Bedeutung sein. Für diese Klassifikation müssen zunächst einige Annahmen getroffen werden: (1) Erkennungsprozesse laufen kumulativ und automatisch auf sensorischer Ebene ab, (2) implizite Lerneffekte sind möglich - wie zumindest in den vorangegangenen Studien gezeigt wurde - und (3) explizite Lernprozess sind ebenfalls möglich. Ein Nachweis sollte  unter verbesserten Lernbedingungen und einer optimierten Lernmethodik möglich sein. Dies wird durch die Post-Hoc-Analyse von Block 2 und 3 gestützte, in denen ein kleiner Lerneffekt zu beobachten war. Werden die Annahmen vorausgesetzt, dann können die Lernprozesse neu eingeordnet werden. Dabei muss zunächst eine Korrektur in der Betrachtung der Lernprozesse vorgenommen werden. Bisher wurde getrennt zwischen manuell bewusst, in Form von explizitem Lernen, und automatisiert unbewusst, in Form von sensorischer Regelerkennung. Dabei ist eigentlich eher davon auszugehen, dass der manuell bewusste Lernprozess nur der Prozess ist, im Ergebnis jedoch ebenfalls zu einem Automatismus führt. Das autonome Stadium und die Unconscious competence entspricht eben diesem Automatismus. Implizite Lernprozesse führen ebenfalls zu einem Automatismus. Entscheidend ist, dass sich alle drei Mechanismen im Ergebnis ähnlich sein sollten. Der Weg zu dem jeweiligen Automatismus unterscheidet sich jedoch und bildet den entscheidenden Unterschied zwischen den drei Prozessen. Im Folgenden werden aus der genannten Folgerung vier Hypothesen aufgestellt:
 
 \subsubsection{Hypothese 1}
 
-Lernprozesse führen immer zu einer automatisierten Handlung. Dabei existiert neben dem impliziten und expliziten Lernen prozeduralen Wissens auch sensorisches Lernen.
+Lernprozesse führen nach häufiger Übung der gleichen prozeduralen Einheit immer zu einer automatisierten Handlung. Dabei existiert neben dem impliziten und expliziten Lernen prozeduralen Wissens auch sensorisches Lernen.
 
 \begin{compactitem}
   \item \textbf{Sensorisches Lernen}: Kumulativer Lernprozess durch Anhäufung von Hinweisreizen (Präattentive Verarbeitung)
@@ -340,41 +349,28 @@ Eine Beeinflussung impliziter und expliziter Prozesse erfolgt durch Achtsamkeit 
 
 \subsubsection{Hypothese 3}
 
-Sensorische Prozesse helfen Organismen bei der Bewältigung hochkomplexer Aufgaben. Implizite und explizite Prozesse sind weniger effektiv.
+Sensorische Prozesse helfen Organismen bei der Bewältigung hochkomplexer Aufgaben. Implizite und explizite Prozesse sind weniger effektiv, jedoch adaptiv (Siehe Hypothese 2).
 
 \subsubsection{Hypothese 4}
 
 Die sensorische Ebene ist unabhängig von den anderen beiden Ebenen. Während implizite und explizite Automatismen voneinander profitieren können, arbeitet die sensorische Ebene isoliert.
 
-\subsubsection{}
+Ob die 4 Hypothesen zutreffen oder nicht ist zunächst nicht zu klären und bisher philosophisch abgeleitet. Sie eignen sich jedoch recht gut um die Befunde erklären zu können. Daher könnte es interessant sein diese Hypothesen empirisch zu prüfen.
 
-Ob die 4 Hypothesen zutreffen oder nicht ist reine Spekulation. Sie eignen sich jedoch recht gut um die Befunde erklären zu können.  
+\section{Philosophische Betrachtung}
+
+Wenn die 4 Hypothesen zutreffen sollten, dann hätte dies nicht nur eine entscheidende Bedeutung für das Verstehen von Lernprozessen, es würde sich auch auf die in der Einleitung angesprochenen Themen anwenden lassen. Die Frage des freien Willens wäre dann eine Frage der Achtsamkeit - im Folgenden wird das Mindfulness-Konstrukt verwendet, beschrieben in Langer (1989) - und somit keine automatisch gegebene menschliche Eigenschaft, sondern eine Fähigkeit, die man erlernen kann. Menschen mit einer hohen Ausprägung an Achtsamkeit wären demnach nicht nur in der Lage neue Automatismen gezielter zu lernen und zu verändern, sie können auch die sie steuernden Automatismen aus vergangenen Zeiten beeinflussen, zum Beispiel solche, die in der Kindheit erworben wurden. Diese Eigenschaft könnte eine der Hauptursachen für Resilienz ggü. psychischen Störungen sein. Dadurch, dass neue Automatismen effektiver gelernt werden können und adaptiver sind, dürfte diese Fähigkeit auch ein guter Prädiktor für Intelligenz sein, eventuell sogar ein basaleres Konzept darstellen.
+
+Aus dieser philosophischen Überlegung heraus, kann bei zukünftigen Studien auch untersucht werden, ob sich Achtsamkeit auf die explizite und/oder implizite Lernleistung der komplexen Regel auswirkt. Die hier genannte Überlegung würde nahelegen, dass Personen mit einer erhöhten Achtsamkeit beim Lernen der Regel eine bessere Leistung erbringen müssten.
+
+%Buch überprüfen, ob Mindfullness-Konstrukt stimmt
 
 \section{Zusammenfassung und Fazit}
+
+...
 
 \section{Literaturverzeichnis}
 
 \printbibliography[heading=none]
-
-%Horizontale Größenanpassung verhindern! Zeilenhöhe soll immer gleich hoch sein (unabhängig von Länge des Textes auf Seite)
-
-%WICHTIG: Trennung: Sensorischer Automatismus, Gelernter Automatismus
-%-> Beide unbewusst, der eine "fest verdrahtet" und unveränderbar, der andere durch Aufmerksamkeit (Achtsamkeit) veränderbar
-
-%Sind die beiden Verarbeitungsmethoden unabhängig voneinander? (Evtl. erst Diskussion) Schnell unbewusst unbeeinflussbar vs. langsam bewusst beeinflussbar?
-
-%Zone proximaler Entwicklung wurde immer noch bei weitem nicht berücksichtigt!
-
-%Tonhöhe sagt Tonlänge voraus? (Probandenvorschlag)
-
-%Gut formulierter Fragebogen (bzw. strukturiertes Interview), um nach jedem Block erfassen zu können wie stark die Person (subjektiv) geraten hat. Viel Raten führt evtl. zu schlechteren Ergebnissen
-
-%Probandenbericht: Sehr schwierig Töne differenziert im Gedächtnis zu behalten
-
-%Probandenbericht: Problem Unterscheidung Hoch/Tief
-
-%Geübt wurde nur Regelerkennung, nicht aber Gedächtnisleistung!! Problam auf Arbeitsblatt! Hier kein Gedächtnis nötig!
-
-%Block 4 müsste 2x gemacht werden, 1x Üben, 1x Anwenden
 
 \end{document}
