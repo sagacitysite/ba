@@ -49,6 +49,46 @@
       \field{year}{2008}
       \field{pages}{1111\bibrangedash 1119}
     \endentry
+    \entry{bishop2004mindfulness}{article}{}
+      \name{labelname}{10}{}{%
+        {{uniquename=0,hash=34704ffc4f93924335d6cf4352f24a3f}{Bishop}{B\bibinitperiod}{Scott\bibnamedelima R}{S\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4e72ff56ec11c3efeee3aef89830c740}{Lau}{L\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1c11a9928176282a802440bc976d3507}{Shapiro}{S\bibinitperiod}{Shauna}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c49169033f11ac3621739d95d961b9f9}{Carlson}{C\bibinitperiod}{Linda}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8e791dc5495de24bc097f51acc99eea4}{Anderson}{A\bibinitperiod}{Nicole\bibnamedelima D}{N\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0d9454175a9ab4ae593f8106ff0e47c3}{Carmody}{C\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d914b6d9d589ff0eea904e0314f375a9}{Segal}{S\bibinitperiod}{Zindel\bibnamedelima V}{Z\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3373609bea254ddb14d7845b89ba4649}{Abbey}{A\bibinitperiod}{Susan}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e35aba844592ae19bbc9c9552ca7beef}{Speca}{S\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c262484785990c68017e46a05a611b71}{Velting}{V\bibinitperiod}{Drew}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{10}{}{%
+        {{uniquename=0,hash=34704ffc4f93924335d6cf4352f24a3f}{Bishop}{B\bibinitperiod}{Scott\bibnamedelima R}{S\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4e72ff56ec11c3efeee3aef89830c740}{Lau}{L\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1c11a9928176282a802440bc976d3507}{Shapiro}{S\bibinitperiod}{Shauna}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c49169033f11ac3621739d95d961b9f9}{Carlson}{C\bibinitperiod}{Linda}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8e791dc5495de24bc097f51acc99eea4}{Anderson}{A\bibinitperiod}{Nicole\bibnamedelima D}{N\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0d9454175a9ab4ae593f8106ff0e47c3}{Carmody}{C\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d914b6d9d589ff0eea904e0314f375a9}{Segal}{S\bibinitperiod}{Zindel\bibnamedelima V}{Z\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3373609bea254ddb14d7845b89ba4649}{Abbey}{A\bibinitperiod}{Susan}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e35aba844592ae19bbc9c9552ca7beef}{Speca}{S\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c262484785990c68017e46a05a611b71}{Velting}{V\bibinitperiod}{Drew}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{bc3272694f06b7918ad972ddc8f2cc1f}
+      \strng{fullhash}{d0ed79c23a66e8edb9c7d1ec1add39b9}
+      \field{sortinit}{B}
+      \field{labelyear}{2004}
+      \field{labeltitle}{Mindfulness: A proposed operational definition}
+      \field{journaltitle}{Clinical psychology: Science and practice}
+      \field{number}{3}
+      \field{title}{Mindfulness: A proposed operational definition}
+      \field{volume}{11}
+      \field{year}{2004}
+      \field{pages}{230\bibrangedash 241}
+    \endentry
     \entry{brent1996distributional}{article}{}
       \name{labelname}{2}{}{%
         {{uniquename=0,hash=d54f68e509ef07ceeeb8f0811b78361b}{Brent}{B\bibinitperiod}{Michael\bibnamedelima R}{M\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
@@ -138,6 +178,44 @@
       \field{volume}{10}
       \field{year}{1958}
       \field{pages}{96\bibrangedash 106}
+    \endentry
+    \entry{hoffmann1998implicit}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=ef835d09ae1a3752d81e2fb7c64931b0}{Hoffmann}{H\bibinitperiod}{Joachim}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=03284a26826d3cb912800a97795ffb61}{Koch}{K\bibinitperiod}{Iring}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=ef835d09ae1a3752d81e2fb7c64931b0}{Hoffmann}{H\bibinitperiod}{Joachim}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=03284a26826d3cb912800a97795ffb61}{Koch}{K\bibinitperiod}{Iring}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Sage Publications, Inc}%
+      }
+      \strng{namehash}{97566720c9d8918f77617dda45be7388}
+      \strng{fullhash}{97566720c9d8918f77617dda45be7388}
+      \field{sortinit}{H}
+      \field{labelyear}{1998}
+      \field{labeltitle}{Implicit learning of loosely defined structures.}
+      \field{title}{Implicit learning of loosely defined structures.}
+      \field{year}{1998}
+    \endentry
+    \entry{kozulin2003vygotsky}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=2eec2fa69db85434891408cffb7001e3}{Kozulin}{K\bibinitperiod}{Alex}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=2eec2fa69db85434891408cffb7001e3}{Kozulin}{K\bibinitperiod}{Alex}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{2eec2fa69db85434891408cffb7001e3}
+      \strng{fullhash}{2eec2fa69db85434891408cffb7001e3}
+      \field{sortinit}{K}
+      \field{labelyear}{2003}
+      \field{labeltitle}{Vygotsky's educational theory in cultural context}
+      \field{title}{Vygotsky's educational theory in cultural context}
+      \field{year}{2003}
     \endentry
     \entry{levelt1983monitoring}{article}{}
       \name{labelname}{1}{}{%
@@ -260,6 +338,46 @@
       \field{volume}{35}
       \field{year}{1996}
       \field{pages}{606\bibrangedash 621}
+    \endentry
+    \entry{stamov2001revealing}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=51e70d6df1ce3317c2b8374b0f5b34e3}{Stamov\bibnamedelima Roßnagel}{S\bibinitperiod\bibinitdelim R\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=51e70d6df1ce3317c2b8374b0f5b34e3}{Stamov\bibnamedelima Roßnagel}{S\bibinitperiod\bibinitdelim R\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{51e70d6df1ce3317c2b8374b0f5b34e3}
+      \strng{fullhash}{51e70d6df1ce3317c2b8374b0f5b34e3}
+      \field{sortinit}{S}
+      \field{labelyear}{2001}
+      \field{labeltitle}{Revealing hidden covariation detection: Evidence for implicit abstraction at study.}
+      \field{journaltitle}{Journal of Experimental Psychology: Learning, Memory, and Cognition}
+      \field{number}{5}
+      \field{title}{Revealing hidden covariation detection: Evidence for implicit abstraction at study.}
+      \field{volume}{27}
+      \field{year}{2001}
+      \field{pages}{1276}
+    \endentry
+    \entry{whitmore2009coaching}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=8ad95f3ee9eced23a888f5c1ea800af0}{Whitmore}{W\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=8ad95f3ee9eced23a888f5c1ea800af0}{Whitmore}{W\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Nicholas Brealey Pub}%
+      }
+      \strng{namehash}{8ad95f3ee9eced23a888f5c1ea800af0}
+      \strng{fullhash}{8ad95f3ee9eced23a888f5c1ea800af0}
+      \field{sortinit}{W}
+      \field{labelyear}{2009}
+      \field{labeltitle}{Coaching for performance: Growing human potential and purpose}
+      \field{title}{Coaching for performance: Growing human potential and purpose}
+      \field{year}{2009}
     \endentry
   \endsortlist
 \endrefsection

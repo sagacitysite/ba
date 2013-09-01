@@ -13,6 +13,19 @@
   publisher = {Elsevier}
 }
 
+@ARTICLE{bishop2004mindfulness,
+  author = {Bishop, Scott R and Lau, Mark and Shapiro, Shauna and Carlson, Linda
+	and Anderson, Nicole D and Carmody, James and Segal, Zindel V and
+	Abbey, Susan and Speca, Michael and Velting, Drew},
+  title = {Mindfulness: A proposed operational definition},
+  journal = {Clinical psychology: Science and practice},
+  year = {2004},
+  volume = {11},
+  pages = {230--241},
+  number = {3},
+  publisher = {Wiley Online Library}
+}
+
 @ARTICLE{brent1996distributional,
   author = {Brent, Michael R and Cartwright, Timothy A},
   title = {Distributional regularity and phonotactic constraints are useful
@@ -52,6 +65,13 @@
   pages = {96--106},
   number = {2},
   publisher = {Taylor \& Francis}
+}
+
+@BOOK{hoffmann1998implicit,
+  title = {Implicit learning of loosely defined structures.},
+  publisher = {Sage Publications, Inc},
+  year = {1998},
+  author = {Hoffmann, Joachim and Koch, Iring}
 }
 
 @BOOK{kozulin2003vygotsky,
@@ -117,6 +137,18 @@
   pages = {606--621},
   number = {4},
   publisher = {Elsevier}
+}
+
+@ARTICLE{stamov2001revealing,
+  author = {Stamov Ro{\ss}nagel, Christian},
+  title = {Revealing hidden covariation detection: Evidence for implicit abstraction
+	at study.},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
+  year = {2001},
+  volume = {27},
+  pages = {1276},
+  number = {5},
+  publisher = {American Psychological Association}
 }
 
 @BOOK{whitmore2009coaching,
