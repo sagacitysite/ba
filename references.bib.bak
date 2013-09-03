@@ -139,6 +139,17 @@
   publisher = {Elsevier}
 }
 
+@ARTICLE{schroger2007mismatch,
+  author = {Schr{\"o}ger, Erich},
+  title = {Mismatch negativity: A microphone into auditory memory.},
+  journal = {Journal of Psychophysiology},
+  year = {2007},
+  volume = {21},
+  pages = {138},
+  number = {3-4},
+  publisher = {Hogrefe \& Huber Publishers}
+}
+
 @ARTICLE{stamov2001revealing,
   author = {Stamov Ro{\ss}nagel, Christian},
   title = {Revealing hidden covariation detection: Evidence for implicit abstraction
