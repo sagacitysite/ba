@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.14)  3 SEP 2013 19:54
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.14)  5 SEP 2013 00:55
 entering extended mode
 **bachelorarbeit.tex
 (C:\Users\Carlo\Privat\Lebensphasen\Exploeco\entwicklung\ba\bachelorarbeit.tex
@@ -852,19 +852,19 @@ Package biblatex Info: ... file 'german.lbx' found.
 File: german.lbx 2013/07/15 v2.7a biblatex localization (PK/JW/AB)
 )))
 (C:\Users\Carlo\Privat\Lebensphasen\Exploeco\entwicklung\ba\bachelorarbeit.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 31.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -892,7 +892,7 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \marginparwidth=44.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=17.6207pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -929,85 +929,24 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'bachelorarbeit.bbl' found.
 
 (C:\Users\Carlo\Privat\Lebensphasen\Exploeco\entwicklung\ba\bachelorarbeit.bbl)
-Package biblatex Info: Reference section=0 on input line 29.
-Package biblatex Info: Reference segment=0 on input line 29.
+Package biblatex Info: Reference section=0 on input line 31.
+Package biblatex Info: Reference segment=0 on input line 31.
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ] [2] [3] [4]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 67.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 69.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 67.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 69.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 67.
- [5] [6]
-Overfull \hbox (8.46422pt too wide) in paragraph at lines 89--90
-[]\T1/lmr/bx/n/12 Passiv\T1/lmr/m/n/12 : Kon-ti-nu-ier-li-che Stimuli-Präsentat
-ion, wo-bei dir Pro-ban-den einen Stumm-
- []
-
-[7] [8] [9] [10] [11] [12]
-Package epstopdf Info: Source file: <abb1-versuchsaufbau.eps>
-(epstopdf)                    date: 2013-08-26 21:11:53
-(epstopdf)                    size: 1357874 bytes
-(epstopdf)             Output file: <abb1-versuchsaufbau-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-26 21:14:22
-(epstopdf)                    size: 9162 bytes
-(epstopdf)             Command: <epstopdf --outfile=abb1-versuchsaufbau-eps-con
-verted-to.pdf abb1-versuchsaufbau.eps>
-(epstopdf)             \includegraphics on input line 159.
-Package epstopdf Info: Output file is already uptodate.
-
-<abb1-versuchsaufbau-eps-converted-to.pdf, id=42, 1003.75pt x 558.085pt>
-File: abb1-versuchsaufbau-eps-converted-to.pdf Graphic file (type pdf)
-
-<use abb1-versuchsaufbau-eps-converted-to.pdf>
-Package pdftex.def Info: abb1-versuchsaufbau-eps-converted-to.pdf used on input
- line 159.
-(pdftex.def)             Requested size: 226.56696pt x 125.97246pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 159.
-
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 159.
-
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 159
-.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 159.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 159.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 159.
-
-Overfull \hbox (12.72531pt too wide) in paragraph at lines 159--161
-[][]
- []
-
-
-Underfull \hbox (badness 1735) in paragraph at lines 169--170
-\T1/lmr/m/n/12 Spei-chern der Re-ak-ti-ons-da-ten
- []
-
-[13 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb1-versuchsau
-fbau-eps-converted-to.pdf>]
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 69.
 Package epstopdf Info: Source file: <abb2-tones.eps>
 (epstopdf)                    date: 2013-08-26 23:01:35
 (epstopdf)                    size: 320150 bytes
@@ -1016,23 +955,90 @@ Package epstopdf Info: Source file: <abb2-tones.eps>
 (epstopdf)                    size: 15538 bytes
 (epstopdf)             Command: <epstopdf --outfile=abb2-tones-eps-converted-to
 .pdf abb2-tones.eps>
-(epstopdf)             \includegraphics on input line 190.
+(epstopdf)             \includegraphics on input line 81.
 Package epstopdf Info: Output file is already uptodate.
 
-<abb2-tones-eps-converted-to.pdf, id=53, 292.09125pt x 71.26625pt>
+<abb2-tones-eps-converted-to.pdf, id=16, 292.09125pt x 71.26625pt>
 File: abb2-tones-eps-converted-to.pdf Graphic file (type pdf)
 
 <use abb2-tones-eps-converted-to.pdf>
-Package pdftex.def Info: abb2-tones-eps-converted-to.pdf used on input line 190
-.
-(pdftex.def)             Requested size: 390.25534pt x 95.22546pt.
+Package pdftex.def Info: abb2-tones-eps-converted-to.pdf used on input line 81.
 
-Overfull \hbox (0.79996pt too wide) in paragraph at lines 190--192
+(pdftex.def)             Requested size: 390.25534pt x 95.22546pt.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 81.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 81.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 81.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 81.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 81.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 81.
+
+Overfull \hbox (0.79996pt too wide) in paragraph at lines 81--83
 [][]
  []
 
-[14] [15 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb2-tones
--eps-converted-to.pdf>] [16] [17] [18]
+[5] [6 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb2-tones-e
+ps-converted-to.pdf>]
+Overfull \hbox (9.11687pt too wide) in paragraph at lines 106--107
+[]\T1/lmr/bx/n/12 Passiv\T1/lmr/m/n/12 : Kon-ti-nu-ier-li-che Stimuli-Präsentat
+ion, wo-bei die Pro-ban-den einen Stumm-
+ []
+
+[7] [8] [9] [10] [11] [12] [13]
+Package epstopdf Info: Source file: <abb1-versuchsaufbau.eps>
+(epstopdf)                    date: 2013-09-05 00:54:54
+(epstopdf)                    size: 1356334 bytes
+(epstopdf)             Output file: <abb1-versuchsaufbau-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=abb1-versuchsaufbau-eps-con
+verted-to.pdf abb1-versuchsaufbau.eps>
+(epstopdf)             \includegraphics on input line 179.
+runsystem(epstopdf --outfile=abb1-versuchsaufbau-eps-converted-to.pdf abb1-vers
+uchsaufbau.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <abb1-versuchsaufbau-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-09-05 00:55:08
+(epstopdf)                    size: 9170 bytes.
+
+<abb1-versuchsaufbau-eps-converted-to.pdf, id=58, 1003.75pt x 558.085pt>
+File: abb1-versuchsaufbau-eps-converted-to.pdf Graphic file (type pdf)
+
+<use abb1-versuchsaufbau-eps-converted-to.pdf>
+Package pdftex.def Info: abb1-versuchsaufbau-eps-converted-to.pdf used on input
+ line 179.
+(pdftex.def)             Requested size: 226.56696pt x 125.97246pt.
+
+Overfull \hbox (12.72531pt too wide) in paragraph at lines 179--181
+[][]
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 189.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 189.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 189.
+
+Underfull \hbox (badness 1735) in paragraph at lines 189--190
+\T1/lmr/m/n/12 Spei-chern der Re-ak-ti-ons-da-ten
+ []
+
+[14 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb1-versuchsau
+fbau-eps-converted-to.pdf>] [15] [16] [17] [18] [19]
 Package epstopdf Info: Source file: <abb3-dprime.eps>
 (epstopdf)                    date: 2013-08-29 22:59:20
 (epstopdf)                    size: 800126 bytes
@@ -1041,23 +1047,23 @@ Package epstopdf Info: Source file: <abb3-dprime.eps>
 (epstopdf)                    size: 17060 bytes
 (epstopdf)             Command: <epstopdf --outfile=abb3-dprime-eps-converted-t
 o.pdf abb3-dprime.eps>
-(epstopdf)             \includegraphics on input line 272.
+(epstopdf)             \includegraphics on input line 279.
 Package epstopdf Info: Output file is already uptodate.
 
-<abb3-dprime-eps-converted-to.pdf, id=79, 461.725pt x 340.27126pt>
+<abb3-dprime-eps-converted-to.pdf, id=86, 461.725pt x 340.27126pt>
 File: abb3-dprime-eps-converted-to.pdf Graphic file (type pdf)
 
 <use abb3-dprime-eps-converted-to.pdf>
 Package pdftex.def Info: abb3-dprime-eps-converted-to.pdf used on input line 27
-2.
+9.
 (pdftex.def)             Requested size: 433.62pt x 319.55907pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 272--274
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 279--281
 [][]
  []
 
-[19] [20 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb3-dprim
-e-eps-converted-to.pdf>] [21] [22] [23] [24]
+[20] [21 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb3-dprim
+e-eps-converted-to.pdf>] [22] [23] [24] [25]
 Package epstopdf Info: Source file: <abb4-strategien.eps>
 (epstopdf)                    date: 2013-09-01 19:26:30
 (epstopdf)                    size: 742566 bytes
@@ -1066,49 +1072,38 @@ Package epstopdf Info: Source file: <abb4-strategien.eps>
 (epstopdf)                    size: 22461 bytes
 (epstopdf)             Command: <epstopdf --outfile=abb4-strategien-eps-convert
 ed-to.pdf abb4-strategien.eps>
-(epstopdf)             \includegraphics on input line 328.
+(epstopdf)             \includegraphics on input line 337.
 Package epstopdf Info: Output file is already uptodate.
 
-<abb4-strategien-eps-converted-to.pdf, id=109, 408.52625pt x 257.96375pt>
+<abb4-strategien-eps-converted-to.pdf, id=116, 408.52625pt x 257.96375pt>
 File: abb4-strategien-eps-converted-to.pdf Graphic file (type pdf)
 
 <use abb4-strategien-eps-converted-to.pdf>
 Package pdftex.def Info: abb4-strategien-eps-converted-to.pdf used on input lin
-e 328.
+e 337.
 (pdftex.def)             Requested size: 433.62pt x 273.826pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 328--330
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 337--339
 [][]
  []
 
-[25] [26 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb4-strat
-egien-eps-converted-to.pdf>] [27]
-Overfull \hbox (4.31027pt too wide) in paragraph at lines 361--362
+[26] [27 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb4-strat
+egien-eps-converted-to.pdf>] [28]
+Overfull \hbox (4.31027pt too wide) in paragraph at lines 370--371
  \T1/lmr/bx/n/12 Hy-po-the-se 2.[] \T1/lmr/m/n/12 Ei-ne Be-ein-flus-sung im-pli
 -zi-ter und ex-pli-zi-ter Pro-zes-se er-folgt durch
  []
 
-[28] [29] [30] [31]
+[29] [30] [31] [32]
 (C:\Users\Carlo\Privat\Lebensphasen\Exploeco\entwicklung\ba\bachelorarbeit.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                bachelorarbeit
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'bachelorarbeit.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 11439 strings out of 494045
- 183642 string characters out of 3145968
- 623432 words of memory out of 3000000
- 14510 multiletter control sequences out of 15000+200000
- 36788 words of font info for 38 fonts, out of 3000000 for 9000
+ 11490 strings out of 494045
+ 184236 string characters out of 3145968
+ 622531 words of memory out of 3000000
+ 14545 multiletter control sequences out of 15000+200000
+ 67337 words of font info for 59 fonts, out of 3000000 for 9000
  719 hyphenation exceptions out of 8191
  43i,10n,57p,2761b,1602s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Progr
@@ -1116,11 +1111,14 @@ am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /public/lm/lmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
-lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on bachelorarbeit.pdf (31 pages, 192198 bytes).
+lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/lm/lmsy10.pfb>
+Output written on bachelorarbeit.pdf (32 pages, 258151 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
+ 181 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

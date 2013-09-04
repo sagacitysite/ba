@@ -49,46 +49,6 @@
       \field{year}{2008}
       \field{pages}{1111\bibrangedash 1119}
     \endentry
-    \entry{bishop2004mindfulness}{article}{}
-      \name{labelname}{10}{}{%
-        {{uniquename=0,hash=34704ffc4f93924335d6cf4352f24a3f}{Bishop}{B\bibinitperiod}{Scott\bibnamedelima R}{S\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=4e72ff56ec11c3efeee3aef89830c740}{Lau}{L\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=1c11a9928176282a802440bc976d3507}{Shapiro}{S\bibinitperiod}{Shauna}{S\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=c49169033f11ac3621739d95d961b9f9}{Carlson}{C\bibinitperiod}{Linda}{L\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=8e791dc5495de24bc097f51acc99eea4}{Anderson}{A\bibinitperiod}{Nicole\bibnamedelima D}{N\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=0d9454175a9ab4ae593f8106ff0e47c3}{Carmody}{C\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=d914b6d9d589ff0eea904e0314f375a9}{Segal}{S\bibinitperiod}{Zindel\bibnamedelima V}{Z\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=3373609bea254ddb14d7845b89ba4649}{Abbey}{A\bibinitperiod}{Susan}{S\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=e35aba844592ae19bbc9c9552ca7beef}{Speca}{S\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=c262484785990c68017e46a05a611b71}{Velting}{V\bibinitperiod}{Drew}{D\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{10}{}{%
-        {{uniquename=0,hash=34704ffc4f93924335d6cf4352f24a3f}{Bishop}{B\bibinitperiod}{Scott\bibnamedelima R}{S\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=4e72ff56ec11c3efeee3aef89830c740}{Lau}{L\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=1c11a9928176282a802440bc976d3507}{Shapiro}{S\bibinitperiod}{Shauna}{S\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=c49169033f11ac3621739d95d961b9f9}{Carlson}{C\bibinitperiod}{Linda}{L\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=8e791dc5495de24bc097f51acc99eea4}{Anderson}{A\bibinitperiod}{Nicole\bibnamedelima D}{N\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=0d9454175a9ab4ae593f8106ff0e47c3}{Carmody}{C\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=d914b6d9d589ff0eea904e0314f375a9}{Segal}{S\bibinitperiod}{Zindel\bibnamedelima V}{Z\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=3373609bea254ddb14d7845b89ba4649}{Abbey}{A\bibinitperiod}{Susan}{S\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=e35aba844592ae19bbc9c9552ca7beef}{Speca}{S\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=c262484785990c68017e46a05a611b71}{Velting}{V\bibinitperiod}{Drew}{D\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley Online Library}%
-      }
-      \strng{namehash}{bc3272694f06b7918ad972ddc8f2cc1f}
-      \strng{fullhash}{d0ed79c23a66e8edb9c7d1ec1add39b9}
-      \field{sortinit}{B}
-      \field{labelyear}{2004}
-      \field{labeltitle}{Mindfulness: A proposed operational definition}
-      \field{journaltitle}{Clinical psychology: Science and practice}
-      \field{number}{3}
-      \field{title}{Mindfulness: A proposed operational definition}
-      \field{volume}{11}
-      \field{year}{2004}
-      \field{pages}{230\bibrangedash 241}
-    \endentry
     \entry{brent1996distributional}{article}{}
       \name{labelname}{2}{}{%
         {{uniquename=0,hash=d54f68e509ef07ceeeb8f0811b78361b}{Brent}{B\bibinitperiod}{Michael\bibnamedelima R}{M\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
@@ -241,12 +201,12 @@
     \endentry
     \entry{naatanen1978early}{article}{}
       \name{labelname}{3}{}{%
-        {{uniquename=0,hash=09692f3d39fa058597fdcb696c976872}{Näätänen}{N\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=2,hash=09692f3d39fa058597fdcb696c976872}{Näätänen}{N\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
         {{uniquename=0,hash=27c59ce46d525685b84bf1e1626e1179}{Gaillard}{G\bibinitperiod}{Anthony\bibnamedelima WK}{A\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
         {{uniquename=0,hash=7ad0bdb331fa6b099ca9a565d70ccd44}{Mäntysalo}{M\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{3}{}{%
-        {{uniquename=0,hash=09692f3d39fa058597fdcb696c976872}{Näätänen}{N\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=2,hash=09692f3d39fa058597fdcb696c976872}{Näätänen}{N\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
         {{uniquename=0,hash=27c59ce46d525685b84bf1e1626e1179}{Gaillard}{G\bibinitperiod}{Anthony\bibnamedelima WK}{A\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
         {{uniquename=0,hash=7ad0bdb331fa6b099ca9a565d70ccd44}{Mäntysalo}{M\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
       }
@@ -264,6 +224,34 @@
       \field{volume}{42}
       \field{year}{1978}
       \field{pages}{313\bibrangedash 329}
+    \endentry
+    \entry{naatanen2007mismatch}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=2,hash=a45dbd4fca1fc6426ee99751faa0cbc8}{Näätänen}{N\bibinitperiod}{Risto}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b6eab4b63dd3c60819554fa9e94189d7}{Paavilainen}{P\bibinitperiod}{Petri}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=41dae80c39e83e80db0c52024b807a1f}{Rinne}{R\bibinitperiod}{Teemu}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ed05df0292b2654394f83d56ef372667}{Alho}{A\bibinitperiod}{Kimmo}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=2,hash=a45dbd4fca1fc6426ee99751faa0cbc8}{Näätänen}{N\bibinitperiod}{Risto}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b6eab4b63dd3c60819554fa9e94189d7}{Paavilainen}{P\bibinitperiod}{Petri}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=41dae80c39e83e80db0c52024b807a1f}{Rinne}{R\bibinitperiod}{Teemu}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ed05df0292b2654394f83d56ef372667}{Alho}{A\bibinitperiod}{Kimmo}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{fec651ab65aaa01709911b8392492c7b}
+      \strng{fullhash}{c566f27221e2ac927c62c29ea95c4bf6}
+      \field{sortinit}{N}
+      \field{labelyear}{2007}
+      \field{labeltitle}{The mismatch negativity (MMN) in basic research of central auditory processing: a review}
+      \field{journaltitle}{Clinical Neurophysiology}
+      \field{number}{12}
+      \field{title}{The mismatch negativity (MMN) in basic research of central auditory processing: a review}
+      \field{volume}{118}
+      \field{year}{2007}
+      \field{pages}{2544\bibrangedash 2590}
     \endentry
     \entry{paavilainen2007preattentive}{article}{}
       \name{labelname}{3}{}{%
@@ -338,6 +326,28 @@
       \field{volume}{35}
       \field{year}{1996}
       \field{pages}{606\bibrangedash 621}
+    \endentry
+    \entry{schroger2007mismatch}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=bff133cef44b76591dae36c4e6c30761}{Schröger}{S\bibinitperiod}{Erich}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=bff133cef44b76591dae36c4e6c30761}{Schröger}{S\bibinitperiod}{Erich}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Hogrefe \& Huber Publishers}%
+      }
+      \strng{namehash}{bff133cef44b76591dae36c4e6c30761}
+      \strng{fullhash}{bff133cef44b76591dae36c4e6c30761}
+      \field{sortinit}{S}
+      \field{labelyear}{2007}
+      \field{labeltitle}{Mismatch negativity: A microphone into auditory memory.}
+      \field{journaltitle}{Journal of Psychophysiology}
+      \field{number}{3-4}
+      \field{title}{Mismatch negativity: A microphone into auditory memory.}
+      \field{volume}{21}
+      \field{year}{2007}
+      \field{pages}{138}
     \endentry
     \entry{stamov2001revealing}{article}{}
       \name{labelname}{1}{}{%

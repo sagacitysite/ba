@@ -2079,23 +2079,32 @@
     <bcf:citekey order="5">goldman1958speech</bcf:citekey>
     <bcf:citekey order="6">drake2001quest</bcf:citekey>
     <bcf:citekey order="7">naatanen1978early</bcf:citekey>
-    <bcf:citekey order="8">hoffmann1998implicit</bcf:citekey>
-    <bcf:citekey order="9">stamov2001revealing</bcf:citekey>
-    <bcf:citekey order="10">paavilainen2007preattentive</bcf:citekey>
-    <bcf:citekey order="11">paavilainen2007preattentive</bcf:citekey>
-    <bcf:citekey order="12">bendixen2008rapid</bcf:citekey>
+    <bcf:citekey order="8">schroger2007mismatch</bcf:citekey>
+    <bcf:citekey order="9">naatanen2007mismatch</bcf:citekey>
+    <bcf:citekey order="10">hoffmann1998implicit</bcf:citekey>
+    <bcf:citekey order="11">stamov2001revealing</bcf:citekey>
+    <bcf:citekey order="12">paavilainen2007preattentive</bcf:citekey>
     <bcf:citekey order="13">paavilainen2007preattentive</bcf:citekey>
-    <bcf:citekey order="14">fitts1967human</bcf:citekey>
-    <bcf:citekey order="15">whitmore2009coaching</bcf:citekey>
-    <bcf:citekey order="16">fitts1967human</bcf:citekey>
-    <bcf:citekey order="17">kozulin2003vygotsky</bcf:citekey>
+    <bcf:citekey order="14">paavilainen2007preattentive</bcf:citekey>
+    <bcf:citekey order="15">bendixen2008rapid</bcf:citekey>
+    <bcf:citekey order="16">paavilainen2007preattentive</bcf:citekey>
+    <bcf:citekey order="17">fitts1967human</bcf:citekey>
     <bcf:citekey order="18">whitmore2009coaching</bcf:citekey>
-    <bcf:citekey order="19">fitts1967human</bcf:citekey>
-    <bcf:citekey order="20">fitts1967human</bcf:citekey>
-    <bcf:citekey order="21">paavilainen2007preattentive</bcf:citekey>
+    <bcf:citekey order="19">bendixen2008rapid</bcf:citekey>
+    <bcf:citekey order="20">paavilainen2007preattentive</bcf:citekey>
+    <bcf:citekey order="21">fitts1967human</bcf:citekey>
     <bcf:citekey order="22">bendixen2008rapid</bcf:citekey>
     <bcf:citekey order="23">paavilainen2007preattentive</bcf:citekey>
     <bcf:citekey order="24">bendixen2008rapid</bcf:citekey>
+    <bcf:citekey order="25">kozulin2003vygotsky</bcf:citekey>
+    <bcf:citekey order="26">whitmore2009coaching</bcf:citekey>
+    <bcf:citekey order="27">bendixen2008rapid</bcf:citekey>
+    <bcf:citekey order="28">fitts1967human</bcf:citekey>
+    <bcf:citekey order="29">fitts1967human</bcf:citekey>
+    <bcf:citekey order="30">paavilainen2007preattentive</bcf:citekey>
+    <bcf:citekey order="31">bendixen2008rapid</bcf:citekey>
+    <bcf:citekey order="32">paavilainen2007preattentive</bcf:citekey>
+    <bcf:citekey order="33">bendixen2008rapid</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="apa">
   <bcf:sorting>
