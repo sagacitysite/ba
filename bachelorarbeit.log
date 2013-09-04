@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.14)  5 SEP 2013 00:55
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.14)  5 SEP 2013 01:33
 entering extended mode
 **bachelorarbeit.tex
 (C:\Users\Carlo\Privat\Lebensphasen\Exploeco\entwicklung\ba\bachelorarbeit.tex
@@ -1004,15 +1004,12 @@ Package epstopdf Info: Source file: <abb1-versuchsaufbau.eps>
 (epstopdf)                    date: 2013-09-05 00:54:54
 (epstopdf)                    size: 1356334 bytes
 (epstopdf)             Output file: <abb1-versuchsaufbau-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-09-05 00:55:08
+(epstopdf)                    size: 9170 bytes
 (epstopdf)             Command: <epstopdf --outfile=abb1-versuchsaufbau-eps-con
 verted-to.pdf abb1-versuchsaufbau.eps>
 (epstopdf)             \includegraphics on input line 179.
-runsystem(epstopdf --outfile=abb1-versuchsaufbau-eps-converted-to.pdf abb1-vers
-uchsaufbau.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <abb1-versuchsaufbau-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-09-05 00:55:08
-(epstopdf)                    size: 9170 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <abb1-versuchsaufbau-eps-converted-to.pdf, id=58, 1003.75pt x 558.085pt>
 File: abb1-versuchsaufbau-eps-converted-to.pdf Graphic file (type pdf)
@@ -1033,8 +1030,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 189.
 
-Underfull \hbox (badness 1735) in paragraph at lines 189--190
-\T1/lmr/m/n/12 Spei-chern der Re-ak-ti-ons-da-ten
+Underfull \hbox (badness 2181) in paragraph at lines 189--190
+\T1/lmr/m/n/12 das Pro-gramm für den Ver-
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 189--190
+\T1/lmr/m/n/12 such[] aus-ge-führt, die-ser wur-
  []
 
 [14 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb1-versuchsau
@@ -1047,7 +1049,7 @@ Package epstopdf Info: Source file: <abb3-dprime.eps>
 (epstopdf)                    size: 17060 bytes
 (epstopdf)             Command: <epstopdf --outfile=abb3-dprime-eps-converted-t
 o.pdf abb3-dprime.eps>
-(epstopdf)             \includegraphics on input line 279.
+(epstopdf)             \includegraphics on input line 278.
 Package epstopdf Info: Output file is already uptodate.
 
 <abb3-dprime-eps-converted-to.pdf, id=86, 461.725pt x 340.27126pt>
@@ -1055,10 +1057,10 @@ File: abb3-dprime-eps-converted-to.pdf Graphic file (type pdf)
 
 <use abb3-dprime-eps-converted-to.pdf>
 Package pdftex.def Info: abb3-dprime-eps-converted-to.pdf used on input line 27
-9.
+8.
 (pdftex.def)             Requested size: 433.62pt x 319.55907pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 279--281
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 278--280
 [][]
  []
 
@@ -1072,7 +1074,7 @@ Package epstopdf Info: Source file: <abb4-strategien.eps>
 (epstopdf)                    size: 22461 bytes
 (epstopdf)             Command: <epstopdf --outfile=abb4-strategien-eps-convert
 ed-to.pdf abb4-strategien.eps>
-(epstopdf)             \includegraphics on input line 337.
+(epstopdf)             \includegraphics on input line 336.
 Package epstopdf Info: Output file is already uptodate.
 
 <abb4-strategien-eps-converted-to.pdf, id=116, 408.52625pt x 257.96375pt>
@@ -1080,29 +1082,32 @@ File: abb4-strategien-eps-converted-to.pdf Graphic file (type pdf)
 
 <use abb4-strategien-eps-converted-to.pdf>
 Package pdftex.def Info: abb4-strategien-eps-converted-to.pdf used on input lin
-e 337.
+e 336.
 (pdftex.def)             Requested size: 433.62pt x 273.826pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 337--339
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 336--338
 [][]
  []
 
-[26] [27 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb4-strat
-egien-eps-converted-to.pdf>] [28]
-Overfull \hbox (4.31027pt too wide) in paragraph at lines 370--371
+[26 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb4-strategien
+-eps-converted-to.pdf>] [27] [28]
+Overfull \hbox (4.31027pt too wide) in paragraph at lines 369--370
  \T1/lmr/bx/n/12 Hy-po-the-se 2.[] \T1/lmr/m/n/12 Ei-ne Be-ein-flus-sung im-pli
 -zi-ter und ex-pli-zi-ter Pro-zes-se er-folgt durch
  []
 
 [29] [30] [31] [32]
 (C:\Users\Carlo\Privat\Lebensphasen\Exploeco\entwicklung\ba\bachelorarbeit.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'bachelorarbeit.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 11490 strings out of 494045
- 184236 string characters out of 3145968
+ 11494 strings out of 494045
+ 184288 string characters out of 3145968
  622531 words of memory out of 3000000
- 14545 multiletter control sequences out of 15000+200000
+ 14549 multiletter control sequences out of 15000+200000
  67337 words of font info for 59 fonts, out of 3000000 for 9000
  719 hyphenation exceptions out of 8191
  43i,10n,57p,2761b,1602s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1116,7 +1121,7 @@ lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C
 es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/lm/lmsy10.pfb>
-Output written on bachelorarbeit.pdf (32 pages, 258151 bytes).
+Output written on bachelorarbeit.pdf (32 pages, 257687 bytes).
 PDF statistics:
  181 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
