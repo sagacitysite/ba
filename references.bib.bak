@@ -93,7 +93,7 @@
 }
 
 @ARTICLE{naatanen1978early,
-  author = {N{\"a}{\"a}t{\"a}nen, R and Gaillard, Anthony WK and M{\"a}ntysalo,
+  author = {N{\"a}{\"a}t{\"a}nen, Risto and Gaillard, Anthony WK and M{\"a}ntysalo,
 	S},
   title = {Early selective-attention effect on evoked potential reinterpreted},
   journal = {Acta psychologica},
@@ -101,6 +101,19 @@
   volume = {42},
   pages = {313--329},
   number = {4},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{naatanen2007mismatch,
+  author = {N{\"a}{\"a}t{\"a}nen, Risto and Paavilainen, Petri and Rinne, Teemu
+	and Alho, Kimmo},
+  title = {The mismatch negativity (MMN) in basic research of central auditory
+	processing: a review},
+  journal = {Clinical Neurophysiology},
+  year = {2007},
+  volume = {118},
+  pages = {2544--2590},
+  number = {12},
   publisher = {Elsevier}
 }
 
