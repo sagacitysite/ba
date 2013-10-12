@@ -73,6 +73,30 @@
       \field{year}{1996}
       \field{pages}{93\bibrangedash 125}
     \endentry
+    \entry{diekelmann2010memory}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=a10490ed6c9aaa5fc3e5c402f22c1e9b}{Diekelmann}{D\bibinitperiod}{Susanne}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=be40d415beb141280137e5b46fdd8771}{Born}{B\bibinitperiod}{Jan}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=a10490ed6c9aaa5fc3e5c402f22c1e9b}{Diekelmann}{D\bibinitperiod}{Susanne}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=be40d415beb141280137e5b46fdd8771}{Born}{B\bibinitperiod}{Jan}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{49796abc69ec8b8161a897349e45d8d4}
+      \strng{fullhash}{49796abc69ec8b8161a897349e45d8d4}
+      \field{sortinit}{D}
+      \field{labelyear}{2010}
+      \field{labeltitle}{The memory function of sleep}
+      \field{journaltitle}{Nature Reviews Neuroscience}
+      \field{number}{2}
+      \field{title}{The memory function of sleep}
+      \field{volume}{11}
+      \field{year}{2010}
+      \field{pages}{114\bibrangedash 126}
+    \endentry
     \entry{drake2001quest}{article}{}
       \name{labelname}{2}{}{%
         {{uniquename=0,hash=104a3dccd7d452c9f5de9f65a6c9e371}{Drake}{D\bibinitperiod}{Carolyn}{C\bibinitperiod}{}{}{}{}}%
@@ -253,6 +277,28 @@
       \field{year}{2007}
       \field{pages}{2544\bibrangedash 2590}
     \endentry
+    \entry{nakamura2002concept}{incollection}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=1cf36b62a4978708cbf54e3cde0c472c}{Nakamura}{N\bibinitperiod}{Jeanne}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4102f9749c0a86a4a970e9b54bfb1b29}{Csikszentmihalyi}{C\bibinitperiod}{Mihaly}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=1cf36b62a4978708cbf54e3cde0c472c}{Nakamura}{N\bibinitperiod}{Jeanne}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4102f9749c0a86a4a970e9b54bfb1b29}{Csikszentmihalyi}{C\bibinitperiod}{Mihaly}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{9c5b3fd7dc244bf319fe9c321d140acb}
+      \strng{fullhash}{9c5b3fd7dc244bf319fe9c321d140acb}
+      \field{sortinit}{N}
+      \field{labelyear}{2002}
+      \field{labeltitle}{The concept of flow}
+      \field{booktitle}{Handbook of positive psychology}
+      \field{title}{The concept of flow}
+      \field{year}{2002}
+      \field{pages}{89\bibrangedash 105}
+    \endentry
     \entry{paavilainen2007preattentive}{article}{}
       \name{labelname}{3}{}{%
         {{uniquename=0,hash=b6eab4b63dd3c60819554fa9e94189d7}{Paavilainen}{P\bibinitperiod}{Petri}{P\bibinitperiod}{}{}{}{}}%
@@ -327,6 +373,72 @@
       \field{year}{1996}
       \field{pages}{606\bibrangedash 621}
     \endentry
+    \entry{sallinen2008recovery}{article}{}
+      \name{labelname}{10}{}{%
+        {{uniquename=0,hash=9f1e7b555c7246bcd00546fc1c6b9060}{Sallinen}{S\bibinitperiod}{Mikael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ed7941a7385640bed4800b4c4085f547}{Holm}{H\bibinitperiod}{Anu}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8732e0de2430259b5dfb4bcc846249f0}{Hiltunen}{H\bibinitperiod}{Jaana}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a47c404b19f549e57bef3fdd98fb1ab2}{Hirvonen}{H\bibinitperiod}{Kati}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a882a22d4177592377fa7d64f1994ccb}{Härmä}{H\bibinitperiod}{Mikko}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d735bc5c151ea97a83ed4c09b8ea31d9}{Koskelo}{K\bibinitperiod}{Jukka}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=660259782abc3153c70322c12b7b8b67}{Letonsaari}{L\bibinitperiod}{Mika}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ec1bec6f94ad015a01f4b1b91783f37e}{Luukkonen}{L\bibinitperiod}{Ritva}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=95378fb938af615269d96a7c9ff83fc8}{Virkkala}{V\bibinitperiod}{Jussi}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=72ec302d73d47e9ba7bc466f80817104}{Müller}{M\bibinitperiod}{Kiti}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{10}{}{%
+        {{uniquename=0,hash=9f1e7b555c7246bcd00546fc1c6b9060}{Sallinen}{S\bibinitperiod}{Mikael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ed7941a7385640bed4800b4c4085f547}{Holm}{H\bibinitperiod}{Anu}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8732e0de2430259b5dfb4bcc846249f0}{Hiltunen}{H\bibinitperiod}{Jaana}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a47c404b19f549e57bef3fdd98fb1ab2}{Hirvonen}{H\bibinitperiod}{Kati}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a882a22d4177592377fa7d64f1994ccb}{Härmä}{H\bibinitperiod}{Mikko}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d735bc5c151ea97a83ed4c09b8ea31d9}{Koskelo}{K\bibinitperiod}{Jukka}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=660259782abc3153c70322c12b7b8b67}{Letonsaari}{L\bibinitperiod}{Mika}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ec1bec6f94ad015a01f4b1b91783f37e}{Luukkonen}{L\bibinitperiod}{Ritva}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=95378fb938af615269d96a7c9ff83fc8}{Virkkala}{V\bibinitperiod}{Jussi}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=72ec302d73d47e9ba7bc466f80817104}{Müller}{M\bibinitperiod}{Kiti}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Informa UK Ltd UK}%
+      }
+      \strng{namehash}{1d8156c73651f9f0cb53b5992f8b6307}
+      \strng{fullhash}{2fe4b87b7a867b34aa8755dc0414962b}
+      \field{sortinit}{S}
+      \field{labelyear}{2008}
+      \field{labeltitle}{Recovery of cognitive performance from sleep debt: do a short rest pause and a single recovery night help?}
+      \field{journaltitle}{Chronobiology international}
+      \field{number}{2-3}
+      \field{title}{Recovery of cognitive performance from sleep debt: do a short rest pause and a single recovery night help?}
+      \field{volume}{25}
+      \field{year}{2008}
+      \field{pages}{279\bibrangedash 296}
+    \endentry
+    \entry{sanders2002segmenting}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=504ba159d00f203ba81b74d3f83f0d3a}{Sanders}{S\bibinitperiod}{Lisa\bibnamedelima D}{L\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=35b04668ae7fe549dfb40442d51240aa}{Newport}{N\bibinitperiod}{Elissa\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=12986dba6e4652e13032a5e125cf0edf}{Neville}{N\bibinitperiod}{Helen\bibnamedelima J}{H\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=504ba159d00f203ba81b74d3f83f0d3a}{Sanders}{S\bibinitperiod}{Lisa\bibnamedelima D}{L\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=35b04668ae7fe549dfb40442d51240aa}{Newport}{N\bibinitperiod}{Elissa\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=12986dba6e4652e13032a5e125cf0edf}{Neville}{N\bibinitperiod}{Helen\bibnamedelima J}{H\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{d5fd466a1864e6d7f49193536f843a09}
+      \strng{fullhash}{b2ad776ede053e363ee20998c62b0f7b}
+      \field{sortinit}{S}
+      \field{labelyear}{2002}
+      \field{labeltitle}{Segmenting nonsense: an event-related potential index of perceived onsets in continuous speech}
+      \field{journaltitle}{Nature neuroscience}
+      \field{number}{7}
+      \field{title}{Segmenting nonsense: an event-related potential index of perceived onsets in continuous speech}
+      \field{volume}{5}
+      \field{year}{2002}
+      \field{pages}{700\bibrangedash 703}
+    \endentry
     \entry{schroger2007mismatch}{article}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=bff133cef44b76591dae36c4e6c30761}{Schröger}{S\bibinitperiod}{Erich}{E\bibinitperiod}{}{}{}{}}%
@@ -370,6 +482,33 @@
       \field{volume}{27}
       \field{year}{2001}
       \field{pages}{1276}
+    \endentry
+    \entry{vanrullen2011ongoing}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=c4aed5150051509bd8bd507d9b03e4c8}{VanRullen}{V\bibinitperiod}{Rufin}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f88a1ea254e26bb7235d8712242baca1}{Busch}{B\bibinitperiod}{NA}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4e19e0f0334fbd9ed3a27968ba1d9242}{Drewes}{D\bibinitperiod}{Jan}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=61b2db16a1fb34f2d5fe41926df00f34}{Dubois}{D\bibinitperiod}{Julien}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=c4aed5150051509bd8bd507d9b03e4c8}{VanRullen}{V\bibinitperiod}{Rufin}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f88a1ea254e26bb7235d8712242baca1}{Busch}{B\bibinitperiod}{NA}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4e19e0f0334fbd9ed3a27968ba1d9242}{Drewes}{D\bibinitperiod}{Jan}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=61b2db16a1fb34f2d5fe41926df00f34}{Dubois}{D\bibinitperiod}{Julien}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media SA}%
+      }
+      \strng{namehash}{6825cd5f9a541040ab4110d6f21a51bc}
+      \strng{fullhash}{db6b28f97e41e3452f17f55cf534bd7a}
+      \field{sortinit}{V}
+      \field{labelyear}{2011}
+      \field{labeltitle}{Ongoing EEG phase as a trial-by-trial predictor of perceptual and attentional variability}
+      \field{journaltitle}{Frontiers in psychology}
+      \field{title}{Ongoing EEG phase as a trial-by-trial predictor of perceptual and attentional variability}
+      \field{volume}{2}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 9}
     \endentry
     \entry{whitmore2009coaching}{book}{}
       \name{labelname}{1}{}{%

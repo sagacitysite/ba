@@ -38,6 +38,17 @@
   publisher = {Elsevier}
 }
 
+@ARTICLE{diekelmann2010memory,
+  author = {Diekelmann, Susanne and Born, Jan},
+  title = {The memory function of sleep},
+  journal = {Nature Reviews Neuroscience},
+  year = {2010},
+  volume = {11},
+  pages = {114--126},
+  number = {2},
+  publisher = {Nature Publishing Group}
+}
+
 @ARTICLE{drake2001quest,
   author = {Drake, Carolyn and Bertrand, Daisy},
   title = {The quest for universals in temporal processing in music},
@@ -117,6 +128,15 @@
   publisher = {Elsevier}
 }
 
+@INCOLLECTION{nakamura2002concept,
+  author = {Nakamura, Jeanne and Csikszentmihalyi, Mihaly},
+  title = {The concept of flow},
+  booktitle = {Handbook of positive psychology},
+  publisher = {Oxford University Press},
+  year = {2002},
+  pages = {89--105}
+}
+
 @ARTICLE{paavilainen2007preattentive,
   author = {Paavilainen, Petri and Araj{\"a}rvi, Paula and Takegata, Rika},
   title = {Preattentive detection of nonsalient contingencies between auditory
@@ -152,6 +172,32 @@
   publisher = {Elsevier}
 }
 
+@ARTICLE{sallinen2008recovery,
+  author = {Sallinen, Mikael and Holm, Anu and Hiltunen, Jaana and Hirvonen,
+	Kati and H{\"a}rm{\"a}, Mikko and Koskelo, Jukka and Letonsaari,
+	Mika and Luukkonen, Ritva and Virkkala, Jussi and M{\"u}ller, Kiti},
+  title = {Recovery of cognitive performance from sleep debt: do a short rest
+	pause and a single recovery night help?},
+  journal = {Chronobiology international},
+  year = {2008},
+  volume = {25},
+  pages = {279--296},
+  number = {2-3},
+  publisher = {Informa UK Ltd UK}
+}
+
+@ARTICLE{sanders2002segmenting,
+  author = {Sanders, Lisa D and Newport, Elissa L and Neville, Helen J},
+  title = {Segmenting nonsense: an event-related potential index of perceived
+	onsets in continuous speech},
+  journal = {Nature neuroscience},
+  year = {2002},
+  volume = {5},
+  pages = {700--703},
+  number = {7},
+  publisher = {Nature Publishing Group}
+}
+
 @ARTICLE{schroger2007mismatch,
   author = {Schr{\"o}ger, Erich},
   title = {Mismatch negativity: A microphone into auditory memory.},
@@ -173,6 +219,17 @@
   pages = {1276},
   number = {5},
   publisher = {American Psychological Association}
+}
+
+@ARTICLE{vanrullen2011ongoing,
+  author = {VanRullen, Rufin and Busch, NA and Drewes, Jan and Dubois, Julien},
+  title = {Ongoing EEG phase as a trial-by-trial predictor of perceptual and
+	attentional variability},
+  journal = {Frontiers in psychology},
+  year = {2011},
+  volume = {2},
+  pages = {1-9},
+  publisher = {Frontiers Media SA}
 }
 
 @BOOK{whitmore2009coaching,
