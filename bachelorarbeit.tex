@@ -180,9 +180,6 @@ In Abbildung \ref{experiment} ist eine Skizze des Versuchsaufbaus gezeigt. Das E
     \caption{Aufbau des Experimentes. Laptop 1 (L1) mit Programm für Experiment und Laptop 2 (L2) für Versuchsleiter (VL). Bildschirm (B), Maus (M) und Kopfhörer (nicht eingezeichnet) für Versuchsperson (VP).}
     \label{experiment}
   \end{minipage}
-% ################
-% Anhang ergänzen!
-% ################
 \end{wrapfigure}
 
 Auf Laptop 1 (L1) wurde das Programm für den Versuch\footnote{\label{foot:1}Der Programmcode für den Versuch wurde in einer Vorversion von Prof. Dr. Alexandra Bendixen zur Verfügung gestellt.} ausgeführt, dieser wurde vom Versuchsleiter (VL) bedient. Für das Abspielen der Töne und das Speichern der Reaktionsdaten wurde Matlab verwendet. Der Laptop (L1) war an den Bildschirm (B) angeschlossen, welcher der Versuchsperson (VP) zur Verfügung stand. Auf diesem Bildschirm wurde angezeigt, wenn die Versuchsperson reagieren sollte. Dafür stand der Versuchsperson eine Computer-Maus (M) mit 2 Tasten zur Verfügung. Während in den bisherigen Experimenten auch immer eine EEG-Messung durchgeführt wurde, beschränkte sich dieses Experiment auf Reaktionsdaten (d-prime und Reaktionszeit). Des Weiteren wurde ein zweiter Laptop (L2) verwendet, damit der Versuchsleiter (VL) die Versuchsperson während der Blöcke nicht stört. Unter Experimentalbedingungen im Labor sind Versuchsleiter und Versuchsperson räumlich getrennt. In diesem Fall war eine räumliche Trennung nicht möglich. Um etwaige Versuchsleitereffekte zu minimieren, sollte der Versuchsleiter nicht den Eindruck vermitteln, die Versuchsperson zu beobachten oder gar zu kontrollieren. Auch subtile Reaktionen des Versuchsleiters auf eventuelles gutes oder schlechtes Abschneiden der Versuchsperson sollten vermieden werden. Dafür wurde zusätzlich zu der Verwendung von L2 der Bildschirm von L1 maximal abgedunkelt und nach Möglichkeit vom Versuchsleiter während der Stimulus-Präsentation nicht beachtete. Die Ablenkung an L2 erfolgte durch kognitiv anstrengende Aufgaben. Dabei wurde sichergestellt, dass der Versuchsleiter nach dem Ende eines Blockes unverzüglich wieder zur Versuchsperson umschaltete. Die Versuchsperson musste nach Beendigung eines Blockes sofort und direkt die volle Aufmerksamkeit bekommen, um die Motivation aufrecht zu erhalten.
@@ -258,7 +255,7 @@ In Block 4 wurde das ISI wieder auf die ursprünglichen 300\,ms gestellt. In die
 
 \subsubsection{(7) Nachbereitung}
 
-Nach Block 4 wurde die Versuchsperson noch ein letztes Mal offen über den Versuch befragt. Es wurden letzte Formalien geklärt und ein Fragebogen zur Musikalität ausgefüllt. Nach der Verabschiedung der Versuchsperson wurden alle Daten gesichert.
+Nach Block 4 wurde die Versuchsperson noch ein letztes Mal offen über den Versuch befragt. Es wurden letzte Formalien geklärt und ein Fragebogen zur Musikalität ausgefüllt (siehe Anhang). Nach der Verabschiedung der Versuchsperson wurden alle Daten gesichert.
 
 Die Hypothese, die in der Einleitung formuliert worden war, lässt sich an dieser Stelle anhand des konkreten Experimentes präzisieren. Wenn ein expliziter Lernprozess prozeduralen Wissens nach der Lerntheorie möglich ist, dann sollte die Leistung in der Erkennung der von der Regel abweichenden Töne am Ende der Sequenzen in Block 4 signifikant von der in Block 1 bzw. vom Zufall abweichen.
 
@@ -280,15 +277,28 @@ Im Ergebnis hatten zwar ein paar Versuchspersonen nach dem ersten Block (Schritt
 
 Nach der Erläuterung der Regel (Schritt~4) hatten alle Versuchspersonen die Aufgabe verstanden und die letzten Übungen auf dem Arbeitsblatt immer selbstständig gelöst. Sehr oft wurde dann im Verlauf des Experimentes berichtet, dass das Arbeitsblatt zwar das Verständnis ermöglicht habe, das Lösen der auditiven Übung jedoch trotzdem sehr schwer gewesen sei.
 
-%Evtl. noch hit rate und false alarm rate statistisch vergleichen?
+\begin{figure}[t]
+  \centering
+  \begin{minipage}{\textwidth}
+  	%\setlength{\fboxsep}{.05\textwidth}
+    \fbox{\begin{minipage}{0.47\textwidth}
+      \includegraphics[width=\textwidth]{abb-roc-block1.eps}
+    \end{minipage}}
+    \hspace{0.02\textwidth}
+    \fbox{\begin{minipage}{0.47\textwidth}
+      \includegraphics[width=\textwidth]{abb-roc-block4.eps}
+    \end{minipage}}
+    \vspace{10pt}
+    \caption{Richtig-Positiv-Rate und Falsch-Negativ-Rate der Versuchspersonen für Block 1 (links) und Block 4 (rechts), dargestellt in der ROC-Kurve (Receiver Operating Characteristic).}
+    \label{roc}
+  \end{minipage}
+\end{figure}
 
-Die Richtig-Positiv-Rate (hit rate) lag in Block 1 bei 40.74\,\%, die Falsch-Negativ-Rate (false alarm rate) bei 37.04\,\%. In Block 4 lag die Richtig-Positiv-Rate dann bei 41.67\,\%, die Falsch-Negativ-Rate bei 35.65\,\%. In Abbildung~\ref{dprime} ist der Sensitivitätsindex (d-prime) der 4 Blöcke abgebildet. Von Bedeutung ist an dieser Stelle der d-prime der Blöcke 1 und 4, Blöcke 2 und 3 dienten lediglich zur Übung. Blöcke 1 und 4 wurden beide mit einem ISI von 300\,ms und ohne Feedback präsentiert. Der erste Block wurde ohne das Regelwissen durchgeführt, der vierte Block nach Vermittlung des Wissens über die Regel und nach Übung der Erkennung von Regelabweichungen. Der Sensitivitätsindex in Block 1 beträgt d~=~0.076 (SE~=~0.115), in Block 4 liegt er bei d~=~0.153 (SE~=~0.126). Beide Werte unterscheiden sich nicht signifikant, t(17)~=~0.56, p > 0.05. Auch wenn Block 4 gegen Null getestet wird, liegt der Sensitivitätsindex von Block 4 nicht signifikant über dem Zufallsniveau, t(17)~=~1.22, p~>~0.05.
-
-%ROC-Kurven - Wie macht man das??
+Die Richtig-Positiv-Rate (hit rate) lag in Block 1 bei 40.74\,\%, die Falsch-Negativ-Rate (false alarm rate) bei 37.04\,\%. In Block 4 lag die Richtig-Positiv-Rate dann bei 41.67\,\%, die Falsch-Negativ-Rate bei 35.65\,\%. In Abbildung~\ref{dprime} ist der Sensitivitätsindex (d-prime) der 4 Blöcke abgebildet und in Abbildung~\ref{roc} ist die Verteilung der Richtig-Positiv-Raten und der Falsch-Negativ-Raten aller Versuchspersonen dargestellt. Von Bedeutung ist an dieser Stelle der d-prime der Blöcke 1 und 4, Blöcke 2 und 3 dienten lediglich zur Übung. Blöcke 1 und 4 wurden beide mit einem ISI von 300\,ms und ohne Feedback präsentiert. Der erste Block wurde ohne das Regelwissen durchgeführt, der vierte Block nach Vermittlung des Wissens über die Regel und nach Übung der Erkennung von Regelabweichungen. Der Sensitivitätsindex in Block 1 beträgt d~=~0.076 (SE~=~0.115), in Block 4 liegt er bei d~=~0.153 (SE~=~0.126). Beide Werte unterscheiden sich nicht signifikant, t(17)~=~0.56, p~>~0.05. Auch wenn Block 4 gegen Null getestet wird, liegt der Sensitivitätsindex von Block 4 nicht signifikant über dem Zufallsniveau, t(17)~=~1.22, p~>~0.05.
 
 \section{Diskussion}
 
-Da sich der Sensitivitätsindex in Block 1 und Block 4 nicht unterscheiden, sprechen die Ergebnisse gegen einen expliziten Lerneffekt. Die qualitative Auswertung der Berichte der Versuchspersonen passen gut zu den Ergebnissen, denn auch die Versuchspersonen berichteten - vor allem im letzten Durchgang - konsistent von großen Schwierigkeiten beim Detektieren von Passenden und Abweichern am Ende der Sequenzen. Sie gaben an, meist intuitiv entschieden zu haben und vor allem in den schnellere Durchgängen oft nur geraten zu haben.
+Da sich der Sensitivitätsindex in Block 1 und Block 4 nicht unterscheiden, sprechen die Ergebnisse gegen einen expliziten Lerneffekt. Die qualitative Auswertung der Berichte der Versuchspersonen passen gut zu den Ergebnissen, denn auch die Versuchspersonen berichteten - vor allem im letzten Durchgang - konsistent von großen Schwierigkeiten beim Detektieren von Passenden und Abweichern am Ende der Sequenzen. Sie gaben an, meist intuitiv entschieden zu haben und vor allem in den schnellere Durchgängen oft nur geraten zu haben. Sehr deutlich wird dieses Verhalten auch in den ROC-Kurven in Abbildung~\ref{roc}.
 
 Dies lässt zwei mögliche Schlussfolgerungen zu. Zum einen könnte dieser Typ von Aufgabe zu komplex sein, um ihn explizit und bewusst verarbeiten zu können. Die menschlichen Fähigkeiten wären in diesem Fall an ihren Grenzen. Zum anderen könnte aber auch der Lernprozess noch nicht ausreichend gestaltet worden sein. Für diese Annahme sprechen gleich mehrere Aspekte, die es lohnt zu betrachten. Möglich wäre, dass die Zone proximaler Entwicklung \parencite{kozulin2003vygotsky} nicht optimal gestaltet wurde. Die Lernmethodik wäre also auf Grund der hohen Komplexität immer noch zu schnell. In Abbildung~\ref{dprime} wird deutlich, dass die Sensitivität auch in den Blöcken 2 und~3 auf einem niedrigen Niveau liegt. Es wurde also auch in den einfachen Bedingungen - wenn überhaupt - nur sehr schwach gelernt. Eine Transferleistung des Lernens auf Block 4 ist nicht zu erwarten, wenn zuvor schon kaum erfolgreich gelernt wurde. Eine andere Option wäre, dass die Lernmodelle nicht zur Aufgabe passen. Entweder sind die Modelle nicht für das Lernen hoch komplexer Regeln ausgelegt oder die Klassifikation des Lernprozesses in prozedurales Wissen war nicht zutreffend. Um diese Optionen evaluieren zu können werden im folgenden Kapitel `Post-Hoc-Analysen' einige weitere statistische Analysen durchgeführt. Diese gehen über die eigentliche Hypothese hinaus, können eventuell jedoch Hinweise liefern, die bei der Gestaltung zukünftiger Experimente helfen können. Ziel der folgenden Betrachtung sollte es sein die vorliegende Prozesse präziser zu klassifizieren und zum anderen eine Systematik zur weiteren Untersuchung zu entwickeln.
 
@@ -322,97 +332,94 @@ Letztlich sollte auch nach jedem Block strukturiert erfragt werden, wie stark di
 
 Die hohe Notwendigkeit zur Optimierung zeigt jedoch deutlich, dass die Lernmethodik beträchtlich verbessert werden muss und die Fähigkeiten für implizites, vor allem aber für explizites Lernen komplexer auditiver Regeln in der Vorbereitung dieses Experimentes noch erheblich unterschätzt wurden.
 
-%\section{Post-Hoc-Analysen}
+\section{Post-Hoc-Analysen}
 
-%Zusätzlich zu den Hypothesen-relevanten Informationen wurden einige weitere Daten erhoben. So liegen Daten über die Sensitivitätswerte von Block 2 und 3 vor, wie sie in Abbildung \ref{dprime} bereits dargestellt sind. Des Weiteren wurden bisher die Reaktionszeiten nicht betrachtet, die sich zwischen den Versuchspersonen stark unterscheiden. Letztlich wurde am Ende des Experimentes (siehe Methoden) auch ein Musikfragebogen durch die Versuchspersonen ausgefüllt, dessen Daten bisher noch nicht in der Analyse berücksichtigt wurde, aber das Potential haben einige Hinweise zur Erklärung der beobachteten Phänomene zu liefern.
+Zusätzlich zu den Hypothesen-relevanten Informationen wurden einige weitere Daten erhoben. So liegen Daten über die Sensitivitätswerte von Block 2 und 3 vor, wie sie in Abbildung \ref{dprime} bereits dargestellt sind. Des Weiteren wurden bisher die Reaktionszeiten nicht betrachtet, die sich zwischen den Versuchspersonen stark unterscheiden. Letztlich wurde am Ende des Experimentes auch ein Musikfragebogen (siehe Anhang) durch die Versuchspersonen ausgefüllt, dessen Daten bisher noch nicht in der Analyse berücksichtigt wurde, aber das Potential haben einige Hinweise zur Erklärung der beobachteten Phänomene zu liefern.
 
-%\subsection{Effekte in den langsamen Blöcken}
+\subsection{Effekte in den langsamen Blöcken}
 
 %Überarbeiten!!!
 
-%Um zu überprüfen, ob eventuell doch Lerneffekte vorliegen, diese nur nicht hinreichend für Block 4 waren, werden nun auch die Sensitivitätsindizes von Block 2 und 3 mit Block 1 und dem Zufall (Null) statistisch mit Hilfe eines T-Tests überprüft. Um die Alphafehler-Kumulierung zu berücksichtigen, wurde $\alpha$ halbiert, da zwei Blöcke getestet wurden. Die Die gerichtete Hypothese lautet, dass Block 2 und 3 durch Lerneffekte signifikant höher sind, als Block 1 bzw. als Null.
+Um zu überprüfen, ob eventuell doch Lerneffekte vorliegen, diese nur nicht hinreichend für den schnellen Durchgang waren, werden nun auch die Sensitivitätsindizes von Block~2 und~3 mit Block~1 und dem Zufall (Null) statistisch mit Hilfe eines T-Tests überprüft. Um die Alphafehler-Kumulierung zu berücksichtigen, wurde $\alpha$ halbiert, da zwei Blöcke getestet wurden. Es wird eine gerichtete Hypothese formuliert, die davon ausgeht, dass Block~2 und~3 durch Lerneffekte signifikant höher sind, als Block 1 bzw. als Null.
 
-%Bei der statistischen Prüfung zeigt sich zunächst, dass sich Block 2 nicht signifikant von Block 1 unterscheiden, t(17) = 1.69, p > 0.05. Das gleiche gilt für den Vergleich von Block 3 und Block 1, t(17) = 1.62, p > 0.05. Sie unterscheiden sich jedoch beide signifikant von Null, also dem Zufallsniveau. Für den Test von Block 2 gegen Null ergab sich ein T-Wert von t(17) = 3.64 (p < 0.01), für Block 3 gegen Null lag der T-Wert bei t(17) = 2.11 (p < 0.1) und war damit noch marginal signifikant.
+Bei der statistischen Prüfung zeigt sich zunächst, dass sich Block~2 nicht signifikant von Block~1 unterscheidet, t(17)~=~1.69, p~>~0.05. Das gleiche gilt für den Vergleich von Block~3 und Block~1, t(17)~=~1.62, p~>~0.05. Sie unterscheiden sich jedoch beide signifikant von Null, also dem Zufallsniveau. Für den Test von Block~2 gegen Null ergab sich ein T-Wert von t(17)~=~3.64 (p~<~0.01), für Block~3 gegen Null lag der T-Wert bei t(17)~=~2.11 (p~<~0.1) und war damit noch marginal signifikant.
 
-%Die Ergebnisse geben einen Hinweis darauf, dass der Lernprozess zu schnell stattfand. Während in Block 2 der Unterschied zum Zufall noch hochsignifikant ist, ist der Unterschied zwischen Block 3 und Zufall nur noch marginal signifikant. Die Ergebnisse unterstützen den Ansatz, dass bei Verbesserung der Lernmethodik auch eine Erkennungsleistung möglich wäre, die deutlich über dem Zufallsniveau liegt.
+Die Ergebnisse geben einen Hinweis darauf, dass der Lernprozess zu schnell stattfand. Während in Block~2 der Unterschied zum Zufall noch hochsignifikant ist, ist der Unterschied zwischen Block~3 und Zufall nur noch marginal signifikant. Die Ergebnisse unterstützen den Ansatz, dass bei Verbesserung der Lernmethodik auch eine Erkennungsleistung möglich wäre, die deutlich über dem Zufallsniveau liegt.
 
-%Erkenntnisgewinn geht an dieser Stelle nicht über Paavilainen/Bendixen hinaus! Bestätigung geringer Lerneffekte.
+Die Ergebnisse stützen an dieser Stelle auch die Studienergebnisse von \textcite{paavilainen2007preattentive} und \textcite{bendixen2008rapid}. Auch in deren Untersuchungen konnten schwache Lerneffekte nachgewiesen werden.
 
-%\subsection{Effekte unterschiedlicher Strategien}
+\subsection{Effekte unterschiedlicher Strategien}
 
-%Bei Betrachtung der Daten war auffällig, dass die Reaktionszeiten sehr variierten. Innerhalb der Versuchspersonen schienen die Reaktionszeiten jedoch relativ ähnlich zu sein. Diese Beobachtung lässt vermuten, dass die Versuchspersonen unterschiedliche Strategien anwendeten. Ließen sich die Versuchspersonen viel Zeit, so liegt das vermutlich an einer stark kognitiv orientierten Erkennungstrategie. Reagierten die Versuchspersonen relativ schnell, dann lässt das auf eine eher intuitive Verarbeitung schließen.
+Bei Betrachtung der Daten war auffällig, dass die Reaktionszeiten sehr variierten. Innerhalb der Versuchspersonen schienen die Reaktionszeiten jedoch relativ ähnlich zu sein. Diese Beobachtung lässt vermuten, dass die Versuchspersonen unterschiedliche Strategien anwendeten. Ließen sich die Versuchspersonen viel Zeit, so liegt das vermutlich an einer stark kognitiv orientierten Erkennungstrategie. Reagierten die Versuchspersonen relativ schnell, dann deutet dies auf eine eher intuitive Verarbeitung hin.
 
-%\begin{figure}[t]
-%  \centering
-%  \begin{minipage}{\textwidth}
-%    \fbox{\begin{minipage}{\textwidth}
-%      \includegraphics[width=\textwidth]{abb4-strategien.eps}
-%    \end{minipage}}
-%    \vspace{10pt}
-%    \caption{Mittelwerte und Standardfehler der Reaktionszeit der zwei Guppen mit je 9 Versuchspersonen. Die Gruppen wurden durch einen Mediansplit getrennt.}
-%    \label{strat}
-%  \end{minipage}
-%\end{figure}
+\begin{figure}[t]
+  \centering
+  \begin{minipage}{\textwidth}
+    \fbox{\begin{minipage}{\textwidth}
+      \includegraphics[width=\textwidth]{abb4-strategien.eps}
+    \end{minipage}}
+    \vspace{10pt}
+    \caption{Mittelwerte und Standardfehler der Reaktionszeit der zwei Gruppen mit je 9 Versuchspersonen. Die Gruppen wurden mittels eines Mediansplits getrennt.}
+    \label{strat}
+  \end{minipage}
+\end{figure}
 
-%Um diese Beobachtung statistisch zu prüfen wurden zunächst Mittelwerte der Reaktionszeiten jeder Versuchsperson über alle 4 Blöcke berechnet. Damit wurde jeder Versuchsperson eine mittlere Reaktionszeit zugeordnet. Anhand dieser Daten wurde ein Mediansplit vorgenommen. Mit Hilfe des Mediansplits konnte gezeigt werden, dass sich die Gruppe mit den höheren mittleren Reaktionszeiten (M = 4400\,ms, SE = 414\,ms) hochsignifikant von den der Gruppe mit den niedrigeren Reaktionszeiten (M = 1939\,ms, SE = 194\,ms) unterschied, t(11) = 15.38, p < 0.001. Die Mittelwerte und Standardfehler der Gruppen sind in Abbildung \ref{strat} dargestellt. Es scheinen also tatsächlich zwei unterschiedliche Strategien zur Erkennung angewendet worden zu sein. Interessanterweise war jedoch keine der Gruppen besser. Bei den Versuchspersonen mit der schnellen Strategie ergab sich kein Unterschied zwischen Block 4 und Block 1 im Sensitivitätsindex, t(8) = 1.66, p > 0.05 und kein Unterschied zwischen Block 4 und dem Zufall, t(8) = -0.23, p > 0.05. Das Gleiche ergab sich für die kognitive Strategie bei Block 4 und Block 1, t(8) = -0.6, p > 0.05 und bei Block 4 gegen Zufall, t(8) = 1.77, p > 0.05. Auch wenn die Leistungen der Versuchspersonen innerhalb von Block 4 verglichen wurden, ergab sich keine signifikant bessere Leistung eine der beiden Strategien, t(15) = -1.54, p > 0.05.
-%
-%Es kann davon ausgegangen werden, dass tatsächlich eine eher intuitive (implizite) Strategie und eine eher kognitive (explizite) Strategie angewendet wurde. Gleichzeitig führte keine von beiden Strategien zu einem besseren Ergebnis. Dieses Ergebnis stützt die Annahme, dass ein Lernen der komplexen Regel nicht möglich ist, da selbst unter hohem kognitiven Aufwand keine signifikant besseren Ergebnisse erzielt wurden.
-%
-%\subsection{Effekte von Musikalität}
-%
-%...
-%
-%%Fragen wie Musikfragebogen ausgewertet werden kann. Musikalitäts-Index?
-%
-%\subsection{Möglicher Forschungsansatz}
-%
-%Auf Basis der weitergehenden Analysen soll an dieser Stelle eine Begriffstrennung vorgenommen werden, die in der bisherigen Betrachtung nicht sauber unternommen wurde. Für zukünftige Experimente könnte diese begriffliche Einordnung aber von hoher Bedeutung sein. Für diese Klassifikation müssen zunächst einige Annahmen getroffen werden: (1) Erkennungsprozesse laufen kumulativ und automatisch auf sensorischer Ebene ab, (2) implizite Lerneffekte sind möglich - wie zumindest in den vorangegangenen Studien gezeigt wurde - und (3) explizite Lernprozess sind ebenfalls möglich. Ein Nachweis sollte  unter verbesserten Lernbedingungen und einer optimierten Lernmethodik möglich sein. Dies wird durch die Post-Hoc-Analyse von Block 2 und 3 gestützte, in denen ein kleiner Lerneffekt zu beobachten war. Werden die Annahmen vorausgesetzt, dann können die Lernprozesse neu eingeordnet werden. Dabei muss zunächst eine Korrektur in der Betrachtung der Lernprozesse vorgenommen werden. Bisher wurde getrennt zwischen manuell bewusst, in Form von explizitem Lernen, und automatisiert unbewusst, in Form von sensorischer Regelerkennung. Dabei ist eigentlich eher davon auszugehen, dass der manuell bewusste Lernprozess nur der Prozess ist, im Ergebnis jedoch ebenfalls zu einem Automatismus führt. Das autonome Stadium und die Unconscious competence entspricht eben diesem Automatismus. Implizite Lernprozesse führen ebenfalls zu einem Automatismus. Entscheidend ist, dass sich alle drei Mechanismen im Ergebnis ähnlich sein sollten. Der Weg zu dem jeweiligen Automatismus unterscheidet sich jedoch und bildet den entscheidenden Unterschied zwischen den drei Prozessen. Im Folgenden werden aus der genannten Folgerung vier Hypothesen aufgestellt:
-%
-%\subsubsection{Hypothese 1}
-%
-%Lernprozesse führen nach häufiger Übung der gleichen prozeduralen Einheit immer zu einer automatisierten Handlung. Dabei existiert neben dem impliziten und expliziten Lernen prozeduralen Wissens auch sensorisches Lernen.
-%
-%\begin{compactitem}
-%  \item \textbf{Sensorisches Lernen}: Kumulativer Lernprozess durch Anhäufung von Hinweisreizen (Präattentive Verarbeitung)
-%  \item \textbf{Implizites Lernen}: Unbewusster Lernprozesse (Subattentive Verarbeitung)
-%  \item \textbf{Explizites Lernen}: Bewusster Lernprozess (Attentive Verarbeitung)
-%\end{compactitem}
-%
-%\subsubsection{Hypothese 2}
-%
-%Eine Beeinflussung impliziter und expliziter Prozesse erfolgt durch Achtsamkeit (mindfulness), wobei einmal eingeübte explizite Prozesse leichter zu verändern sind, als eingeübte implizite Prozesse. Eine Beeinflussung sensorischer Prozesse ist nicht möglich.
-%
-%\subsubsection{Hypothese 3}
-%
-%Sensorische Prozesse helfen Organismen bei der Bewältigung hochkomplexer Aufgaben. Implizite und explizite Prozesse sind weniger effektiv, jedoch adaptiv (Siehe Hypothese 2).
-%
-%\subsubsection{Hypothese 4}
-%
-%Die sensorische Ebene ist unabhängig von den anderen beiden Ebenen. Während implizite und explizite Automatismen voneinander profitieren können, arbeitet die sensorische Ebene isoliert.
-%
-%Ob die 4 Hypothesen zutreffen oder nicht ist zunächst nicht zu klären und bisher philosophisch abgeleitet. Sie eignen sich jedoch recht gut um die Befunde erklären zu können. Daher könnte es interessant sein diese Hypothesen empirisch zu prüfen.
-%
-%\subsection{Beispiele}
-%
-%Sprache verstehen -> Implizites Lernen
-%Sprache Sprechen (Monitoring) -> Implizit/Explizit
-%Musik "fühlen" -> Sensorisches Lernen
-%
-%\subsection{Philosophische Betrachtung}
+Um diese Beobachtung statistisch zu prüfen, wurden zunächst Mittelwerte der Reaktionszeiten jeder Versuchsperson über alle 4~Blöcke berechnet. Damit wurde jeder Versuchsperson eine mittlere Reaktionszeit zugeordnet. Anhand dieser Daten wurde ein Mediansplit vorgenommen. Mit Hilfe des Mediansplits konnte gezeigt werden, dass sich die Gruppe mit den höheren mittleren Reaktionszeiten (M~=~4400\,ms, SE~=~414\,ms) hochsignifikant von den der Gruppe mit den niedrigeren Reaktionszeiten (M~=~1939\,ms, SE~=~194\,ms) unterschied, t(11)~=~15.38, p~<~0.001. Die Mittelwerte und Standardfehler der Gruppen sind in Abbildung \ref{strat} dargestellt. Es scheinen also tatsächlich zwei unterschiedliche Strategien zur Erkennung angewendet worden zu sein. Interessanterweise war jedoch keine der Gruppen besser. Bei den Versuchspersonen mit der schnellen Strategie ergab sich kein Unterschied zwischen Block~4 und Block~1 im Sensitivitätsindex, t(8)~=~1.66, p~>~0.05 und kein Unterschied zwischen Block~4 und dem Zufall, t(8)~=~-0.23, p~>~0.05. Das Gleiche ergab sich für die kognitive Strategie bei Block~4 und Block~1, t(8)~=~-0.6, p~>~0.05 und bei Block~4 gegen Zufall, t(8)~=~1.77, p~>~0.05. Auch wenn die Leistungen der Versuchspersonen innerhalb von Block~4 und zwischen den Strategien verglichen wurden, ergab sich keine signifikant bessere Leistung einer der beiden Strategien, t(15)~=~-1.54, p~>~0.05.
 
-%Wenn die 4 Hypothesen zutreffen sollten, dann hätte dies nicht nur eine entscheidende Bedeutung für das Verstehen von Lernprozessen, es würde sich auch auf die in der Einleitung angesprochenen Themen anwenden lassen. Die Frage des freien Willens wäre dann eine Frage der Achtsamkeit - im Folgenden wird das Mindfulness-Konstrukt verwendet, beschrieben u.a. in \textcite{bishop2004mindfulness} - und somit keine automatisch gegebene menschliche Eigenschaft, sondern eine Fähigkeit, die man erlernen kann. Menschen mit einer hohen Ausprägung an Achtsamkeit wären demnach nicht nur in der Lage neue Automatismen gezielter zu lernen und zu verändern, sie können auch die sie steuernden Automatismen aus vergangenen Zeiten beeinflussen, zum Beispiel solche, die in der Kindheit erworben wurden. Diese Eigenschaft könnte eine der Hauptursachen für Resilienz ggü. psychischen Störungen sein. Dadurch, dass neue Automatismen effektiver gelernt werden können und adaptiver sind, dürfte diese Fähigkeit auch ein guter Prädiktor für Intelligenz sein, eventuell sogar ein basaleres Konzept darstellen.
+Es kann folglich zwar davon ausgegangen werden, dass tatsächlich eine eher intuitive (implizite) Strategie und eine eher kognitive (explizite) Strategie angewendet wurde. Gleichzeitig führte keine von beiden Strategien zu einem besseren Ergebnis. Dieses Ergebnis stützt eher die Annahme, dass ein Lernen der komplexen Regel nicht möglich ist, da sowohl unter hohem kognitiven Aufwand, als auch bei beiläufigem  Lernen keine signifikant besseren Ergebnisse erzielt wurden.
 
-%Aus dieser philosophischen Überlegung heraus, kann bei zukünftigen Studien auch untersucht werden, ob sich Achtsamkeit auf die explizite und/oder implizite Lernleistung der komplexen Regel auswirkt. Die hier genannte Überlegung würde nahelegen, dass Personen mit einer erhöhten Achtsamkeit beim Lernen der Regel eine bessere Leistung erbringen müssten.
+\subsection{Effekte von Musikalität}
 
-%\section{Zusammenfassung und Fazit}
-%
-%Mit Sicherheit kann festgehalten werden, dass das Lernen einer komplexen Regel, wie sie hier angewendet wurde, sehr schwer ist, eventuell sogar unmöglich. Gleichzeitig kann festgehalten werden, dass das menschliche Gehirn einen Mechanismus auf sensorischer Ebene besitzt, der Regeln hocheffizient erkennen und Fehler detektieren kann. Dieser bleibt einem bewussten Zugang jedoch verwehrt. Folgende Studien müssten zunächst klären, ob ein explizites Lernen solcher Regeln überhaupt möglich ist. In der Diskussion wurden viele Optimierungsmöglichkeiten des Lernprozesses angesprochen. Sollte sich bewahrheiten, dass ein explizites Lernen nicht möglich ist, dann wäre eine Grenze der menschlichen Fähigkeiten bezüglich bewusster Verarbeitung gefunden. Sollte explizites Lernen entgegen den Befunden in diesem Experiment möglich sein, dann könnte im nächsten Schritt untersucht werden inwiefern sensorische und explizite Verarbeitung zusammenhängen. Dafür könnten zum Beispiel zwei Bedingungen verwendet werden, wobei in einer Bedingung lange Tonsequenzen mit einer Vielzahl an regelkonformen Tönen parallel zu einem Stummfilm gezeigt werden, in der anderen Bedingung würde dies nicht durchgeführt werden. In beiden Gruppen könnte dann ein funktionierendes explizites Lernverfahren angewendet werden und es würde sich zeigen, ob die Lernmechanismen voneinander profitieren können oder isoliert ablaufen.
-%
-%Es kann an dieser Stelle festgehalten werden, dass sich die Prozesse in viele - teils sogar verwendete - Begriffssysteme nicht einordnen lässt. Die sensorische Verarbeitung kann nicht als implizit betrachtet werden, da Lerneffekte durch die sensorische Regelerkennung derzeit nicht nachgewiesen sind. Auf die Einordnung als prozedural oder deklarativ ist schwierig, da es keinen Bewegungsablauf gibt. Auch der Begriff einer unbewussten Verarbeitung ist nicht haltbar, da eine unterbewusste Verarbeitung immer noch nachhaltige Effekte auf das Verhalten aufweist, was hier nicht der Fall ist. Die einzige Möglichkeit den Begriff zu einzuordnen ermöglicht das Konzept der Aufmerksamkeit. Die Einordnung als präattentiv, also vor der Aufmerksamkeit ablaufend, ist die einzig präzise Einordnung. Ich persönlich bin der Ansicht, dass das Konzept der Aufmerksamkeit und vor allem das damit eng verknüpfte Konzept der Achtsamkeit (mindfulness) in der zukünftigen Forschung eine große Bedeutung haben wird (vgl. ...).
+\begin{figure}[t]
+  \centering
+  \begin{minipage}{\textwidth}
+    \fbox{\begin{minipage}{\textwidth}
+      \includegraphics[width=\textwidth]{abb-musikalitaet-auswertung.eps}
+    \end{minipage}}
+    \vspace{10pt}
+    \caption{Auswertungsschema des Fragebogens zur Musikalität (siehe Anhang) zur Kategorisierung der Versuchspersonen in musikalisch und nicht-musikalisch.}
+    \label{musik:aufbau}
+  \end{minipage}
+\end{figure}
 
-%Noch unsicher, ob wirklich rein nehmen
+Nachdem Block~4 beendet war, bekamen die Versuchspersonen einen Fragebogen zur Selbsteinschätzung ihrer musikalischen Fähigkeiten (siehe Anhang). Sie wurden in zwei Gruppen eingeteilt, eine musikalische und eine unmusikalische Gruppe. Eine Versuchsperson wurde als musikalisch eingeschätzt, wenn sie zum Zeitpunkt der Erfassung aktiv ein Instrument spielt oder singt, und sich selbst mindestens durchschnittlich musikalisch einschätzt. Dabei sollte das Instrument mindestens seit einem Jahr und mindestens 1 Stunde pro Woche gespielt werden. Sollte es weniger als ein Jahr gespielt sein, dann muss ein zweites Instrument in der Vergangenheit für mindestens 2 Jahre gespielt worden sein. Dabei wurden nur solche Instrumente berücksichtigt, welche mit Tönen arbeiten, da das Experiment explizit eine Erkennung von Tonhöhen und Tonlängen fordert, welches bei z.\,B. Schlaginstrumenten nicht geübt wird. Das Schema zur Auswertung ist in Abbildung~\ref{musik:aufbau} abgebildet.
 
-%Ob und inwiefern sich auch die philosophischen Betrachtungen bestätigen lassen sei an dieser Stelle offen gelassen, da eine fundierte empirische Grundlage für diese Betrachtung noch fehlt. Ein wichtiges Qualitätsmerkmal empirischer Forschung ist die Absicherung jedes noch so kleinen Schrittes, bevor weitreichende Theorien angenommen werden. Trotzdem sollten auch die philosophischen Fragestellungen nicht außer acht gelassen werden, denn sie sind es, die unser Verständnis von uns selbst, von unseren Fähigkeiten und Grenzen ansprechen und weitreichende Konsequenzen für unser Selbstverständnis, auch in Relation zu anderen Lebewesen, haben kann. Das menschliche Selbstverständnis hat eine Fülle weitreichender Konsequenzen für viele gesellschaftliche Entscheidungen und ethische Betrachtungen. Entsprechend ist auch die Formulierung gewagter Theorien ein wichtiger Schritt des Erkenntnisprozesse. Es ermöglicht die Fragestellungen zielgerichtete Forschungsfragen, bilden das Motiv für weitergehende Forschungen und gibt der Forschung einen direkten Sinn.
+Nach dem Auswertungsschema wurden insgesamt~7 der 18~Versuchspersonen als musikalisch eingestuft (38,89\,\%). Die beiden Gruppen (musikalisch/nicht-musikalisch) unterschieden sich weder in Block~1 in ihrem Sensitivitätsindex, t(16)~=~1.27, p~>~0.05, noch in Block~4 signifikant voneinander, t(16)~=~0.51, p~>~0.05. Wie nach diesen Ergebnissen zu erwarten, ergaben sich auch innerhalb der musikalischen Personen keine Effekte. Es gab innerhalb der Gruppe keine Unterschiede in der Erkennungsleistung zwischen Block~1 und Block~4, t(6)~=~0.07, p~>~0.05. Auch wichen Block~1 und Block~4 nicht signifikant vom Zufall ab; t(6)~=~2.15, p~>~0.05 für Block~1 und t(6)~=~1.06, p~>~0.05 für Block~4.
+
+Von den Ergebnissen ausgehend, haben musikalische Personen keine Vorteile durch die regelmäßige Beschäftigung mit Musik bzw. Tönen. Diese Ergebnisse sprechen dafür, dass die Informationen im Experiment tatsächlich nur sensorisch verarbeitet werden, da kein impliziter oder expliziter Lerneffekt vorliegt. Gleichzeitig sprechen die Ergebnisse dafür, dass die sensorische Verarbeitung nicht trainiert werden kann.
+
+Einschränkend ist zu erwähnen, dass die Musikfähigkeit eher grob gemessen wurde. Interessant wären die Items des relativen und absoluten Gehörs, da diese spezifisch die Differenzierungsfähigkeit bezüglich der Tonhöhe erfasst. Diese Items konnten aufgrund zu weniger Versuchspersonen nicht ausgewertet werden. Mit höheren Stichproben könnte dies jedoch durchaus Sinn machen. Auch wäre es Interessant zusätzlich einen objektiven Test einzusetzen, bei dem die Fähigkeit zur Differenzierung zwischen Tönen im Vorhinein erfasst und die Angaben im Fragebogen überprüft werden können.
+
+\subsection{Klassifikation}
+
+Auf Basis der weitergehenden Analysen soll an dieser Stelle eine Begriffstrennung abgeleitet werden, die in der bisherigen Betrachtung noch nicht klar vorgenommen wurde. Die sensorische Verarbeitung kann nicht als implizit betrachtet werden, da Lerneffekte, auf deren Basis bewusste Entscheidungen getroffen werden, durch die sensorische Regelerkennung derzeit nicht nachgewiesen sind. Auch die Einordnung als prozedural oder deklarativ ist schwierig, da es keinen Bewegungsablauf gibt, es sich aber auch nicht um Wissen geht. Letztlich ist auch der Begriff einer unbewussten Verarbeitung nicht haltbar, da eine unterbewusste Verarbeitung immer noch nachhaltige Effekte auf das Verhalten aufweist und zumindest theoretisch auch dem Bewusstsein zugänglich ist, was hier nicht der Fall ist. Die einzige Möglichkeit den Begriff einzuordnen ermöglicht das Konzept der Aufmerksamkeit. Die Einordnung als präattentiv, also vor der Aufmerksamkeit ablaufend, ist die einzig präzise Einordnung. Die Einordnung als präattentiv wurde auch von \textcite{paavilainen2007preattentive} und \textcite{bendixen2008rapid} bereits vorgenommen. Neu wäre an dieser Stelle auch das implizite und explizite Lernen unter der Perspektive der Aufmerksamkeit zu betrachten.
+
+\begin{compactitem}
+  \item \textbf{Sensorisches Lernen}: Kumulativer Lernprozess durch Anhäufung von Hinweisreizen (Präattentive Verarbeitung)
+  \item \textbf{Implizites Lernen}: Unbewusster Lernprozesse (Subattentive Verarbeitung)
+  \item \textbf{Explizites Lernen}: Bewusster Lernprozess (Attentive Verarbeitung)
+\end{compactitem}
+
+Dabei wird vorausgesetzt, dass Lernprozesse nach häufiger Übung der gleichen Einheit immer zu einer automatisierten Handlung führen. Das autonome Stadium und die Unconscious competence entspricht eben diesem automatischen Verhalten. Entscheidend ist, dass sich alle drei Mechanismen im Ergebnis ähnlich sein sollten. Der Weg zu den jeweiligen Verhaltensweisen unterscheidet sich jedoch und bildet den entscheidenden Unterschied zwischen den drei Prozessen. Hinweise dafür, dass ein Lernen auch bei impliziter und expliziter Verarbeitung möglich ist, liefern die Post-Hoc-Analysen bezüglich den - wenn auch geringen - Lernerfolgen in Block~2 und~3 und den Ergebnissen von \textcite{paavilainen2007preattentive} und \textcite{bendixen2008rapid}.
+
+Ein weiterer Aspekt ist die Frage nach der Unabhängigkeit der Prozesse. Auf der einen Seite scheint die sensorische Verarbeitung von der impliziten und expliziten Verarbeitung unabhängig zu sein. Obwohl auf sensorischer Ebene bereits nach wenigen Tönen eine Erkennung möglich ist, scheint dies keine Auswirkung auf die Erkennung von abweichenden Tönen zu haben. Während implizite und explizite Prozesse voneinander profitieren können \parencite{sun2005interaction}, arbeitet die sensorische Ebene isoliert. Implizite und explizite Prozesse sind außerdem weniger effektiv, jedoch adaptiv. Deutlich wurde dies daran, dass der Lernprozess auf sensorischer Ebene - angezeigt durch die MMN - bereits nach wenigen Tönen eintrat, während der Lerneffekt bei implizitem und vor allem bei explizitem Lernen nur unter sehr hohem Aufwand möglich ist. Auf der anderen Seite spricht der Ansatz der Phasenpassung des Signals mit der Oszillation des Gehirns dafür, dass eine Abhängigkeit zwischen den Prozessen besteht. Ein präattentives Signal würde entsprechend nur unter bestimmten Bedingungen zu einem subattentiven oder einem attentiven Signal werden. Demnach müssten mindestens zwei Wahrnehmungsschwellen definiert werden. Eine Wahrnehmungsschwelle für präattentive Signale und mindestens eine für attentive Signale, wobei auch für subattentive Verarbeitung eine Schwelle denkbar wäre. Das vorliegende Experiment könnte genau an der Schwelle zwischen präattentiver zu attentiver Verarbeitung liegen. Um die Unabhängigkeit der Prozesse zu prüfen werden jedoch umfangreiche weitere Untersuchungen nötig sein.
+
+Interessant ist außerdem, dass sich eine Einteilung der Lernprozesse am Eindeutigsten anhand der Aufmerksamkeit vornehmen lässt. Dies ist insbesondere deshalb interessant, da es in der letzten Zeit, vor allem im Bereich der Psychotherapie einen großes Interesse an der Erforschung des verwandten Konzeptes der Achtsamkeit (mindfulness) gibt \parencite[vgl.][]{bishop2004mindfulness,khoury2013mindfulness}. Bei der weiteren Suche nach den Zusammenhängen zwischen präattentiver, subattentiver und attentiver Verarbeitung könnte es fruchtbar sein parallelen mit diesem Konzept im Auge zu behalten.
+
+\subsection{Einordnung der Beispiele}
+
+Nach der oben vorgenommenen Klassifikation lassen sich die Beispiel aus der Einleitung einordnen. In allen Beispielen ist immer eine sensorische, d.\,h. präattentive Verarbeitung vorhanden. Während bei der Fähigkeit zur Synchronisation mit Musik vermutlich zunächst primär präattentive Informationen verarbeitet werden, findet das Sprachverständnis mindestens auch auf subattentiver Ebene statt. Die Segmentation verläuft - sofern sie gut geübt ist - vermutlich eher auf subattentiver Ebene \parencite{sanders2002segmenting}, das semantische Verständnis eher auf attentiver Ebene, da kontextabhängige Informationen integriert werden können. Wörter wie `hier' oder `dort' haben je nach Ort, an dem sich eine Person befindet, eine andere Bedeutung. Der Monitoring-Prozess \parencites{levelt1983monitoring}{postma2000detection} beim Sprechen erfordert wahrscheinlich eine weitgehend attentive Verarbeitung, da auch hier eine kontextabhängige Prüfung stattfinden muss. Das Gesagte muss nicht nur auf allgemeine Sprechfehler, sondern auch auf kontextuelle Passung (Zeit, Ort, etc.) überprüft werden.
+
+\section{Zusammenfassung und Fazit}
+
+Mit Sicherheit kann festgehalten werden, dass das Lernen einer komplexen Regel, wie sie hier angewendet wurde, sehr schwer ist, eventuell sogar unmöglich. Gleichzeitig kann festgehalten werden, dass das menschliche Gehirn einen Mechanismus auf sensorischer Ebene besitzt, der Regeln hocheffizient erkennen und Fehler detektieren kann. Dieser bleibt nach jetzigem Kenntnisstand einem bewussten Zugang verwehrt. Dabei können andere Studienergebnisse, wie die der Phasenpassung eventuell integriert werden. Folgende Studien müssten vor allem klären, ob ein explizites Lernen solcher Regeln überhaupt möglich ist. Außerdem können darauf aufbauend die Zusammenhänge zwischen präattentiver, subattentiver und attentiver Verarbeitung weiter untersucht werden.
+
+Aber selbst nach Klärung der in der Diskussion aufgeworfenen Fragen und Ansätze, werden die zu Beginn der Einleitung formulierten großen Fragen wohl noch unbeantwortet bleiben. Sicher sind weitere Untersuchungen aber ein Schritt in diese Richtung und eine Sammlung von Hinweisen sinnvoll, um weitere Theorien bilden und bestehende Theorien korrigieren zu können. Das Zusammenspiel zwischen automatischen Verhaltensweisen - als Ergebnis eine Lernprozesses - und Aufmerksamkeit - als Unterscheidungspunkt unterschiedlicher Lernprozesse - scheint mir eine wichtige Rolle bei dem Verständnis menschlichen Verhaltens und Erlebens einzunehmen und ein stabiler Ansatzpunkt für weitere Untersuchungen zu sein.
+
+% ### Anhang ###
+% - Fotos Versuchsaufbau
+% - Arbeitsblatt
+% - Musikfragebogen
 
 \section{Literaturverzeichnis}
 

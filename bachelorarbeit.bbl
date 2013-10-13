@@ -49,6 +49,46 @@
       \field{year}{2008}
       \field{pages}{1111\bibrangedash 1119}
     \endentry
+    \entry{bishop2004mindfulness}{article}{}
+      \name{labelname}{10}{}{%
+        {{uniquename=0,hash=34704ffc4f93924335d6cf4352f24a3f}{Bishop}{B\bibinitperiod}{Scott\bibnamedelima R}{S\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4e72ff56ec11c3efeee3aef89830c740}{Lau}{L\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1c11a9928176282a802440bc976d3507}{Shapiro}{S\bibinitperiod}{Shauna}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c49169033f11ac3621739d95d961b9f9}{Carlson}{C\bibinitperiod}{Linda}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8e791dc5495de24bc097f51acc99eea4}{Anderson}{A\bibinitperiod}{Nicole\bibnamedelima D}{N\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0d9454175a9ab4ae593f8106ff0e47c3}{Carmody}{C\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d914b6d9d589ff0eea904e0314f375a9}{Segal}{S\bibinitperiod}{Zindel\bibnamedelima V}{Z\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3373609bea254ddb14d7845b89ba4649}{Abbey}{A\bibinitperiod}{Susan}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e35aba844592ae19bbc9c9552ca7beef}{Speca}{S\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c262484785990c68017e46a05a611b71}{Velting}{V\bibinitperiod}{Drew}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{10}{}{%
+        {{uniquename=0,hash=34704ffc4f93924335d6cf4352f24a3f}{Bishop}{B\bibinitperiod}{Scott\bibnamedelima R}{S\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4e72ff56ec11c3efeee3aef89830c740}{Lau}{L\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1c11a9928176282a802440bc976d3507}{Shapiro}{S\bibinitperiod}{Shauna}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c49169033f11ac3621739d95d961b9f9}{Carlson}{C\bibinitperiod}{Linda}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8e791dc5495de24bc097f51acc99eea4}{Anderson}{A\bibinitperiod}{Nicole\bibnamedelima D}{N\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0d9454175a9ab4ae593f8106ff0e47c3}{Carmody}{C\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d914b6d9d589ff0eea904e0314f375a9}{Segal}{S\bibinitperiod}{Zindel\bibnamedelima V}{Z\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3373609bea254ddb14d7845b89ba4649}{Abbey}{A\bibinitperiod}{Susan}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e35aba844592ae19bbc9c9552ca7beef}{Speca}{S\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c262484785990c68017e46a05a611b71}{Velting}{V\bibinitperiod}{Drew}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{bc3272694f06b7918ad972ddc8f2cc1f}
+      \strng{fullhash}{d0ed79c23a66e8edb9c7d1ec1add39b9}
+      \field{sortinit}{B}
+      \field{labelyear}{2004}
+      \field{labeltitle}{Mindfulness: A proposed operational definition}
+      \field{journaltitle}{Clinical psychology: Science and practice}
+      \field{number}{3}
+      \field{title}{Mindfulness: A proposed operational definition}
+      \field{volume}{11}
+      \field{year}{2004}
+      \field{pages}{230\bibrangedash 241}
+    \endentry
     \entry{brent1996distributional}{article}{}
       \name{labelname}{2}{}{%
         {{uniquename=0,hash=d54f68e509ef07ceeeb8f0811b78361b}{Brent}{B\bibinitperiod}{Michael\bibnamedelima R}{M\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
@@ -182,6 +222,41 @@
       \field{labeltitle}{Implicit learning of loosely defined structures.}
       \field{title}{Implicit learning of loosely defined structures.}
       \field{year}{1998}
+    \endentry
+    \entry{khoury2013mindfulness}{article}{}
+      \name{labelname}{9}{}{%
+        {{uniquename=0,hash=e775dc31489b7220437faa251cdc0b5e}{Khoury}{K\bibinitperiod}{Bassam}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=373656145e613e9ded9f2eed24cafac8}{Lecomte}{L\bibinitperiod}{Tania}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e7196a27e59baa98f99397fc9d04c5a9}{Fortin}{F\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=194154af92fdfe7917c3d8a374d61aa6}{Masse}{M\bibinitperiod}{Marjolaine}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1baf2fd60a6102d6d09dcf27419d111d}{Therien}{T\bibinitperiod}{Phillip}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=dd1335fd846a0e9a41f59f23079103df}{Bouchard}{B\bibinitperiod}{Vanessa}{V\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6c156f4f0b6fc468ef9dd8e27650d151}{Chapleau}{C\bibinitperiod}{Marie-Andrée}{M\bibinithyphendelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5402e03a1eaf812f438767158e69d02c}{Paquin}{P\bibinitperiod}{Karine}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e011744411ea18387f9f12a7e7e19625}{Hofmann}{H\bibinitperiod}{Stefan\bibnamedelima G.}{S\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{9}{}{%
+        {{uniquename=0,hash=e775dc31489b7220437faa251cdc0b5e}{Khoury}{K\bibinitperiod}{Bassam}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=373656145e613e9ded9f2eed24cafac8}{Lecomte}{L\bibinitperiod}{Tania}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e7196a27e59baa98f99397fc9d04c5a9}{Fortin}{F\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=194154af92fdfe7917c3d8a374d61aa6}{Masse}{M\bibinitperiod}{Marjolaine}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1baf2fd60a6102d6d09dcf27419d111d}{Therien}{T\bibinitperiod}{Phillip}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=dd1335fd846a0e9a41f59f23079103df}{Bouchard}{B\bibinitperiod}{Vanessa}{V\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6c156f4f0b6fc468ef9dd8e27650d151}{Chapleau}{C\bibinitperiod}{Marie-Andrée}{M\bibinithyphendelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5402e03a1eaf812f438767158e69d02c}{Paquin}{P\bibinitperiod}{Karine}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e011744411ea18387f9f12a7e7e19625}{Hofmann}{H\bibinitperiod}{Stefan\bibnamedelima G.}{S\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a44dfabb28c56d356fa1229bb43734e0}
+      \strng{fullhash}{10cd67ca2fb2ea46993505787a720f4a}
+      \field{sortinit}{K}
+      \field{labelyear}{2013}
+      \field{labeltitle}{Mindfulness-based therapy: A comprehensive meta-analysis}
+      \field{journaltitle}{Clinical Psychology Review}
+      \field{number}{6}
+      \field{title}{Mindfulness-based therapy: A comprehensive meta-analysis}
+      \field{volume}{33}
+      \field{year}{2013}
+      \field{pages}{763\bibrangedash 771}
     \endentry
     \entry{kozulin2003vygotsky}{book}{}
       \name{labelname}{1}{}{%
