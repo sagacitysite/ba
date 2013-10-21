@@ -558,6 +558,32 @@
       \field{year}{2001}
       \field{pages}{1276}
     \endentry
+    \entry{sun2005interaction}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=a17947338ed0ddfddb5f8d28ee15c24e}{Sun}{S\bibinitperiod}{Ron}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a40b6e738e64875b4ceffa9eafe032f3}{Slusarz}{S\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=80a66fb3043b378dd6f29188a9fc21cb}{Terry}{T\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=a17947338ed0ddfddb5f8d28ee15c24e}{Sun}{S\bibinitperiod}{Ron}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a40b6e738e64875b4ceffa9eafe032f3}{Slusarz}{S\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=80a66fb3043b378dd6f29188a9fc21cb}{Terry}{T\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{c3fcb1f7778319dc75e3f171da3be0a9}
+      \strng{fullhash}{2210ed5dba02dd36811e026992e69913}
+      \field{sortinit}{S}
+      \field{labelyear}{2005}
+      \field{labeltitle}{The interaction of the explicit and the implicit in skill learning: a dual-process approach.}
+      \field{journaltitle}{Psychological review}
+      \field{number}{1}
+      \field{title}{The interaction of the explicit and the implicit in skill learning: a dual-process approach.}
+      \field{volume}{112}
+      \field{year}{2005}
+      \field{pages}{159}
+    \endentry
     \entry{vanrullen2011ongoing}{article}{}
       \name{labelname}{4}{}{%
         {{uniquename=0,hash=c4aed5150051509bd8bd507d9b03e4c8}{VanRullen}{V\bibinitperiod}{Rufin}{R\bibinitperiod}{}{}{}{}}%

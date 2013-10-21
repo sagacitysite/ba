@@ -1,3 +1,67 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \select@language {ngerman}
-\contentsline {section}{Einleitung}{3}
-\contentsline {section}{Methoden}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Einleitung}{2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Mismatch Negativity (MMN) und das Oddball Paradigma}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Komplexe Regelerkennung}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Lernen prozeduralen Wissens}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Hypothese}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Methoden}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Probanden}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Versuchsaufbau}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Stimuli}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Ablauf}{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{(1) Einf\IeC {\"u}hrung}{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{(2) Block 1}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{(3) Arbeitsblatt}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{(4) Block 2}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{(5) Block 3}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{(6) Block 4}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{(7) Nachbereitung}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Ergebnisse}{19}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Diskussion}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Sensorische Verarbeitung}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Phase der Gehirnoszillation}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Lernbedingungen und Lernmethodik}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Lernbedingungen}{23}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Lernmethodik}{23}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Post-Hoc-Analysen}{25}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Effekte in den langsamen Bl\IeC {\"o}cken}{26}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Effekte unterschiedlicher Strategien}{26}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Effekte von Musikalit\IeC {\"a}t}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Klassifikation}{30}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Einordnung der Beispiele}{32}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Zusammenfassung und Fazit}{33}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Literaturverzeichnis}{33}
