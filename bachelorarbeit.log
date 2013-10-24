@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.14)  22 OCT 2013 15:05
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.14)  24 OCT 2013 19:10
 entering extended mode
 **bachelorarbeit.tex
 (C:\Users\Carlo\Privat\Lebensphasen\Exploeco\entwicklung\ba\bachelorarbeit.tex
@@ -1024,16 +1024,6 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 181.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 181.
-
-Underfull \hbox (badness 1596) in paragraph at lines 181--182
-\T1/lmr/m/n/12 (B) an-ge-schlos-sen, wel-cher der
- []
-
-
-Underfull \hbox (badness 1845) in paragraph at lines 181--182
-\T1/lmr/m/n/12 gung stand. Auf die-sem Bild-
- []
-
 [13 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb1-versuchsau
 fbau-eps-converted-to.pdf>] [14] [15] [16] [17] [18]
 Package epstopdf Info: Source file: <abb3-dprime.eps>
@@ -1161,11 +1151,11 @@ Package logreq Info: Writing requests to 'bachelorarbeit.run.xml'.
 Here is how much of TeX's memory you used:
  11555 strings out of 494045
  185824 string characters out of 3145968
- 620943 words of memory out of 3000000
+ 620937 words of memory out of 3000000
  14604 multiletter control sequences out of 15000+200000
  67337 words of font info for 59 fonts, out of 3000000 for 9000
  719 hyphenation exceptions out of 8191
- 43i,11n,57p,1971b,1607s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,11n,57p,1984b,1607s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/MiKTeX 2.9/
@@ -1176,7 +1166,7 @@ lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C
 es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/lm/lmsy10.pfb>
-Output written on bachelorarbeit.pdf (35 pages, 927749 bytes).
+Output written on bachelorarbeit.pdf (35 pages, 927800 bytes).
 PDF statistics:
  208 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
