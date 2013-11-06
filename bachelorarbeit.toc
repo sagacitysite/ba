@@ -44,17 +44,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Phase der Gehirnoszillation}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Lernbedingungen und Lernmethodik}{22}
+\contentsline {subsection}{Lernbedingungen und Lernmethodik}{23}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Lernbedingungen}{23}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Lernmethodik}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Post-Hoc-Analysen}{25}
+\contentsline {section}{Post-Hoc-Analysen}{26}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Effekte in den langsamen Bl\IeC {\"o}cken}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Effekte unterschiedlicher Strategien}{26}
+\contentsline {subsection}{Effekte unterschiedlicher Strategien}{27}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Effekte von Musikalit\IeC {\"a}t}{28}
 \defcounter {refsection}{0}\relax 
@@ -64,4 +64,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Zusammenfassung und Fazit}{33}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literaturverzeichnis}{33}
+\contentsline {section}{Literaturverzeichnis}{34}

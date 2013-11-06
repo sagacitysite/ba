@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.14)  24 OCT 2013 19:10
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.14)  6 NOV 2013 23:13
 entering extended mode
 **bachelorarbeit.tex
 (C:\Users\Carlo\Privat\Lebensphasen\Exploeco\entwicklung\ba\bachelorarbeit.tex
@@ -971,10 +971,10 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 72.
 Package epstopdf Info: Source file: <abb2-tones.eps>
-(epstopdf)                    date: 2013-08-26 23:01:35
+(epstopdf)                    date: 2013-08-26 22:01:35
 (epstopdf)                    size: 320150 bytes
 (epstopdf)             Output file: <abb2-tones-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-26 23:02:58
+(epstopdf)                    date: 2013-08-26 22:02:58
 (epstopdf)                    size: 15538 bytes
 (epstopdf)             Command: <epstopdf --outfile=abb2-tones-eps-converted-to
 .pdf abb2-tones.eps>
@@ -996,10 +996,10 @@ Overfull \hbox (0.79996pt too wide) in paragraph at lines 84--86
 [6 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb2-tones-eps-c
 onverted-to.pdf>] [7] [8] [9] [10] [11] [12]
 Package epstopdf Info: Source file: <abb1-versuchsaufbau.eps>
-(epstopdf)                    date: 2013-09-05 00:54:54
+(epstopdf)                    date: 2013-09-04 23:54:54
 (epstopdf)                    size: 1356334 bytes
 (epstopdf)             Output file: <abb1-versuchsaufbau-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-09-05 00:55:08
+(epstopdf)                    date: 2013-09-04 23:55:08
 (epstopdf)                    size: 9170 bytes
 (epstopdf)             Command: <epstopdf --outfile=abb1-versuchsaufbau-eps-con
 verted-to.pdf abb1-versuchsaufbau.eps>
@@ -1027,10 +1027,10 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [13 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb1-versuchsau
 fbau-eps-converted-to.pdf>] [14] [15] [16] [17] [18]
 Package epstopdf Info: Source file: <abb3-dprime.eps>
-(epstopdf)                    date: 2013-10-12 15:45:22
+(epstopdf)                    date: 2013-10-12 14:45:22
 (epstopdf)                    size: 809190 bytes
 (epstopdf)             Output file: <abb3-dprime-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-10-12 15:45:33
+(epstopdf)                    date: 2013-10-12 14:45:33
 (epstopdf)                    size: 16580 bytes
 (epstopdf)             Command: <epstopdf --outfile=abb3-dprime-eps-converted-t
 o.pdf abb3-dprime.eps>
@@ -1050,10 +1050,10 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 267--269
  []
 
 Package epstopdf Info: Source file: <abb-roc-block1.eps>
-(epstopdf)                    date: 2013-10-12 21:42:27
+(epstopdf)                    date: 2013-10-12 20:42:27
 (epstopdf)                    size: 402333 bytes
 (epstopdf)             Output file: <abb-roc-block1-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-10-12 21:46:02
+(epstopdf)                    date: 2013-10-12 20:46:02
 (epstopdf)                    size: 327147 bytes
 (epstopdf)             Command: <epstopdf --outfile=abb-roc-block1-eps-converte
 d-to.pdf abb-roc-block1.eps>
@@ -1067,10 +1067,10 @@ Package pdftex.def Info: abb-roc-block1-eps-converted-to.pdf used on input line
  282.
 (pdftex.def)             Requested size: 212.89546pt x 160.17957pt.
 Package epstopdf Info: Source file: <abb-roc-block4.eps>
-(epstopdf)                    date: 2013-10-12 21:44:31
+(epstopdf)                    date: 2013-10-12 20:44:31
 (epstopdf)                    size: 401052 bytes
 (epstopdf)             Output file: <abb-roc-block4-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-10-12 21:46:04
+(epstopdf)                    date: 2013-10-12 20:46:04
 (epstopdf)                    size: 325894 bytes
 (epstopdf)             Command: <epstopdf --outfile=abb-roc-block4-eps-converte
 d-to.pdf abb-roc-block4.eps>
@@ -1094,44 +1094,43 @@ Overfull \hbox (0.70642pt too wide) in paragraph at lines 282--288
 g/ba/abb-roc-block1-eps-converted-to.pdf> <C:/Users/Carlo/Privat/Lebensphasen/E
 xploeco/entwicklung/ba/abb-roc-block4-eps-converted-to.pdf>] [21] [22] [23]
 [24] [25] [26]
-Package epstopdf Info: Source file: <abb4-strategien.eps>
-(epstopdf)                    date: 2013-09-01 19:26:30
-(epstopdf)                    size: 742566 bytes
-(epstopdf)             Output file: <abb4-strategien-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-09-01 19:30:41
-(epstopdf)                    size: 22461 bytes
-(epstopdf)             Command: <epstopdf --outfile=abb4-strategien-eps-convert
-ed-to.pdf abb4-strategien.eps>
+Package epstopdf Info: Source file: <abb4-strategienV2.eps>
+(epstopdf)                    date: 2013-11-06 22:23:03
+(epstopdf)                    size: 890082 bytes
+(epstopdf)             Output file: <abb4-strategienV2-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-11-06 22:24:14
+(epstopdf)                    size: 23085 bytes
+(epstopdf)             Command: <epstopdf --outfile=abb4-strategienV2-eps-conve
+rted-to.pdf abb4-strategienV2.eps>
 (epstopdf)             \includegraphics on input line 354.
 Package epstopdf Info: Output file is already uptodate.
 
-<abb4-strategien-eps-converted-to.pdf, id=126, 408.52625pt x 257.96375pt>
-File: abb4-strategien-eps-converted-to.pdf Graphic file (type pdf)
+<abb4-strategienV2-eps-converted-to.pdf, id=126, 525.965pt x 317.185pt>
+File: abb4-strategienV2-eps-converted-to.pdf Graphic file (type pdf)
 
-<use abb4-strategien-eps-converted-to.pdf>
-Package pdftex.def Info: abb4-strategien-eps-converted-to.pdf used on input lin
-e 354.
-(pdftex.def)             Requested size: 452.9679pt x 286.04398pt.
+<use abb4-strategienV2-eps-converted-to.pdf>
+Package pdftex.def Info: abb4-strategienV2-eps-converted-to.pdf used on input l
+ine 354.
+(pdftex.def)             Requested size: 452.9679pt x 273.17548pt.
 
 Overfull \hbox (6.79999pt too wide) in paragraph at lines 354--356
 [][]
  []
 
-[27 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb4-strategien
--eps-converted-to.pdf>]
+[27]
 Package epstopdf Info: Source file: <abb-musikalitaet-auswertung.eps>
-(epstopdf)                    date: 2013-10-14 16:03:53
-(epstopdf)                    size: 852154 bytes
+(epstopdf)                    date: 2013-11-06 22:29:18
+(epstopdf)                    size: 846986 bytes
 (epstopdf)             Output file: <abb-musikalitaet-auswertung-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2013-10-14 16:04:03
-(epstopdf)                    size: 23073 bytes
+(epstopdf)                    date: 2013-11-06 22:30:39
+(epstopdf)                    size: 22606 bytes
 (epstopdf)             Command: <epstopdf --outfile=abb-musikalitaet-auswertung
 -eps-converted-to.pdf abb-musikalitaet-auswertung.eps>
 (epstopdf)             \includegraphics on input line 372.
 Package epstopdf Info: Output file is already uptodate.
 
-<abb-musikalitaet-auswertung-eps-converted-to.pdf, id=143, 416.55624pt x 362.35
+<abb-musikalitaet-auswertung-eps-converted-to.pdf, id=130, 416.55624pt x 362.35
 374pt>
 File: abb-musikalitaet-auswertung-eps-converted-to.pdf Graphic file (type pdf)
  <use abb-musikalitaet-auswertung-eps-converted-to.pdf>
@@ -1143,14 +1142,23 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 372--374
 [][]
  []
 
-[28] [29 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb-musika
-litaet-auswertung-eps-converted-to.pdf>] [30] [31] [32] [33] [34] [35]
+[28 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entwicklung/ba/abb4-strategien
+V2-eps-converted-to.pdf>] [29 <C:/Users/Carlo/Privat/Lebensphasen/Exploeco/entw
+icklung/ba/abb-musikalitaet-auswertung-eps-converted-to.pdf>] [30] [31]
+[32] [33] [34] [35] [36]
 (C:\Users\Carlo\Privat\Lebensphasen\Exploeco\entwicklung\ba\bachelorarbeit.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'bachelorarbeit.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  11555 strings out of 494045
- 185824 string characters out of 3145968
+ 185834 string characters out of 3145968
  620937 words of memory out of 3000000
  14604 multiletter control sequences out of 15000+200000
  67337 words of font info for 59 fonts, out of 3000000 for 9000
@@ -1166,9 +1174,9 @@ lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C
 es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/lm/lmsy10.pfb>
-Output written on bachelorarbeit.pdf (35 pages, 927800 bytes).
+Output written on bachelorarbeit.pdf (36 pages, 926635 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
+ 209 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
