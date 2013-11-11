@@ -11,18 +11,24 @@
 \usepackage{wrapfig}
 \usepackage{float}
 \usepackage{csquotes}
+\usepackage[hidelinks]{hyperref}
 \usepackage[backend=biber,style=apa]{biblatex}
+\usepackage[titles]{tocloft}
+
 \DeclareLanguageMapping{ngerman}{ngerman-apa}
 \DefineBibliographyStrings{ngerman}{andothers={et\ al\adddot}}
 
 \bibliography{references}
  
-\title{BACHELORARBEIT:\\ Explizite Detektion von Abweichungen in komplexen Regeln bei auditiven Stimuli\\ \ }
+\title{Explizite Detektion von Abweichungen in komplexen Regeln bei auditiven Stimuli}
 \shorttitle{Explizite Komplexe Regelerkennung}
 \author{Carlo Michaelis}
-\date{23. August 2013}
-\affiliation{Matr.-Nr.: 2259062\\ Institut für Psychologie, Universität Leipzig\\ \ }
-\note{Dieses Dokument ist unter folgender Lizenz veröffentlicht:\\ Creative Commons (CC BY 3.0)}
+%\date{23. August 2013}
+%\affiliation{geb. am 29.09.1989 in Dieburg\\ Institut für Psychologie, Universität Leipzig\\ \ }
+%\note{\textbf{Gutachter}:\\ (1) Frau Prof. Dr. Alexandra Bendixen\\ (2) Herr Prof. Dr. Erich Schröger\\ \ \\ Dieses Dokument ist unter folgender Lizenz veröffentlicht:\\ Creative Commons (CC BY 3.0)}
+
+\renewcommand{\cftfigpresnum}{Abb. }
+\settowidth{\cftfignumwidth}{Abb. 10\quad}
 
 \geometry{a4paper, bottom=1.5in}
 \setlength{\skip\footins}{1.5em}
@@ -31,16 +37,91 @@
 \raggedbottom
 \begin{document}
 
-\maketitle
+%\maketitle
+
+\thispagestyle{empty}
+
+\begin{spacing}{1.1}
+\begin{center}
+
+\Large Universität Leipzig
+
+\setlength{\parskip}{0.8em}
+\normalsize Fakultät für Biowissenschaften, Pharmazie und Psychologie
+
+\setlength{\parskip}{0.4em}
+\normalsize Institut für Psychologie
+
+\setlength{\parskip}{6em}
+\LARGE \textbf{Explizite Detektion von Abweichungen in komplexen Regeln bei auditiven Stimuli}
+
+\setlength{\parskip}{1.8em}
+\normalsize Abschlussarbeit zur Erlangung des akademischen Grades\\ Bachelor of Science (B.Sc.)
+
+\setlength{\parskip}{1.2em}
+\normalsize vorgelegt von
+
+\setlength{\parskip}{1.8em}
+\Large \textbf{Carlo Michaelis}
+
+\setlength{\parskip}{0.5em}
+\normalsize geb. am 29.09.1989 in Dieburg
+
+\setlength{\parskip}{3em}
+
+Erstgutachterin: Frau Prof. Dr. Alexandra Bendixen
+
+\setlength{\parskip}{0.3em}
+Zweitgutachter: Herr Prof. Dr. Erich Schröger
+
+\vfill
+
+Dieses Dokument ist unter folgender Lizenz veröffentlicht:\\ \href{http://creativecommons.org/licenses/by/3.0/de/}{Creative Commons (CC BY 3.0 DE)}
+
+\end{center}
+\end{spacing}
+\newpage
+
+\section*{Selbstständigkeitserklärung}
+
+Ich versichere hiermit, dass ich die vorliegende Arbeit selbständig verfasst und keine
+anderen als die im Literaturverzeichnis angegebenen Quellen benutzt habe.\\
+Alle Stellen, die wörtlich oder sinngemäß aus veröffentlichten oder noch nicht veröffentlichten
+Quellen entnommen sind, sind als solche kenntlich gemacht.\\
+Die Zeichnungen oder Abbildungen in dieser Arbeit sind von mir selbst erstellt worden oder
+mit einem entsprechenden Quellennachweis versehen.\\
+Diese Arbeit ist in gleicher oder ähnlicher Form noch bei keiner anderen Prüfungsbehörde
+eingereicht worden.
+
+\vspace{3em}
+\noindent Leipzig, den 12.11.2013\\ Carlo Michaelis
+
+\newpage
+
+\section*{Zusammenfassung}
+
+Die vorliegende Arbeit thematisiert die Verarbeitung komplexer Regeln bei auditiven Stimuli. Untersucht wurde auf welcher Ebene solche komplexen Regeln verarbeitet werden.
+
+Vorige Studien zeigten bereits, dass das Gehirn die Fähigkeit besitzt solche Regeln präattentiv auf sensorischer Ebene zu erkennen. Insbesondere hat das Gehirn die Fähigkeit Abweichungen solcher Regeln zu erkennen. Die sensorische Erkennungsleistung wurde mittels der Mismatch Negativity (MMN) nachgewiesen.
+
+Die vorigen Experimente wurden in dieser Untersuchung auf einen expliziten Lernprozess erweitert und es wurde geprüft, ob die Erkennung von Abweichungen solcher Regeln auch explizit erlernbar ist. Dafür bekamen die Versuchspersonen die Regeln ausführlich erläutert und hatten die Möglichkeit diese Regeln langsam zu üben. Erhoben wurden in diesem Experiment ausschließlich behaviorale Daten in Form von Sensitivität und Reaktionszeit. Im Ergebnis zeigte sich zunächst, dass die Erkennungsleistung der Regelabweichungen trotz der Übung nicht zunahm und somit kein explizites oder implizites Lernen vorlag. Komplexe auditive Regeln scheinen nur auf sensorischer Ebene verarbeitet zu werden.
+
+Weitere Auswertungen der Daten ergaben eine geringe Evidenz für leichte Lerneffekte. Sollte explizites Lernen solcher Regeln möglich sein, dann vermutlich nur unter sehr hohem zeitlichem und konzentrativem Aufwand. Effekte von Musikalität und unterschiedlicher angewendeter Strategien der Versuchspersonen lagen nicht vor.
+
+Es bleibt festzuhalten, dass der Mensch über ein hoch effektives Erkennungssystem verfügt, welches auch ohne Verwendung von Aufmerksamkeitsressourcen komplexe Regeln schnell erkennen und Fehler darin zuverlässig detektieren kann.
+
 \newpage
 
 \setcounter{tocdepth}{2}
 \tableofcontents
 \newpage
 
+\listoffigures
+\newpage
+
 \section{Einleitung}
 
-Viele Fragen sind bis heute ungeklärt und werden es wohl auch weiterhin bleiben. Trotzdem scheint es, als gäbe es – vor allem bei der Erklärung unserer physikalischen Umgebung – schon einige befriedigende Antworten, die es uns nicht nur ermöglichen, unser Leben gesund und sicher zu gestalten, sondern unseren Hunger nach Verständnis großteils decken. Auch im Bereich psychischer Prozesse gibt es bereits verschiedene Einzelerkenntnisse, eine umfassende Theorie über die psychischen Funktionsweisen komplexerer Organismen steht jedoch aus. Vor allem das Zusammenspiel, also die Schnittstelle zwischen der Psyche und dem Körper, die Frage nach Determiniertheit und Selbstbestimmung, nach automatischer und willentlicher Verarbeitung sind bei weitem noch nicht vollständig geklärt.\\
+Viele Fragen sind bis heute ungeklärt und werden es wohl auch weiterhin bleiben. Trotzdem scheint es, als gäbe es – vor allem bei der Erklärung unserer physikalischen Umgebung – schon einige befriedigende Antworten, die es uns nicht nur ermöglichen, unser Leben gesund und sicher zu gestalten, sondern auch unseren Hunger nach Verständnis großteils decken. Auch im Bereich psychischer Prozesse gibt es bereits verschiedene Einzelerkenntnisse, eine umfassende Theorie über die psychischen Funktionsweisen komplexerer Organismen steht jedoch aus. Vor allem das Zusammenspiel, also die Schnittstelle zwischen der Psyche und dem Körper, die Frage nach Determiniertheit und Selbstbestimmung, nach automatischer und willentlicher Verarbeitung sind bei weitem noch nicht vollständig geklärt.\\
 Dabei erfüllt das Verständnis darüber nicht nur den Zweck, Wissen über Lebewesen zu akkumulieren oder einige neugierige Personen zu befriedigen, vielmehr prägt die Erkenntnis über die Funktionsweise unsere Gesellschaft: Sie entscheidet u.\,a. über Gesetze, Konventionen und Kultur.\\
 So sehr und so selbstverständlich wir Menschen uns auch immer wieder einen freien Willen unterstellen und damit die Fähigkeit, durch den Geist gezielt und indeterminiert unsere Welt verändern zu können; ohne unwillkürlich automatisch ablaufende Verhaltensweisen wäre ein Leben auf der Erde wohl unmöglich. In vielen Situationen müssen innerhalb kürzester Zeit bestehende Reize erfasst, zukünftige Ereignisse simuliert und schließlich vorhergesagt werden.
 
@@ -82,7 +163,7 @@ Ton
       \includegraphics[width=\textwidth]{abb2-tones.eps}
     \end{minipage}}
     \vspace{10pt}
-    \caption{Beispiel für eine Tonsequenz. Die Länge des einen Tons sagt die Höhe des nächsten Tons vorher. In diesem Beispiel folgt auf einen kurzen Ton ein tiefer Ton (T) und auf einen langen Ton ein hoher Ton (H). Der letzte Ton ist im Beispiel von der Regel abweichend: Auf einen kurzen Ton (Ton 9) folgt kein tiefer Ton, wie die Regel es vorhersagen würde, sondern ein hoher Ton (Ton 10).}
+    \caption[Beispiel für eine Tonsequenz]{Beispiel für eine Tonsequenz. Die Länge des einen Tons sagt die Höhe des nächsten Tons vorher. In diesem Beispiel folgt auf einen kurzen Ton ein tiefer Ton (T) und auf einen langen Ton ein hoher Ton (H). Der letzte Ton ist im Beispiel von der Regel abweichend: Auf einen kurzen Ton (Ton 9) folgt kein tiefer Ton, wie die Regel es vorhersagen würde, sondern ein hoher Ton (Ton 10).}
     \label{stimuli}
   \end{minipage}
 \end{figure}
@@ -134,7 +215,7 @@ Eine gute Beschreibung des prozeduralen Lernens bietet auch der Learning Cycle v
   \item \textbf{Unconscious competence}: Es liegt eine hohe Performanz vor, der kognitive Aufwand verringert sich deutlich zugunsten automatisierter Abläufe.
 \end{compactenum}
 
-Warum explizites Lernen in den vorigen Studien \parencites{bendixen2008rapid}{paavilainen2007preattentive} nicht oder nur in sehr geringem Umfang möglich war, kann nun auf Basis der beiden Modelle gut erklärt werden. Unter der Voraussetzung, dass prozedurales Wissen vorliegt und gelernt werden muss, wurde in beiden Studien lediglich das kognitive Stadium erreicht \parencite[nach][]{fitts1967human}. Bei \textcite{bendixen2008rapid} wurde kein langsamer Übungsblock vorgenommen. Die Wahrscheinlichkeit, dass stabile Wenn-Dann-Regeln aufgebaut werden konnten, ist in diesem Fall eher gering, da die Probanden vermutlich auf Grund der Überforderung keine Möglichkeit hatten, ihr Verhalten adäquat zu überdenken. In beiden Studien wurde kein Feedback gegeben, und der Schwierigkeitsgrad stieg vermutlich ebenfalls bei beiden Studien zu abrupt an. Bei \textcite{paavilainen2007preattentive} wurde von einem ISI von 2000\,ms in der Übung direkt auf 300\,ms in der Anwendung erhöht, bei \textcite{bendixen2008rapid} wurde direkt mit einem ISI von 300\,ms begonnen. Nach der Annahme der Zone proximaler Entwicklung von Wygotski \parencite{kozulin2003vygotsky} sollte der nächste Lernschritt knapp über dem aktuellen Lernniveau sein, um ein optimales Lernen zu gewährleisten.\\
+Warum explizites Lernen in den vorigen Studien \parencites{bendixen2008rapid}{paavilainen2007preattentive} nicht oder nur in sehr geringem Umfang möglich war, kann nun auf Basis der beiden Modelle gut erklärt werden. Unter der Voraussetzung, dass prozedurales Wissen vorliegt und gelernt werden muss, wurde in beiden Studien lediglich das kognitive Stadium erreicht \parencite[nach][]{fitts1967human}. Bei \textcite{bendixen2008rapid} wurde kein langsamer Übungsblock vorgenommen. Die Wahrscheinlichkeit, dass stabile Wenn-Dann-Regeln aufgebaut werden konnten, ist in diesem Fall eher gering, da die Probanden vermutlich auf Grund der Überforderung keine Möglichkeit hatten, ihr Verhalten adäquat zu überdenken. In beiden Studien wurde kein Feedback gegeben, und der Schwierigkeitsgrad stieg vermutlich ebenfalls bei beiden Studien zu abrupt an. Bei \textcite{paavilainen2007preattentive} wurde von einem ISI von 2000\,ms in der Übung direkt auf 300\,ms in der Anwendung erhöht, bei \textcite{bendixen2008rapid} wurde direkt mit einem ISI von 300\,ms begonnen. Nach der Annahme der Zone proximaler Entwicklung von Wygotski \parencite{kozulin2003vygotsky} sollte der nächste Lernschritt knapp über dem aktuellen Lernniveau sein, um ein optimales Lernen zu gewährleisten. Diese Voraussetzung wurde in beiden Experimenten nicht hinreichend erfüllt.\\
 Nach dem Modell von \textcite{whitmore2009coaching} dürften die Probanden nicht über die zweite Stufe hinaus gekommen sein, bei \textcite{bendixen2008rapid} vermutlich nicht über die erste, da Fehler und Schwächen auf Grund des schnellen Einstiegs und des fehlenden Feedbacks nicht bemerkt werden können. Die Theorie liefert an dieser Stelle eine gute Erklärung für das schlechte Abschneiden der Probanden bei den expliziten Aufgaben in den vorangegangenen Experimenten.
 
 \subsection{Hypothese}
@@ -144,7 +225,7 @@ An dieser Stelle soll zunächst noch einmal der aktuelle Kenntnisstand zur Regel
 \begin{compactitem}
 \item Der Mensch besitzt die Fähigkeit, hochautomatisiert und daher mit hoher Geschwindigkeit und Präzision Regeln zu erkennen (angezeigt durch die MMN).
 \item Diese Fähigkeit funktioniert insbesondere auch für komplexe Regeln und ohne bewusste Aufmerksamkeit.
-\item Der bewusste Zugriff und das bewusste Lernen dieser Regeln ist sehr schwer.
+\item Das bewusste Lernen und der bewusste Zugriff auf diese Regeln ist sehr schwer.
 \item Die aktive bewusste und die automatisierte unbewusste Verarbeitung basieren vermutlich auf unterschiedlichen Verarbeitungsprozessen. Die automatisierte Verarbeitung wird bereits auf sensorischer Ebene vermutet.
 \end{compactitem}
 
@@ -172,7 +253,7 @@ In Abbildung \ref{experiment} ist eine Skizze des Versuchsaufbaus gezeigt. Das E
       \includegraphics[width=\textwidth]{abb1-versuchsaufbau.eps}
     \end{minipage}}
     \vspace{10pt}
-    \caption{Aufbau des Experimentes. Laptop 1 (L1) mit Programm für Experiment und Laptop 2 (L2) für Versuchsleiter (VL). Bildschirm (B), Maus (M) und Kopfhörer (nicht eingezeichnet) für Versuchsperson (VP).}
+    \caption[Aufbau des Experimentes]{Aufbau des Experimentes. Laptop 1 (L1) mit Programm für Experiment und Laptop 2 (L2) für Versuchsleiter (VL). Bildschirm (B), Maus (M) und Kopfhörer (nicht eingezeichnet) für Versuchsperson (VP).}
     \label{experiment}
   \end{minipage}
 \end{wrapfigure}
@@ -192,7 +273,7 @@ Ton
 Ton
 \end{compactitem}
 
-Unterschiede zu den vorherigen Experimenten gab es bei der Wahl des Inter-Stimulus-Intervalls (ISI), welches zwischen den Blöcken variierte. Angewendet wurden Intervalle von 300\,ms, 600\,ms und 900\,ms. Der letzte Ton bildete in 50\% der Fälle eine Ausnahme und wich von der gegebenen Regel ab. Dabei wurden die Sequenzen nicht kontinuierlich präsentiert. Die nächste Sequenz startete erst, nachdem ein Tastendruck ausgeführt wurde. Hierfür hatten die Probanden beliebig viel Zeit, wurden jedoch angehalten, relativ zügig zu reagieren. In Abbildung \ref{stimuli} in der Einleitung ist eine Beispielsequenz mit einer Abweichung am Ende skizziert.\\
+Unterschiede zu den vorherigen Experimenten gab es bei der Wahl des Inter-Stimulus-Intervalls (ISI), welches zwischen den Blöcken variierte. Angewendet wurden Intervalle von 300\,ms, 600\,ms und 900\,ms. Der letzte Ton bildete außerdem in 50\% der Fälle eine Ausnahme und wich von der gegebenen Regel ab. Dabei wurden die Sequenzen nicht kontinuierlich präsentiert. Die nächste Sequenz startete erst, nachdem ein Tastendruck ausgeführt wurde. Hierfür hatten die Probanden beliebig viel Zeit, wurden jedoch angehalten, relativ zügig zu reagieren. In Abbildung \ref{stimuli} in der Einleitung ist eine Beispielsequenz mit einer Abweichung am Ende skizziert.\\
 Die jeweilige Versuchsperson sollte mit der Maus nun darauf reagieren und entscheiden, ob der letzte Ton passend oder abweichend ist. Dem zufolge liegt die Leistung der Versuchsperson darin, zunächst die Regel zu erkennen und nach Beendigung der Sequenz eine Entscheidung zu treffen. Auf dem Bildschirm war während der Sequenzen ein Fixationskreuz zu sehen, welches unmittelbar nach dem letzten Ton der Sequenz in ein Fragezeichen wechselte. Da die Sequenzen unterschiedlich lang waren, sollte dieses Hilfsmittel die Unsicherheitszeit zwischen den Sequenzen, die mindestens dem Inter-Stimulus-Intervall entsprach, möglichst gering halten. Eine systematische Reaktionszeit-Variation zwischen den Blöcken sollte damit vermieden werden.
 
 \subsection{Ablauf}
@@ -265,7 +346,7 @@ Im Ergebnis hatten zwar ein paar Versuchspersonen nach dem ersten Block (Schritt
       \includegraphics[width=\textwidth]{abb3-dprime.eps}
     \end{minipage}}
     \vspace{10pt}
-    \caption{Mittelwerte der Sensitivitätsindizes über alle 18 Versuchspersonen in den Blöcken 1 - 4 mit Standardfehler}
+    \caption[Mittelwerte der Sensitivitätsindizes]{Mittelwerte der Sensitivitätsindizes über alle 18 Versuchspersonen in den Blöcken 1 - 4 mit Standardfehler.}
     \label{dprime}
   \end{minipage}
 \end{figure}
@@ -284,7 +365,7 @@ Nach der Erläuterung der Regel (Schritt~3) hatten alle Versuchspersonen die Auf
       \includegraphics[width=\textwidth]{abb-roc-block4.eps}
     \end{minipage}}
     \vspace{10pt}
-    \caption{Richtig-Positiv-Rate und Falsch-Negativ-Rate der Versuchspersonen für Block 1 (links) und Block 4 (rechts), dargestellt jeweils in ROC-Kurven (Receiver Operating Characteristic).}
+    \caption[Receiver Operating Characteristic Kurven]{Richtig-Positiv-Rate und Falsch-Negativ-Rate der Versuchspersonen für Block 1 (links) und Block 4 (rechts), dargestellt jeweils in ROC-Kurven (Receiver Operating Characteristic).}
     \label{roc}
   \end{minipage}
 \end{figure}
@@ -295,7 +376,7 @@ Die Richtig-Positiv-Rate (hit rate) lag in Block 1 bei 40.74\,\%, die Falsch-Neg
 
 Da sich der Sensitivitätsindex in Block 1 und Block 4 nicht unterscheiden, sprechen die Ergebnisse gegen einen expliziten Lerneffekt. Die qualitative Auswertung der Berichte der Versuchspersonen passen gut zu den Ergebnissen, denn auch die Versuchspersonen berichteten - vor allem im letzten Durchgang - konsistent von großen Schwierigkeiten beim Detektieren von Passenden und Abweichern am Ende der Sequenzen. Sie gaben an, meist intuitiv entschieden zu haben und vor allem in den schnellere Durchgängen oft nur geraten zu haben. Deutlich wird dieses Verhalten auch bei Betrachtung der ROC-Kurven in Abbildung~\ref{roc}.
 
-Dies lässt zwei mögliche Schlussfolgerungen zu. Zum einen könnte dieser Typ von Aufgabe zu komplex sein, um ihn explizit und bewusst verarbeiten zu können. Die menschlichen Fähigkeiten wären in diesem Fall an ihren Grenzen. Zum anderen könnte aber auch der Lernprozess noch nicht ausreichend gestaltet worden sein. Für diese Annahme sprechen gleich mehrere Aspekte, die es lohnt zu betrachten. Möglich wäre, dass die Zone proximaler Entwicklung \parencite{kozulin2003vygotsky} nicht optimal gestaltet wurde. Die Lernmethodik wäre also auf Grund der hohen Komplexität immer noch zu schnell. In Abbildung~\ref{dprime} wird deutlich, dass die Sensitivität auch in den Blöcken~2 und~3 auf einem niedrigen Niveau liegt. Es wurde also auch in den einfacheren Übungsbedingungen - wenn überhaupt - nur sehr schwach gelernt. Eine Transferleistung des Lernens auf Block~4 ist nicht zu erwarten, wenn zuvor schon kaum erfolgreich gelernt wurde. Eine andere Option wäre, dass die Lernmodelle nicht zur Aufgabe passen. Entweder sind die Modelle nicht für das Lernen hoch komplexer Regeln ausgelegt oder die Klassifikation des Lernprozesses in prozedurales Wissen war nicht zutreffend. Um diese Optionen evaluieren zu können, werden im folgenden Kapitel `Post-Hoc-Analysen' einige weitere statistische Analysen durchgeführt. Diese gehen über die eigentliche Hypothese hinaus, können eventuell jedoch Hinweise liefern, die bei der Gestaltung zukünftiger Experimente helfen können. Ziel der folgenden Betrachtung sollte es sein, die vorliegenden Prozesse präziser zu klassifizieren und eine Systematik zur weiteren Untersuchung zu entwickeln.
+Dies lässt zwei mögliche Schlussfolgerungen zu. Zum einen könnte dieser Aufgabentyp zu komplex sein, um ihn explizit und bewusst verarbeiten zu können. Die menschlichen Fähigkeiten wären in diesem Fall an ihren Grenzen. Zum anderen könnte aber auch der Lernprozess noch nicht ausreichend gestaltet worden sein. Für diese Annahme sprechen gleich mehrere Aspekte, die es lohnt zu betrachten. Möglich wäre, dass die Zone proximaler Entwicklung \parencite{kozulin2003vygotsky} nicht optimal gestaltet wurde. Die Lernmethodik wäre also auf Grund der hohen Komplexität immer noch zu schnell. In Abbildung~\ref{dprime} wird deutlich, dass die Sensitivität auch in den Blöcken~2 und~3 auf einem niedrigen Niveau liegt. Es wurde also auch in den einfacheren Übungsbedingungen - wenn überhaupt - nur sehr schwach gelernt. Eine Transferleistung des Lernens auf Block~4 ist nicht zu erwarten, wenn zuvor schon kaum erfolgreich gelernt wurde. Eine andere Option wäre, dass die Lernmodelle nicht zur Aufgabe passen. Entweder sind die Modelle nicht für das Lernen hoch komplexer Regeln ausgelegt oder die Klassifikation des Lernprozesses in prozedurales Wissen war nicht zutreffend. Um diese Optionen evaluieren zu können, werden im folgenden Kapitel `Post-Hoc-Analysen' einige weitere statistische Analysen durchgeführt. Diese gehen über die eigentliche Hypothese hinaus, können eventuell jedoch Hinweise liefern, die bei der Gestaltung zukünftiger Experimente helfen können. Ziel der folgenden Betrachtung sollte es sein, die vorliegenden Prozesse präziser zu klassifizieren und eine Systematik zur weiteren Untersuchung zu entwickeln.
 
 \subsection{Sensorische Verarbeitung}
 
@@ -303,7 +384,7 @@ Die Ergebnisse stützen die Annahme von \textcite{paavilainen2007preattentive} u
 
 \subsection{Phase der Gehirnoszillation}
 
-Ein interessanter Ansatz, der in einem Review von \textcite{vanrullen2011ongoing} beschrieben ist, geht davon aus, dass Signale nur dann (bewusst) verarbeitet werden können, wenn sich das Gehirn gerade in einem bestimmten Oszillationszustand befindet. Der Oszillationszustand wird dabei mit Hilfe eines Elektroenzephalogramms (EEG) bestimmt und bezieht sich auf die Oszillation elektrischer Potentiale, welche durch die Aktivität einer Vielzahl von Nervenzellen im Gehirn ausgelöst werden. Signale, die an der Wahrnehmungsschwelle liegen (d.\,h. einen Sensitivitätsindex von 0 besitzen), werden nur dann zuverlässig wahrgenommen, wenn das Signal auf eine aktive Oszillationsphase im Gehirn trifft. Da die Sensitivität auch in diesem Experiment nicht signifikant von Null abweicht und somit an der Wahrnehmungsschwelle liegt, könnten die von \textcite{vanrullen2011ongoing} beschriebenen Erkenntnisse eventuell auch bei der Erkennung von komplexen Regeln bzw. der Erkennung deren Abweichung ein Rolle spielen. Denkbar wäre, dass die letzten beiden Töne, die zum Abgleich der Regel im Gedächtnis behalten werden müssen, abhängig von der Phase der Oszillation im Gehirn gut oder weniger gut detektiert werden können. Wenn die Töne phasenverschoben eintreffen, wäre die Detektionsleistung nur eingeschränkt möglich. Treffen die Signale in Phase ein, dann dürfte die Detektionsleistung höher sein. In diesem Fall wäre die Aufgabe tatsächlich zu komplex und die menschlichen Fähigkeiten wären an ihren Grenzen.
+Ein interessanter Ansatz, der in einem Review von \textcite{vanrullen2011ongoing} beschrieben ist, geht davon aus, dass Signale nur dann (bewusst) verarbeitet werden können, wenn sich das Gehirn gerade in einem bestimmten Oszillationszustand befindet. Der Oszillationszustand wird dabei mit Hilfe eines Elektroenzephalogramms (EEG) bestimmt und bezieht sich auf die Oszillation elektrischer Potentiale, welche durch die Rauschaktivität im Gehirn ausgelöst werden. Signale, die an der Wahrnehmungsschwelle liegen (d.\,h. einen Sensitivitätsindex von 0 besitzen), werden nur dann zuverlässig wahrgenommen, wenn das Signal auf eine aktive Oszillationsphase im Gehirn trifft. Da die Sensitivität auch in diesem Experiment nicht signifikant von Null abweicht und somit an der Wahrnehmungsschwelle liegt, könnten die von \textcite{vanrullen2011ongoing} beschriebenen Erkenntnisse eventuell auch bei der Erkennung von komplexen Regeln bzw. der Erkennung deren Abweichung ein Rolle spielen. Denkbar wäre, dass die letzten beiden Töne, die zum Abgleich der Regel im Gedächtnis behalten werden müssen, abhängig von der Phase der Oszillation im Gehirn gut oder weniger gut detektiert werden können. Wenn die Töne phasenverschoben eintreffen, wäre die Detektionsleistung nur eingeschränkt möglich. Treffen die Signale in Phase ein, dann dürfte die Detektionsleistung höher sein. In diesem Fall wäre die Aufgabe tatsächlich zu komplex und die menschlichen Fähigkeiten wären an ihren Grenzen.
 
 \subsection{Lernbedingungen und Lernmethodik}
 
@@ -321,7 +402,7 @@ Etwas ungünstig war ohnehin, dass es für den vierten Block keine Übung mit Fe
 
 Eventuell müssten für einen effektiveren Lernprozess auch Lerneffekte durch Pausen und Schlaf berücksichtigt werden. \textcite{sallinen2008recovery} stellten fest, dass 10-minütige Pausen die Leistung bei Multitasking-Aufgaben für 15 Minuten verbessern, unabhängig von der Länge des Schlafes in der Nacht zuvor und der Tageszeit. Zwischen den Blöcken sind 10-minütige Pausen gut zu integrieren und eine 15-minütige erhöhte Lernleistung ein ausreichendes Zeitfenster für 1-2 Übungsblöcke. Auf der anderen Seite müssen jedoch auch eventuelle Effekte von Flow \parencite{nakamura2002concept} berücksichtigt werden. Es sollte auf jeden Fall verhindert werden, dass Pausen einen Flow in der Aufgabenbewältigung verhindern, sollte dieser eintreten. Neben Pausen hat auch der Schlaf \parencite{diekelmann2010memory} eine zentrale Bedeutung beim Lernen, vor allem bei der Konsolidierung gelernter Inhalte. Bei der Berücksichtigung von Schlaf könnte sich der Lernprozess jedoch über mehrere Tage hinziehen, bis eine Leistung mit deutlich erhöhter Sensitivität erreicht werden kann.
 
-Ein weiterer Aspekt ist die nötige Trennung des Lernprozesses in seine kognitiven Bestandteile. Sie hängen letztlich zwar von der angewendeten Strategie ab, für den Spezialfall expliziten Lernens können jedoch zwei zentrale Leistungen benannt werden. Zum einen musste die Regel möglichst schnell erkannt werden (Erkennungsleistung), zum anderen mussten die letzten zwei Töne im Gedächtnis behalten werden (Gedächtnisleistung). Auf dem Arbeitsblatt war immer die gesamte Sequenz zu sehen (siehe Anhang). Daher wurde dort lediglich die Erkennungsleistung geübt. Eine Versuchsperson berichtete zum Beispiel, dass das Hauptproblem für sie darin bestanden habe, die letzten Töne differenziert im Gedächtnis zu behalten. Für das Gedächtnistraining könnte eine weitere auditive Aufgabe gestaltet werden, bei der spezifisch das Merken von Tönen geübt werden könnte. Die Gedächtnisleistung hängt jedoch möglicherweise von der oben angesprochenen Phase der Gehirnoszillation ab. Wenn eine Detektion tatsächlich im phasenverschobenen Zustand stark geschwächt wäre, dann hätte ein vertieftes Üben der Gedächtnisleistung keinen oder nur einen geringen Effekt. Sollte dies jedoch nicht oder nur in einem sehr geringem Umfang der Fall sein, und würden beide kognitiven Leistungsbestandteile von vornherein klar mit der Versuchsperson kommuniziert und letztlich auch trainiert werden, könnte diese Übung in Kombination mit mehr Blöcken und Pausen zu passenden Zeitpunkten zu einer deutlichen Leistungssteigerung führen.
+Ein weiterer Aspekt ist die nötige Trennung des Lernprozesses in seine kognitiven Bestandteile. Sie hängen letztlich zwar von der angewendeten Strategie ab, für den Spezialfall expliziten Lernens können jedoch zwei zentrale Leistungen benannt werden. Zum einen musste die Regel möglichst schnell erkannt werden (Erkennungsleistung), zum anderen mussten die letzten zwei Töne im Gedächtnis behalten werden (Gedächtnisleistung). Auf dem Arbeitsblatt war immer die gesamte Sequenz zu sehen (siehe Anhang). Daher wurde dort lediglich die Erkennungsleistung geübt. Eine Versuchsperson berichtete zum Beispiel, dass das Hauptproblem für sie darin bestanden habe, die letzten Töne differenziert im Gedächtnis zu behalten. Für das Gedächtnistraining könnte eine weitere auditive Aufgabe gestaltet werden, bei der spezifisch das Merken von Tönen geübt werden könnte. Die Gedächtnisleistung hängt jedoch möglicherweise von der oben angesprochenen Phase der Gehirnoszillation ab. Wenn eine Detektion tatsächlich im phasenverschobenen Zustand beeinträchtigt oder sogar unmöglich wäre, dann hätte ein vertieftes Üben der Gedächtnisleistung keinen oder nur einen geringen Effekt. Sollte dies jedoch nicht oder nur in einem sehr geringem Umfang der Fall sein, und würden beide kognitiven Leistungsbestandteile von vornherein klar mit der Versuchsperson kommuniziert und letztlich auch trainiert werden, könnte diese Übung in Kombination mit mehr Blöcken und Pausen zu passenden Zeitpunkten zu einer deutlichen Leistungssteigerung führen.
 
 Letztlich sollte auch nach jedem Block strukturiert erfragt werden, wie stark die Person subjektiv das Gefühl hatte, geraten, intuitiv vermutet oder tatsächlich kognitiv versucht hat, den letzten Ton zuzuordnen. Dies gäbe Aufschluss darüber, ab welcher Präsentationsgeschwindigkeit die Versuchspersonen anfangen intuitiv zu antworten oder sogar zu raten. Die aus einem solchen Experiment resultierenden Daten können helfen, den Lernprozess zu verbessern, sie können aber auch direkt Informationen liefern, an welchen Punkten die Leistung des expliziten Lernens einbricht. Weitere Studien könnten dann an diesen Punkten ansetzen.
 
@@ -337,9 +418,9 @@ Um zu überprüfen, ob eventuell doch Lerneffekte vorliegen, diese nur nicht hin
 
 Bei der statistischen Prüfung zeigt sich zunächst, dass sich Block~2 nicht signifikant von Block~1 unterscheidet, t(17)~=~1.69, p~>~0.05. Das gleiche gilt für den Vergleich von Block~3 und Block~1, t(17)~=~1.62, p~>~0.05. Sie unterscheiden sich jedoch beide signifikant von Null, also dem Zufallsniveau. Für den Test von Block~2 gegen Null ergab sich ein T-Wert von t(17)~=~3.64, (p~<~0.01), für Block~3 gegen Null lag der T-Wert bei t(17)~=~2.11 (p~<~0.1) und war damit noch marginal signifikant.
 
-Die Ergebnisse geben einen Hinweis darauf, dass der Lernprozess zu schnell stattfand. Während in Block~2 und Block~3 der Unterschied zum Zufall noch signifikant ist, ist der Unterschied zwischen Block~4 und Zufall (siehe Abschnitt Ergebnisse) nur noch marginal signifikant. Die Ergebnisse unterstützen den Ansatz, dass bei Verbesserung der Lernmethodik auch eine Erkennungsleistung möglich wäre, die deutlich über dem Zufallsniveau liegt.
+Die Ergebnisse geben einen Hinweis darauf, dass der Lernprozess zu schnell stattfand. Deutlich wird dies auch in Abbildung \ref{dprime}. Während der Sensitivitätsindex zunächst bei Block~2 und Block~3 ansteigt, verringert sich die Erkennungsleistung in Block~4 wieder. Die Ergebnisse unterstützen den Ansatz, dass bei Verbesserung der Lernmethodik auch eine Erkennungsleistung möglich wäre, die deutlich über dem Zufallsniveau liegt.
 
-Die Ergebnisse stützen an dieser Stelle auch die Studienergebnisse von \textcite{paavilainen2007preattentive} und \textcite{bendixen2008rapid}. Auch in deren Untersuchungen konnten schwache Lerneffekte nachgewiesen werden.
+Ebenfalls gestützt werden an dieser Stelle die Studienergebnisse von \textcite{paavilainen2007preattentive} und \textcite{bendixen2008rapid}. Auch in deren Untersuchungen konnten schwache Lerneffekte nachgewiesen werden.
 
 \subsection{Effekte unterschiedlicher Strategien}
 
@@ -352,7 +433,7 @@ Bei Betrachtung der Daten war auffällig, dass die Reaktionszeiten sehr variiert
       \includegraphics[width=\textwidth]{abb4-strategienV2.eps}
     \end{minipage}}
     \vspace{10pt}
-    \caption{Mittlere Reaktionszeit der einzelnen Versuchspersonen über alle 4 Blöcke. Die Versuchspersonen wurden mittels eines Mediansplits in zwei Gruppen getrennt. Der Trennungspunkt ist mit der gestrichelten vertikalen Linie markiert. Die gestrichelten horizontalen Linien markieren die Mittelwerte der beiden Gruppen.}
+    \caption[Mittelwerte der Reaktionszeiten]{Mittlere Reaktionszeit der einzelnen Versuchspersonen über alle 4 Blöcke. Die Versuchspersonen wurden mittels eines Mediansplits in zwei Gruppen getrennt. Der Trennungspunkt ist mit der gestrichelten vertikalen Linie markiert. Die gestrichelten horizontalen Linien markieren die Mittelwerte der beiden Gruppen.}
     \label{strat}
   \end{minipage}
 \end{figure}
@@ -370,7 +451,7 @@ Es kann folglich davon ausgegangen werden, dass tatsächlich eine eher intuitive
       \includegraphics[width=\textwidth]{abb-musikalitaet-auswertung.eps}
     \end{minipage}}
     \vspace{10pt}
-    \caption{Auswertungsschema des Fragebogens zur Musikalität (siehe Anhang) zur Kategorisierung der Versuchspersonen in musikalisch und nicht-musikalisch.}
+    \caption[Auswertungsschema des Fragebogens zur Musikalität]{Auswertungsschema des Fragebogens zur Musikalität (siehe Anhang) zur Kategorisierung der Versuchspersonen in musikalisch und nicht-musikalisch.}
     \label{musik:aufbau}
   \end{minipage}
 \end{figure}

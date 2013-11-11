@@ -2,66 +2,66 @@
 \defcounter {refsection}{0}\relax 
 \select@language {ngerman}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Einleitung}{3}
+\contentsline {section}{Einleitung}{6}{section*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Mismatch Negativity (MMN) und das Oddball Paradigma}{5}
+\contentsline {subsection}{Mismatch Negativity (MMN) und das Oddball Paradigma}{8}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Komplexe Regelerkennung}{6}
+\contentsline {subsection}{Komplexe Regelerkennung}{9}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Lernen prozeduralen Wissens}{10}
+\contentsline {subsection}{Lernen prozeduralen Wissens}{13}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Hypothese}{12}
+\contentsline {subsection}{Hypothese}{15}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Methoden}{13}
+\contentsline {section}{Methoden}{16}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Probanden}{13}
+\contentsline {subsection}{Probanden}{16}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Versuchsaufbau}{14}
+\contentsline {subsection}{Versuchsaufbau}{17}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Stimuli}{15}
+\contentsline {subsection}{Stimuli}{18}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Ablauf}{17}
+\contentsline {subsection}{Ablauf}{20}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{(1) Einf\IeC {\"u}hrung}{17}
+\contentsline {subsubsection}{(1) Einf\IeC {\"u}hrung}{20}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{(2) Block 1}{18}
+\contentsline {subsubsection}{(2) Block 1}{21}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{(3) Arbeitsblatt}{18}
+\contentsline {subsubsection}{(3) Arbeitsblatt}{21}{section*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{(4) Block 2}{19}
+\contentsline {subsubsection}{(4) Block 2}{22}{section*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{(5) Block 3}{19}
+\contentsline {subsubsection}{(5) Block 3}{22}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{(6) Block 4}{19}
+\contentsline {subsubsection}{(6) Block 4}{22}{section*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{(7) Nachbereitung}{19}
+\contentsline {subsubsection}{(7) Nachbereitung}{22}{section*.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Ergebnisse}{20}
+\contentsline {section}{Ergebnisse}{23}{section*.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Diskussion}{21}
+\contentsline {section}{Diskussion}{24}{section*.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Sensorische Verarbeitung}{23}
+\contentsline {subsection}{Sensorische Verarbeitung}{25}{section*.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Phase der Gehirnoszillation}{23}
+\contentsline {subsection}{Phase der Gehirnoszillation}{26}{section*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Lernbedingungen und Lernmethodik}{24}
+\contentsline {subsection}{Lernbedingungen und Lernmethodik}{27}{section*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Lernbedingungen}{24}
+\contentsline {subsubsection}{Lernbedingungen}{27}{section*.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Lernmethodik}{24}
+\contentsline {subsubsection}{Lernmethodik}{27}{section*.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Post-Hoc-Analysen}{27}
+\contentsline {section}{Post-Hoc-Analysen}{30}{section*.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Effekte in den langsamen Bl\IeC {\"o}cken}{27}
+\contentsline {subsection}{Effekte in den langsamen Bl\IeC {\"o}cken}{30}{section*.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Effekte unterschiedlicher Strategien}{28}
+\contentsline {subsection}{Effekte unterschiedlicher Strategien}{31}{section*.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Effekte von Musikalit\IeC {\"a}t}{29}
+\contentsline {subsection}{Effekte von Musikalit\IeC {\"a}t}{32}{section*.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Klassifikation}{31}
+\contentsline {subsection}{Klassifikation}{34}{section*.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Einordnung der Beispiele}{33}
+\contentsline {subsection}{Einordnung der Beispiele}{36}{section*.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Zusammenfassung und Fazit}{34}
+\contentsline {section}{Zusammenfassung und Fazit}{37}{section*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literaturverzeichnis}{35}
+\contentsline {section}{Literaturverzeichnis}{38}{section*.42}
